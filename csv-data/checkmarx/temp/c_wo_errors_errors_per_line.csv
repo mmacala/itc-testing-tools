@@ -1,0 +1,453 @@
+File,LineStart,LineEnd,Error
+buffer_underrun_dynamic.c,25,27,Off by One Error
+func_pointer.c,127,133,Off by One Error
+func_pointer.c,431,442,Off by One Error
+invalid_memory_access.c,534,538,Off by One Error
+memory_allocation_failure.c,247,251,Off by One Error
+memory_allocation_failure.c,247,249,Off by One Error
+buffer_overrun_dynamic.c,582,582,Improper Null Termination
+buffer_underrun_dynamic.c,579,579,Improper Null Termination
+buffer_underrun_dynamic.c,700,700,Improper Null Termination
+buffer_underrun_dynamic.c,779,779,Improper Null Termination
+deletion_of_data_structure_sentinel.c,42,42,Improper Null Termination
+deletion_of_data_structure_sentinel.c,63,63,Improper Null Termination
+func_pointer.c,464,464,Improper Null Termination
+invalid_memory_access.c,232,232,Improper Null Termination
+memory_allocation_failure.c,552,552,Improper Null Termination
+race_condition.c,136,136,Improper Null Termination
+uninit_memory_access.c,456,456,Improper Null Termination
+buffer_overrun_dynamic.c,582,582,Dangerous Functions
+buffer_underrun_dynamic.c,579,579,Dangerous Functions
+buffer_underrun_dynamic.c,700,700,Dangerous Functions
+buffer_underrun_dynamic.c,779,779,Dangerous Functions
+deletion_of_data_structure_sentinel.c,42,42,Dangerous Functions
+deletion_of_data_structure_sentinel.c,63,63,Dangerous Functions
+func_pointer.c,464,464,Dangerous Functions
+invalid_memory_access.c,232,232,Dangerous Functions
+memory_allocation_failure.c,552,552,Dangerous Functions
+race_condition.c,136,136,Dangerous Functions
+uninit_memory_access.c,353,353,Dangerous Functions
+uninit_memory_access.c,384,384,Dangerous Functions
+uninit_memory_access.c,456,456,Dangerous Functions
+buffer_underrun_dynamic.c,647,647,Dangerous Functions
+buffer_underrun_dynamic.c,654,654,Dangerous Functions
+deletion_of_data_structure_sentinel.c,42,42,Dangerous Functions
+free_null_pointer.c,26,26,Dangerous Functions
+free_null_pointer.c,118,118,Dangerous Functions
+free_null_pointer.c,119,119,Dangerous Functions
+free_null_pointer.c,156,156,Dangerous Functions
+free_null_pointer.c,248,248,Dangerous Functions
+free_null_pointer.c,249,249,Dangerous Functions
+free_null_pointer.c,284,284,Dangerous Functions
+free_null_pointer.c,325,325,Dangerous Functions
+func_pointer.c,104,104,Dangerous Functions
+func_pointer.c,407,407,Dangerous Functions
+function_return_value_unchecked.c,110,110,Dangerous Functions
+function_return_value_unchecked.c,335,335,Dangerous Functions
+invalid_memory_access.c,105,105,Dangerous Functions
+invalid_memory_access.c,213,213,Dangerous Functions
+invalid_memory_access.c,510,510,Dangerous Functions
+invalid_memory_access.c,567,567,Dangerous Functions
+invalid_memory_access.c,576,576,Dangerous Functions
+invalid_memory_access.c,622,622,Dangerous Functions
+invalid_memory_access.c,634,634,Dangerous Functions
+memory_allocation_failure.c,224,224,Dangerous Functions
+memory_allocation_failure.c,594,594,Dangerous Functions
+memory_leak.c,75,75,Dangerous Functions
+memory_leak.c,76,76,Dangerous Functions
+memory_leak.c,100,100,Dangerous Functions
+memory_leak.c,277,277,Dangerous Functions
+memory_leak.c,405,405,Dangerous Functions
+memory_leak.c,408,408,Dangerous Functions
+memory_leak.c,430,430,Dangerous Functions
+memory_leak.c,431,431,Dangerous Functions
+memory_leak.c,526,526,Dangerous Functions
+null_pointer.c,258,258,Dangerous Functions
+null_pointer.c,259,259,Dangerous Functions
+null_pointer.c,354,354,Dangerous Functions
+st_underrun.c,24,24,Dangerous Functions
+st_underrun.c,25,25,Dangerous Functions
+st_underrun.c,51,51,Dangerous Functions
+st_underrun.c,62,62,Dangerous Functions
+st_underrun.c,81,81,Dangerous Functions
+st_underrun.c,86,86,Dangerous Functions
+st_underrun.c,116,116,Dangerous Functions
+st_underrun.c,123,123,Dangerous Functions
+st_underrun.c,171,171,Dangerous Functions
+st_underrun.c,213,213,Dangerous Functions
+st_underrun.c,234,234,Dangerous Functions
+uninit_memory_access.c,55,55,Dangerous Functions
+uninit_pointer.c,197,197,Dangerous Functions
+uninit_pointer.c,400,400,Dangerous Functions
+uninit_pointer.c,423,423,Dangerous Functions
+uninit_var.c,152,152,Dangerous Functions
+unlock_without_lock.c,388,388,Dangerous Functions
+wrong_arguments_func_pointer.c,208,208,Dangerous Functions
+wrong_arguments_func_pointer.c,209,209,Dangerous Functions
+wrong_arguments_func_pointer.c,380,380,Dangerous Functions
+wrong_arguments_func_pointer.c,381,381,Dangerous Functions
+wrong_arguments_func_pointer.c,435,435,Dangerous Functions
+wrong_arguments_func_pointer.c,474,474,Dangerous Functions
+main.c,22,22,Dangerous Functions
+deletion_of_data_structure_sentinel.c,23,23,Memory Leak
+zero_division.c,236,236,Memory Leak
+buffer_overrun_dynamic.c,243,243,Memory Leak
+buffer_overrun_dynamic.c,273,273,Memory Leak
+buffer_overrun_dynamic.c,294,294,Memory Leak
+buffer_overrun_dynamic.c,343,343,Memory Leak
+buffer_overrun_dynamic.c,360,360,Memory Leak
+buffer_overrun_dynamic.c,528,528,Memory Leak
+buffer_overrun_dynamic.c,572,572,Memory Leak
+buffer_underrun_dynamic.c,260,260,Memory Leak
+buffer_underrun_dynamic.c,275,275,Memory Leak
+buffer_underrun_dynamic.c,296,296,Memory Leak
+buffer_underrun_dynamic.c,345,345,Memory Leak
+buffer_underrun_dynamic.c,362,362,Memory Leak
+buffer_underrun_dynamic.c,526,526,Memory Leak
+buffer_underrun_dynamic.c,570,570,Memory Leak
+buffer_underrun_dynamic.c,667,667,Memory Leak
+buffer_underrun_dynamic.c,670,670,Memory Leak
+free_null_pointer.c,63,63,Memory Leak
+free_null_pointer.c,79,79,Memory Leak
+free_null_pointer.c,154,154,Memory Leak
+free_null_pointer.c,183,183,Memory Leak
+free_null_pointer.c,187,187,Memory Leak
+free_null_pointer.c,487,487,Memory Leak
+func_pointer.c,105,105,Memory Leak
+func_pointer.c,217,217,Memory Leak
+func_pointer.c,221,221,Memory Leak
+func_pointer.c,409,409,Memory Leak
+func_pointer.c,626,626,Memory Leak
+invalid_extern.c,61,61,Memory Leak
+invalid_memory_access.c,127,127,Memory Leak
+invalid_memory_access.c,272,272,Memory Leak
+invalid_memory_access.c,511,511,Memory Leak
+memory_allocation_failure.c,40,40,Memory Leak
+memory_allocation_failure.c,185,185,Memory Leak
+memory_allocation_failure.c,225,225,Memory Leak
+memory_allocation_failure.c,267,267,Memory Leak
+memory_allocation_failure.c,292,292,Memory Leak
+memory_allocation_failure.c,331,331,Memory Leak
+memory_allocation_failure.c,394,394,Memory Leak
+memory_allocation_failure.c,395,395,Memory Leak
+memory_allocation_failure.c,396,396,Memory Leak
+memory_allocation_failure.c,659,659,Memory Leak
+memory_leak.c,98,98,Memory Leak
+memory_leak.c,274,274,Memory Leak
+memory_leak.c,379,379,Memory Leak
+memory_leak.c,453,453,Memory Leak
+memory_leak.c,457,457,Memory Leak
+null_pointer.c,281,281,Memory Leak
+null_pointer.c,285,285,Memory Leak
+uninit_memory_access.c,36,36,Memory Leak
+uninit_memory_access.c,127,127,Memory Leak
+uninit_pointer.c,227,227,Memory Leak
+wrong_arguments_func_pointer.c,347,347,Memory Leak
+wrong_arguments_func_pointer.c,587,587,Memory Leak
+data_lost.c,24,24,Type Conversion Error
+sign_conv.c,24,24,Type Conversion Error
+data_lost.c,97,97,Type Conversion Error
+data_lost.c,36,36,Type Conversion Error
+data_lost.c,48,48,Type Conversion Error
+data_lost.c,161,161,Type Conversion Error
+data_lost.c,212,212,Type Conversion Error
+data_lost.c,243,243,Type Conversion Error
+data_lost.c,259,259,Type Conversion Error
+sign_conv.c,36,36,Type Conversion Error
+data_lost.c,109,109,Type Conversion Error
+data_lost.c,121,121,Type Conversion Error
+bit_shift.c,47,47,Type Conversion Error
+data_overflow.c,99,99,Type Conversion Error
+data_underflow.c,33,33,Type Conversion Error
+sign_conv.c,48,48,Type Conversion Error
+sign_conv.c,97,97,Type Conversion Error
+sign_conv.c,152,152,Type Conversion Error
+sign_conv.c,168,168,Type Conversion Error
+sign_conv.c,180,180,Type Conversion Error
+sign_conv.c,192,192,Type Conversion Error
+sign_conv.c,247,247,Type Conversion Error
+sign_conv.c,263,263,Type Conversion Error
+bit_shift.c,59,59,Type Conversion Error
+data_overflow.c,111,111,Type Conversion Error
+sign_conv.c,109,109,Type Conversion Error
+sign_conv.c,60,60,Type Conversion Error
+sign_conv.c,167,167,Type Conversion Error
+data_overflow.c,98,98,Integer Overflow
+free_nondynamically_allocated_memory.c,210,211,Double Free
+free_null_pointer.c,551,553,Double Free
+free_null_pointer.c,550,553,Double Free
+free_null_pointer.c,552,553,Double Free
+invalid_memory_access.c,278,279,Double Free
+invalid_memory_access.c,277,278,Double Free
+invalid_memory_access.c,277,279,Double Free
+memory_allocation_failure.c,409,410,Double Free
+memory_allocation_failure.c,408,409,Double Free
+memory_allocation_failure.c,408,410,Double Free
+double_free.c,102,104,Use After Free
+double_free.c,118,120,Use After Free
+free_nondynamically_allocated_memory.c,207,207,Wrong Memory Allocation
+free_nondynamically_allocated_memory.c,209,209,Wrong Memory Allocation
+free_nondynamically_allocated_memory.c,228,228,Wrong Memory Allocation
+free_null_pointer.c,520,520,Wrong Memory Allocation
+invalid_memory_access.c,270,270,Wrong Memory Allocation
+memory_allocation_failure.c,395,395,Wrong Memory Allocation
+memory_leak.c,353,353,Wrong Memory Allocation
+pow_related_errors.c,148,148,Wrong Memory Allocation
+pow_related_errors.c,149,149,Wrong Memory Allocation
+buffer_overrun_dynamic.c,328,333,MemoryFree on StackVariable
+buffer_underrun_dynamic.c,330,335,MemoryFree on StackVariable
+buffer_underrun_dynamic.c,696,701,MemoryFree on StackVariable
+free_null_pointer.c,345,338,MemoryFree on StackVariable
+invalid_memory_access.c,295,302,MemoryFree on StackVariable
+invalid_memory_access.c,312,323,MemoryFree on StackVariable
+bit_shift.c,120,120,Weak Randomness Biased Random Sample
+data_lost.c,160,160,Weak Randomness Biased Random Sample
+data_overflow.c,205,205,Weak Randomness Biased Random Sample
+overrun_st.c,183,183,Weak Randomness Biased Random Sample
+overrun_st.c,443,443,Weak Randomness Biased Random Sample
+data_lost.c,85,85,Float Overflow
+memory_allocation_failure.c,271,271,Unchecked Return Value
+uninit_memory_access.c,325,325,Unchecked Return Value
+buffer_overrun_dynamic.c,145,145,Unchecked Return Value
+buffer_overrun_dynamic.c,550,550,Unchecked Return Value
+buffer_underrun_dynamic.c,146,146,Unchecked Return Value
+buffer_underrun_dynamic.c,548,548,Unchecked Return Value
+buffer_underrun_dynamic.c,670,670,Unchecked Return Value
+deletion_of_data_structure_sentinel.c,23,23,Unchecked Return Value
+double_free.c,135,135,Unchecked Return Value
+free_nondynamically_allocated_memory.c,47,47,Unchecked Return Value
+free_nondynamically_allocated_memory.c,209,209,Unchecked Return Value
+free_nondynamically_allocated_memory.c,228,228,Unchecked Return Value
+free_nondynamically_allocated_memory.c,244,244,Unchecked Return Value
+free_nondynamically_allocated_memory.c,256,256,Unchecked Return Value
+free_null_pointer.c,84,84,Unchecked Return Value
+free_null_pointer.c,112,112,Unchecked Return Value
+free_null_pointer.c,154,154,Unchecked Return Value
+free_null_pointer.c,183,183,Unchecked Return Value
+free_null_pointer.c,187,187,Unchecked Return Value
+free_null_pointer.c,239,239,Unchecked Return Value
+free_null_pointer.c,268,268,Unchecked Return Value
+free_null_pointer.c,271,271,Unchecked Return Value
+free_null_pointer.c,311,311,Unchecked Return Value
+free_null_pointer.c,314,314,Unchecked Return Value
+free_null_pointer.c,370,370,Unchecked Return Value
+free_null_pointer.c,376,376,Unchecked Return Value
+free_null_pointer.c,382,382,Unchecked Return Value
+free_null_pointer.c,451,451,Unchecked Return Value
+free_null_pointer.c,487,487,Unchecked Return Value
+free_null_pointer.c,520,520,Unchecked Return Value
+free_null_pointer.c,521,521,Unchecked Return Value
+free_null_pointer.c,522,522,Unchecked Return Value
+free_null_pointer.c,523,523,Unchecked Return Value
+func_pointer.c,157,157,Unchecked Return Value
+func_pointer.c,161,161,Unchecked Return Value
+func_pointer.c,217,217,Unchecked Return Value
+func_pointer.c,221,221,Unchecked Return Value
+func_pointer.c,626,626,Unchecked Return Value
+invalid_extern.c,61,61,Unchecked Return Value
+invalid_memory_access.c,65,65,Unchecked Return Value
+invalid_memory_access.c,209,209,Unchecked Return Value
+invalid_memory_access.c,272,272,Unchecked Return Value
+memory_allocation_failure.c,292,292,Unchecked Return Value
+memory_allocation_failure.c,395,395,Unchecked Return Value
+memory_allocation_failure.c,396,396,Unchecked Return Value
+memory_allocation_failure.c,573,573,Unchecked Return Value
+memory_allocation_failure.c,577,577,Unchecked Return Value
+memory_allocation_failure.c,582,582,Unchecked Return Value
+memory_allocation_failure.c,659,659,Unchecked Return Value
+memory_allocation_failure.c,714,714,Unchecked Return Value
+memory_allocation_failure.c,715,715,Unchecked Return Value
+memory_leak.c,48,48,Unchecked Return Value
+memory_leak.c,98,98,Unchecked Return Value
+memory_leak.c,353,353,Unchecked Return Value
+memory_leak.c,424,424,Unchecked Return Value
+memory_leak.c,453,453,Unchecked Return Value
+memory_leak.c,457,457,Unchecked Return Value
+memory_leak.c,510,510,Unchecked Return Value
+memory_leak.c,513,513,Unchecked Return Value
+null_pointer.c,252,252,Unchecked Return Value
+null_pointer.c,281,281,Unchecked Return Value
+null_pointer.c,285,285,Unchecked Return Value
+null_pointer.c,338,338,Unchecked Return Value
+null_pointer.c,341,341,Unchecked Return Value
+uninit_memory_access.c,232,232,Unchecked Return Value
+uninit_memory_access.c,236,236,Unchecked Return Value
+uninit_memory_access.c,376,376,Unchecked Return Value
+uninit_memory_access.c,408,408,Unchecked Return Value
+uninit_memory_access.c,414,414,Unchecked Return Value
+uninit_memory_access.c,420,420,Unchecked Return Value
+uninit_pointer.c,280,280,Unchecked Return Value
+wrong_arguments_func_pointer.c,347,347,Unchecked Return Value
+wrong_arguments_func_pointer.c,444,444,Unchecked Return Value
+wrong_arguments_func_pointer.c,447,447,Unchecked Return Value
+wrong_arguments_func_pointer.c,587,587,Unchecked Return Value
+zero_division.c,236,236,Unchecked Return Value
+buffer_overrun_dynamic.c,141,141,Unchecked Return Value
+buffer_overrun_dynamic.c,164,164,Unchecked Return Value
+buffer_overrun_dynamic.c,165,165,Unchecked Return Value
+buffer_overrun_dynamic.c,166,166,Unchecked Return Value
+buffer_overrun_dynamic.c,167,167,Unchecked Return Value
+buffer_overrun_dynamic.c,168,168,Unchecked Return Value
+buffer_overrun_dynamic.c,506,506,Unchecked Return Value
+buffer_overrun_dynamic.c,507,507,Unchecked Return Value
+buffer_overrun_dynamic.c,546,546,Unchecked Return Value
+buffer_underrun_dynamic.c,142,142,Unchecked Return Value
+buffer_underrun_dynamic.c,165,165,Unchecked Return Value
+buffer_underrun_dynamic.c,166,166,Unchecked Return Value
+buffer_underrun_dynamic.c,167,167,Unchecked Return Value
+buffer_underrun_dynamic.c,168,168,Unchecked Return Value
+buffer_underrun_dynamic.c,169,169,Unchecked Return Value
+buffer_underrun_dynamic.c,507,507,Unchecked Return Value
+buffer_underrun_dynamic.c,508,508,Unchecked Return Value
+buffer_underrun_dynamic.c,544,544,Unchecked Return Value
+buffer_underrun_dynamic.c,667,667,Unchecked Return Value
+double_free.c,20,20,Unchecked Return Value
+double_free.c,32,32,Unchecked Return Value
+double_free.c,51,51,Unchecked Return Value
+double_free.c,70,70,Unchecked Return Value
+double_free.c,100,100,Unchecked Return Value
+double_free.c,114,114,Unchecked Return Value
+double_free.c,148,148,Unchecked Return Value
+double_free.c,167,167,Unchecked Return Value
+double_free.c,185,185,Unchecked Return Value
+double_free.c,204,204,Unchecked Return Value
+free_nondynamically_allocated_memory.c,72,72,Unchecked Return Value
+free_nondynamically_allocated_memory.c,95,95,Unchecked Return Value
+free_nondynamically_allocated_memory.c,96,96,Unchecked Return Value
+free_nondynamically_allocated_memory.c,97,97,Unchecked Return Value
+free_nondynamically_allocated_memory.c,98,98,Unchecked Return Value
+free_nondynamically_allocated_memory.c,207,207,Unchecked Return Value
+free_null_pointer.c,79,79,Unchecked Return Value
+free_null_pointer.c,148,148,Unchecked Return Value
+invalid_memory_access.c,205,205,Unchecked Return Value
+invalid_memory_access.c,289,289,Unchecked Return Value
+memory_allocation_failure.c,722,722,Unchecked Return Value
+memory_allocation_failure.c,723,723,Unchecked Return Value
+memory_leak.c,44,44,Unchecked Return Value
+memory_leak.c,67,67,Unchecked Return Value
+memory_leak.c,398,398,Unchecked Return Value
+pow_related_errors.c,148,148,Unchecked Return Value
+pow_related_errors.c,149,149,Unchecked Return Value
+race_condition.c,135,135,Unchecked Return Value
+uninit_memory_access.c,127,127,Unchecked Return Value
+uninit_pointer.c,276,276,Unchecked Return Value
+uninit_pointer.c,408,408,Unchecked Return Value
+wrong_arguments_func_pointer.c,370,370,Unchecked Return Value
+bit_shift.c,120,120,Use of Insufficiently Random Values
+conflicting_cond.c,24,24,Use of Insufficiently Random Values
+conflicting_cond.c,43,43,Use of Insufficiently Random Values
+conflicting_cond.c,62,62,Use of Insufficiently Random Values
+conflicting_cond.c,81,81,Use of Insufficiently Random Values
+conflicting_cond.c,104,104,Use of Insufficiently Random Values
+conflicting_cond.c,138,138,Use of Insufficiently Random Values
+conflicting_cond.c,158,158,Use of Insufficiently Random Values
+conflicting_cond.c,178,178,Use of Insufficiently Random Values
+conflicting_cond.c,199,199,Use of Insufficiently Random Values
+data_lost.c,160,160,Use of Insufficiently Random Values
+data_overflow.c,205,205,Use of Insufficiently Random Values
+double_release.c,53,53,Use of Insufficiently Random Values
+double_release.c,106,106,Use of Insufficiently Random Values
+double_release.c,154,154,Use of Insufficiently Random Values
+double_release.c,201,201,Use of Insufficiently Random Values
+double_release.c,250,250,Use of Insufficiently Random Values
+double_release.c,292,292,Use of Insufficiently Random Values
+free_null_pointer.c,364,364,Use of Insufficiently Random Values
+func_pointer.c,341,341,Use of Insufficiently Random Values
+insign_code.c,23,23,Use of Insufficiently Random Values
+memory_leak.c,200,200,Use of Insufficiently Random Values
+not_return.c,34,34,Use of Insufficiently Random Values
+not_return.c,61,61,Use of Insufficiently Random Values
+not_return.c,61,61,Use of Insufficiently Random Values
+not_return.c,87,87,Use of Insufficiently Random Values
+not_return.c,111,111,Use of Insufficiently Random Values
+overrun_st.c,183,183,Use of Insufficiently Random Values
+overrun_st.c,443,443,Use of Insufficiently Random Values
+redundant_cond.c,26,26,Use of Insufficiently Random Values
+redundant_cond.c,45,45,Use of Insufficiently Random Values
+redundant_cond.c,64,64,Use of Insufficiently Random Values
+redundant_cond.c,83,83,Use of Insufficiently Random Values
+redundant_cond.c,102,102,Use of Insufficiently Random Values
+redundant_cond.c,121,121,Use of Insufficiently Random Values
+redundant_cond.c,141,141,Use of Insufficiently Random Values
+redundant_cond.c,175,175,Use of Insufficiently Random Values
+redundant_cond.c,195,195,Use of Insufficiently Random Values
+redundant_cond.c,215,215,Use of Insufficiently Random Values
+redundant_cond.c,235,235,Use of Insufficiently Random Values
+redundant_cond.c,255,255,Use of Insufficiently Random Values
+redundant_cond.c,275,275,Use of Insufficiently Random Values
+sign_conv.c,165,165,Use of Insufficiently Random Values
+uninit_memory_access.c,401,401,Use of Insufficiently Random Values
+zero_division.c,151,151,Use of Insufficiently Random Values
+buffer_overrun_dynamic.c,141,141,Use of Sizeof On a Pointer Type
+buffer_overrun_dynamic.c,546,546,Use of Sizeof On a Pointer Type
+buffer_underrun_dynamic.c,142,142,Use of Sizeof On a Pointer Type
+buffer_underrun_dynamic.c,544,544,Use of Sizeof On a Pointer Type
+buffer_underrun_dynamic.c,667,667,Use of Sizeof On a Pointer Type
+buffer_underrun_dynamic.c,714,714,Use of Sizeof On a Pointer Type
+free_null_pointer.c,79,79,Use of Sizeof On a Pointer Type
+free_null_pointer.c,183,183,Use of Sizeof On a Pointer Type
+free_null_pointer.c,268,268,Use of Sizeof On a Pointer Type
+free_null_pointer.c,311,311,Use of Sizeof On a Pointer Type
+func_pointer.c,157,157,Use of Sizeof On a Pointer Type
+func_pointer.c,217,217,Use of Sizeof On a Pointer Type
+invalid_memory_access.c,205,205,Use of Sizeof On a Pointer Type
+invalid_memory_access.c,563,563,Use of Sizeof On a Pointer Type
+memory_allocation_failure.c,74,74,Use of Sizeof On a Pointer Type
+memory_allocation_failure.c,182,182,Use of Sizeof On a Pointer Type
+memory_allocation_failure.c,577,577,Use of Sizeof On a Pointer Type
+memory_leak.c,44,44,Use of Sizeof On a Pointer Type
+memory_leak.c,453,453,Use of Sizeof On a Pointer Type
+memory_leak.c,510,510,Use of Sizeof On a Pointer Type
+null_pointer.c,281,281,Use of Sizeof On a Pointer Type
+null_pointer.c,338,338,Use of Sizeof On a Pointer Type
+uninit_memory_access.c,232,232,Use of Sizeof On a Pointer Type
+uninit_pointer.c,227,227,Use of Sizeof On a Pointer Type
+uninit_pointer.c,276,276,Use of Sizeof On a Pointer Type
+uninit_pointer.c,396,396,Use of Sizeof On a Pointer Type
+wrong_arguments_func_pointer.c,444,444,Use of Sizeof On a Pointer Type
+buffer_overrun_dynamic.c,247,247,Unchecked Array Index
+buffer_overrun_dynamic.c,349,349,Unchecked Array Index
+buffer_overrun_dynamic.c,368,368,Unchecked Array Index
+buffer_underrun_dynamic.c,351,351,Unchecked Array Index
+buffer_underrun_dynamic.c,370,370,Unchecked Array Index
+buffer_underrun_dynamic.c,675,675,Unchecked Array Index
+buffer_underrun_dynamic.c,675,675,Unchecked Array Index
+buffer_underrun_dynamic.c,680,680,Unchecked Array Index
+buffer_underrun_dynamic.c,750,750,Unchecked Array Index
+buffer_underrun_dynamic.c,751,751,Unchecked Array Index
+deletion_of_data_structure_sentinel.c,28,28,Unchecked Array Index
+deletion_of_data_structure_sentinel.c,62,62,Unchecked Array Index
+overrun_st.c,171,171,Unchecked Array Index
+overrun_st.c,184,184,Unchecked Array Index
+overrun_st.c,235,235,Unchecked Array Index
+overrun_st.c,266,266,Unchecked Array Index
+overrun_st.c,282,282,Unchecked Array Index
+underrun_st.c,45,45,Unchecked Array Index
+buffer_underrun_dynamic.c,750,750,Unchecked Array Index
+buffer_underrun_dynamic.c,777,777,Use of Obsolete Functions
+func_pointer.c,588,588,Use of Obsolete Functions
+func_pointer.c,627,627,Use of Obsolete Functions
+function_return_value_unchecked.c,191,191,Use of Obsolete Functions
+invalid_memory_access.c,130,130,Use of Obsolete Functions
+uninit_memory_access.c,147,147,Use of Obsolete Functions
+wrong_arguments_func_pointer.c,243,243,Use of Obsolete Functions
+wrong_arguments_func_pointer.c,273,273,Use of Obsolete Functions
+wrong_arguments_func_pointer.c,322,322,Use of Obsolete Functions
+wrong_arguments_func_pointer.c,330,330,Use of Obsolete Functions
+wrong_arguments_func_pointer.c,548,548,Use of Obsolete Functions
+wrong_arguments_func_pointer.c,588,588,Use of Obsolete Functions
+livelock.c,65,65,Unreleased Resource Leak
+livelock.c,66,66,Unreleased Resource Leak
+lock_never_unlock.c,110,110,Unreleased Resource Leak
+race_condition.c,68,68,Unreleased Resource Leak
+race_condition.c,69,69,Unreleased Resource Leak
+race_condition.c,322,322,Unreleased Resource Leak
+st_cross_thread_access.c,177,177,Unreleased Resource Leak
+st_cross_thread_access.c,180,180,Unreleased Resource Leak
+unlock_without_lock.c,122,122,Unreleased Resource Leak
+uninit_memory_access.c,69,76,NULL Pointer Dereference
+uninit_pointer.c,373,368,NULL Pointer Dereference
+function_return_value_unchecked.c,311,311,Improper Resource Access Authorization
+function_return_value_unchecked.c,317,317,Improper Resource Access Authorization
+function_return_value_unchecked.c,371,371,Improper Resource Access Authorization
+function_return_value_unchecked.c,350,350,Improper Resource Access Authorization

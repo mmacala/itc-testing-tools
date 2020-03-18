@@ -1,0 +1,10 @@
+File,LineStart,LineEnd,Error
+main.cpp,23,23,Dangerous Functions
+improper_error_handling.cpp,23,23,Divide By Zero
+improper_error_handling.cpp,44,44,Divide By Zero
+improper_error_handling.cpp,62,66,Divide By Zero
+improper_error_handling.cpp,86,91,Divide By Zero
+improper_error_handling.cpp,27,27,Exposure of System Data to Unauthorized Control Sphere
+improper_error_handling.cpp,48,48,Exposure of System Data to Unauthorized Control Sphere
+improper_error_handling.cpp,70,70,Exposure of System Data to Unauthorized Control Sphere
+improper_error_handling.cpp,100,100,Exposure of System Data to Unauthorized Control Sphere
