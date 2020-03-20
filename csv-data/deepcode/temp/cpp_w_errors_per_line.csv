@@ -1,0 +1,6 @@
+File,LineStart,LineEnd,Error
+improper_error_handling.cpp,21,21,cpp%2Fdc%2FCppSameEvalBinaryExpressiontrue
+improper_error_handling.cpp,41,41,cpp%2Fdc%2FCppSameEvalBinaryExpressiontrue
+improper_error_handling.cpp,60,60,cpp%2Fdc%2FFloatingPointEquals
+improper_error_handling.cpp,84,84,cpp%2Fdc%2FFloatingPointEquals
+improper_error_handling.cpp,91,91,cpp%2Fdc%2FRethrowWithEmptyThrow
