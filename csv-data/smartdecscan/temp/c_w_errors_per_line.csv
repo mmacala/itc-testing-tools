@@ -1,0 +1,699 @@
+File,LineStart,LineEnd,Error
+st_underrun.c,204,204,Buffer overflow
+ptr_subtraction.c,22,22,Dangerous pointer manipulation
+ptr_subtraction.c,35,35,Dangerous pointer manipulation
+zero_division.c,23,23,Division by zero
+zero_division.c,34,34,Division by zero
+zero_division.c,47,47,Division by zero
+zero_division.c,78,78,Division by zero
+zero_division.c,118,118,Division by zero
+zero_division.c,141,141,Division by zero
+zero_division.c,166,166,Division by zero
+zero_division.c,178,178,Division by zero
+zero_division.c,195,195,Division by zero
+zero_division.c,206,206,Division by zero
+zero_division.c,225,225,Division by zero
+zero_division.c,252,252,Division by zero
+double_free.c,22,22,Double free
+double_free.c,43,43,Double free
+double_free.c,64,64,Double free
+double_free.c,87,87,Double free
+double_free.c,101,101,Double free
+double_free.c,115,115,Double free
+double_free.c,131,131,Double free
+double_free.c,149,149,Double free
+double_free.c,168,168,Double free
+double_free.c,187,187,Double free
+double_free.c,204,204,Double free
+double_free.c,222,222,Double free
+free_null_pointer.c,109,109,Function calling with invalid null argument
+free_null_pointer.c,146,146,Function calling with invalid null argument
+free_null_pointer.c,241,241,Function calling with invalid null argument
+memory_leak.c,424,424,Function calling with invalid null argument
+null_pointer.c,238,238,Function calling with invalid null argument
+pow_related_errors.c,441,441,Identical expressions
+uninit_pointer.c,215,215,Incompatible allocated type
+free_null_pointer.c,109,109,Insecure string API
+free_null_pointer.c,146,146,Insecure string API
+free_null_pointer.c,241,241,Insecure string API
+free_null_pointer.c,275,275,Insecure string API
+free_null_pointer.c,320,320,Insecure string API
+invalid_memory_access.c,102,102,Insecure string API
+invalid_memory_access.c,205,205,Insecure string API
+invalid_memory_access.c,210,210,Insecure string API
+invalid_memory_access.c,560,560,Insecure string API
+invalid_memory_access.c,568,568,Insecure string API
+invalid_memory_access.c,611,611,Insecure string API
+invalid_memory_access.c,622,622,Insecure string API
+memory_allocation_failure.c,495,495,Insecure string API
+memory_allocation_failure.c,577,577,Insecure string API
+memory_leak.c,73,73,Insecure string API
+memory_leak.c,96,96,Insecure string API
+memory_leak.c,270,270,Insecure string API
+memory_leak.c,402,402,Insecure string API
+memory_leak.c,424,424,Insecure string API
+memory_leak.c,517,517,Insecure string API
+null_pointer.c,238,238,Insecure string API
+null_pointer.c,334,334,Insecure string API
+st_cross_thread_access.c,335,335,Insecure string API
+st_underrun.c,80,80,Insecure string API
+st_underrun.c,115,115,Insecure string API
+st_underrun.c,204,204,Insecure string API
+uninit_memory_access.c,54,54,Insecure string API
+uninit_pointer.c,187,187,Insecure string API
+uninit_pointer.c,385,385,Insecure string API
+uninit_pointer.c,406,406,Insecure string API
+uninit_var.c,142,142,Insecure string API
+wrong_arguments_func_pointer.c,213,213,Insecure string API
+wrong_arguments_func_pointer.c,214,214,Insecure string API
+wrong_arguments_func_pointer.c,382,382,Insecure string API
+wrong_arguments_func_pointer.c,439,439,Insecure string API
+wrong_arguments_func_pointer.c,478,478,Insecure string API
+free_nondynamically_allocated_memory.c,22,22,Invalid memory deallocation function usage
+free_nondynamically_allocated_memory.c,36,36,Invalid memory deallocation function usage
+free_nondynamically_allocated_memory.c,48,48,Invalid memory deallocation function usage
+free_nondynamically_allocated_memory.c,62,62,Invalid memory deallocation function usage
+free_nondynamically_allocated_memory.c,86,86,Invalid memory deallocation function usage
+free_nondynamically_allocated_memory.c,103,103,Invalid memory deallocation function usage
+free_nondynamically_allocated_memory.c,115,115,Invalid memory deallocation function usage
+free_nondynamically_allocated_memory.c,128,128,Invalid memory deallocation function usage
+free_nondynamically_allocated_memory.c,141,141,Invalid memory deallocation function usage
+free_nondynamically_allocated_memory.c,155,155,Invalid memory deallocation function usage
+free_nondynamically_allocated_memory.c,170,170,Invalid memory deallocation function usage
+free_nondynamically_allocated_memory.c,187,187,Invalid memory deallocation function usage
+free_nondynamically_allocated_memory.c,209,209,Invalid memory deallocation function usage
+free_nondynamically_allocated_memory.c,229,229,Invalid memory deallocation function usage
+free_nondynamically_allocated_memory.c,239,239,Invalid memory deallocation function usage
+free_nondynamically_allocated_memory.c,262,262,Invalid memory deallocation function usage
+uninit_memory_access.c,420,420,Invalid memory deallocation function usage
+bit_shift.c,35,35,Loss of precision
+bit_shift.c,59,59,Loss of precision
+data_lost.c,22,22,Loss of precision
+data_lost.c,34,34,Loss of precision
+data_lost.c,46,46,Loss of precision
+data_lost.c,94,94,Loss of precision
+data_lost.c,106,106,Loss of precision
+data_lost.c,118,118,Loss of precision
+data_lost.c,209,209,Loss of precision
+data_lost.c,240,240,Loss of precision
+data_lost.c,256,256,Loss of precision
+data_overflow.c,62,62,Loss of precision
+data_overflow.c,110,110,Loss of precision
+data_underflow.c,34,34,Loss of precision
+sign_conv.c,23,23,Loss of precision
+sign_conv.c,35,35,Loss of precision
+sign_conv.c,47,47,Loss of precision
+sign_conv.c,60,60,Loss of precision
+sign_conv.c,71,71,Loss of precision
+sign_conv.c,83,83,Loss of precision
+sign_conv.c,95,95,Loss of precision
+sign_conv.c,96,96,Loss of precision
+sign_conv.c,107,107,Loss of precision
+sign_conv.c,108,108,Loss of precision
+sign_conv.c,151,151,Loss of precision
+sign_conv.c,180,180,Loss of precision
+sign_conv.c,192,192,Loss of precision
+sign_conv.c,217,217,Loss of precision
+sign_conv.c,246,246,Loss of precision
+sign_conv.c,247,247,Loss of precision
+sign_conv.c,262,262,Loss of precision
+sign_conv.c,263,263,Loss of precision
+free_null_pointer.c,102,102,Malloc overflow
+free_null_pointer.c,231,231,Malloc overflow
+invalid_memory_access.c,280,280,Malloc overflow
+memory_allocation_failure.c,258,258,Malloc overflow
+memory_leak.c,64,64,Malloc overflow
+memory_leak.c,392,392,Malloc overflow
+memory_leak.c,417,417,Malloc overflow
+null_pointer.c,231,231,Malloc overflow
+wrong_arguments_func_pointer.c,371,371,Malloc overflow
+memory_allocation_failure.c,283,283,Memory leak
+double_free.c,88,88,Memory leak
+func_pointer.c,117,117,Memory leak
+func_pointer.c,411,411,Memory leak
+func_pointer.c,608,608,Memory leak
+memory_leak.c,74,74,Memory leak
+memory_leak.c,120,120,Memory leak
+memory_leak.c,151,151,Memory leak
+memory_leak.c,219,219,Memory leak
+memory_leak.c,236,236,Memory leak
+memory_leak.c,248,248,Memory leak
+memory_leak.c,276,276,Memory leak
+memory_leak.c,311,311,Memory leak
+memory_leak.c,359,359,Memory leak
+memory_leak.c,384,384,Memory leak
+memory_leak.c,404,404,Memory leak
+uninit_pointer.c,125,125,Memory leak
+uninit_pointer.c,125,125,Memory leak
+uninit_pointer.c,125,125,Memory leak
+uninit_pointer.c,125,125,Memory leak
+uninit_pointer.c,236,236,Memory leak
+uninit_memory_access.c,201,201,Memory leak
+wrong_arguments_func_pointer.c,601,601,Memory leak
+double_lock.c,42,42,Mutex double lock
+double_lock.c,93,93,Mutex double lock
+double_lock.c,140,140,Mutex double lock
+livelock.c,32,32,Mutex double lock
+livelock.c,49,49,Mutex double lock
+lock_never_unlock.c,93,93,Mutex double lock
+lock_never_unlock.c,147,147,Mutex double lock
+lock_never_unlock.c,398,398,Mutex double lock
+lock_never_unlock.c,551,551,Mutex double lock
+double_release.c,35,35,Mutex double unlock
+double_release.c,133,133,Mutex double unlock
+double_release.c,178,178,Mutex double unlock
+double_release.c,226,226,Mutex double unlock
+double_release.c,283,283,Mutex double unlock
+unlock_without_lock.c,110,110,Mutex double unlock
+unlock_without_lock.c,202,202,Mutex double unlock
+unlock_without_lock.c,281,281,Mutex double unlock
+unlock_without_lock.c,374,374,Mutex double unlock
+unlock_without_lock.c,544,544,Mutex double unlock
+buffer_underrun_dynamic.c,155,155,Null pointer dereference
+free_nondynamically_allocated_memory.c,82,82,Null pointer dereference
+free_null_pointer.c,275,275,Null pointer dereference
+free_null_pointer.c,452,452,Null pointer dereference
+free_null_pointer.c,483,483,Null pointer dereference
+func_pointer.c,177,177,Null pointer dereference
+func_pointer.c,352,352,Null pointer dereference
+invalid_memory_access.c,45,45,Null pointer dereference
+invalid_memory_access.c,181,181,Null pointer dereference
+invalid_memory_access.c,265,265,Null pointer dereference
+invalid_memory_access.c,320,320,Null pointer dereference
+invalid_memory_access.c,371,371,Null pointer dereference
+invalid_memory_access.c,432,432,Null pointer dereference
+memory_allocation_failure.c,82,82,Null pointer dereference
+memory_leak.c,96,96,Null pointer dereference
+null_pointer.c,23,23,Null pointer dereference
+null_pointer.c,34,34,Null pointer dereference
+null_pointer.c,47,47,Null pointer dereference
+null_pointer.c,63,63,Null pointer dereference
+null_pointer.c,94,94,Null pointer dereference
+null_pointer.c,117,117,Null pointer dereference
+null_pointer.c,142,142,Null pointer dereference
+null_pointer.c,159,159,Null pointer dereference
+null_pointer.c,173,173,Null pointer dereference
+null_pointer.c,180,180,Null pointer dereference
+null_pointer.c,334,334,Null pointer dereference
+uninit_memory_access.c,74,74,Null pointer dereference
+uninit_pointer.c,131,131,Null pointer dereference
+buffer_overrun_dynamic.c,27,27,Null pointer dereference
+buffer_overrun_dynamic.c,42,42,Reference to array element out of bounds
+buffer_overrun_dynamic.c,62,62,Reference to array element out of bounds
+buffer_overrun_dynamic.c,77,77,Reference to array element out of bounds
+buffer_overrun_dynamic.c,94,94,Reference to array element out of bounds
+buffer_overrun_dynamic.c,112,112,Reference to array element out of bounds
+buffer_overrun_dynamic.c,130,130,Reference to array element out of bounds
+buffer_overrun_dynamic.c,152,152,Reference to array element out of bounds
+buffer_overrun_dynamic.c,174,174,Reference to array element out of bounds
+buffer_overrun_dynamic.c,233,233,Reference to array element out of bounds
+buffer_overrun_dynamic.c,248,248,Reference to array element out of bounds
+buffer_overrun_dynamic.c,263,263,Reference to array element out of bounds
+buffer_overrun_dynamic.c,278,278,Reference to array element out of bounds
+buffer_overrun_dynamic.c,298,298,Reference to array element out of bounds
+buffer_overrun_dynamic.c,312,312,Reference to array element out of bounds
+buffer_overrun_dynamic.c,333,333,Reference to array element out of bounds
+buffer_overrun_dynamic.c,350,350,Reference to array element out of bounds
+buffer_overrun_dynamic.c,369,369,Reference to array element out of bounds
+buffer_overrun_dynamic.c,387,387,Reference to array element out of bounds
+buffer_overrun_dynamic.c,403,403,Reference to array element out of bounds
+buffer_overrun_dynamic.c,422,422,Reference to array element out of bounds
+buffer_overrun_dynamic.c,435,435,Reference to array element out of bounds
+buffer_overrun_dynamic.c,462,462,Reference to array element out of bounds
+buffer_overrun_dynamic.c,480,480,Reference to array element out of bounds
+buffer_overrun_dynamic.c,496,496,Reference to array element out of bounds
+buffer_overrun_dynamic.c,514,514,Reference to array element out of bounds
+buffer_overrun_dynamic.c,532,532,Reference to array element out of bounds
+buffer_overrun_dynamic.c,559,559,Reference to array element out of bounds
+buffer_overrun_dynamic.c,580,580,Reference to array element out of bounds
+buffer_overrun_dynamic.c,607,607,Reference to array element out of bounds
+buffer_underrun_dynamic.c,29,29,Reference to array element out of bounds
+buffer_underrun_dynamic.c,45,45,Reference to array element out of bounds
+buffer_underrun_dynamic.c,65,65,Reference to array element out of bounds
+buffer_underrun_dynamic.c,80,80,Reference to array element out of bounds
+buffer_underrun_dynamic.c,97,97,Reference to array element out of bounds
+buffer_underrun_dynamic.c,115,115,Reference to array element out of bounds
+buffer_underrun_dynamic.c,133,133,Reference to array element out of bounds
+buffer_underrun_dynamic.c,155,155,Reference to array element out of bounds
+buffer_underrun_dynamic.c,178,178,Reference to array element out of bounds
+buffer_underrun_dynamic.c,237,237,Reference to array element out of bounds
+buffer_underrun_dynamic.c,268,268,Reference to array element out of bounds
+buffer_underrun_dynamic.c,283,283,Reference to array element out of bounds
+buffer_underrun_dynamic.c,303,303,Reference to array element out of bounds
+buffer_underrun_dynamic.c,317,317,Reference to array element out of bounds
+buffer_underrun_dynamic.c,338,338,Reference to array element out of bounds
+buffer_underrun_dynamic.c,355,355,Reference to array element out of bounds
+buffer_underrun_dynamic.c,374,374,Reference to array element out of bounds
+buffer_underrun_dynamic.c,392,392,Reference to array element out of bounds
+buffer_underrun_dynamic.c,408,408,Reference to array element out of bounds
+buffer_underrun_dynamic.c,427,427,Reference to array element out of bounds
+buffer_underrun_dynamic.c,439,439,Reference to array element out of bounds
+buffer_underrun_dynamic.c,466,466,Reference to array element out of bounds
+buffer_underrun_dynamic.c,484,484,Reference to array element out of bounds
+buffer_underrun_dynamic.c,500,500,Reference to array element out of bounds
+buffer_underrun_dynamic.c,519,519,Reference to array element out of bounds
+buffer_underrun_dynamic.c,532,532,Reference to array element out of bounds
+buffer_underrun_dynamic.c,559,559,Reference to array element out of bounds
+buffer_underrun_dynamic.c,580,580,Reference to array element out of bounds
+buffer_underrun_dynamic.c,606,606,Reference to array element out of bounds
+buffer_underrun_dynamic.c,621,621,Reference to array element out of bounds
+buffer_underrun_dynamic.c,624,624,Reference to array element out of bounds
+buffer_underrun_dynamic.c,648,648,Reference to array element out of bounds
+buffer_underrun_dynamic.c,674,674,Reference to array element out of bounds
+buffer_underrun_dynamic.c,701,701,Reference to array element out of bounds
+buffer_underrun_dynamic.c,721,721,Reference to array element out of bounds
+func_pointer.c,395,395,Reference to array element out of bounds
+invalid_memory_access.c,320,320,Reference to array element out of bounds
+overrun_st.c,21,21,Reference to array element out of bounds
+overrun_st.c,32,32,Reference to array element out of bounds
+overrun_st.c,44,44,Reference to array element out of bounds
+overrun_st.c,55,55,Reference to array element out of bounds
+overrun_st.c,66,66,Reference to array element out of bounds
+overrun_st.c,77,77,Reference to array element out of bounds
+overrun_st.c,88,88,Reference to array element out of bounds
+overrun_st.c,99,99,Reference to array element out of bounds
+overrun_st.c,110,110,Reference to array element out of bounds
+overrun_st.c,126,126,Reference to array element out of bounds
+overrun_st.c,158,158,Reference to array element out of bounds
+overrun_st.c,169,169,Reference to array element out of bounds
+overrun_st.c,194,194,Reference to array element out of bounds
+overrun_st.c,206,206,Reference to array element out of bounds
+overrun_st.c,222,222,Reference to array element out of bounds
+overrun_st.c,233,233,Reference to array element out of bounds
+overrun_st.c,250,250,Reference to array element out of bounds
+overrun_st.c,264,264,Reference to array element out of bounds
+overrun_st.c,280,280,Reference to array element out of bounds
+overrun_st.c,293,293,Reference to array element out of bounds
+overrun_st.c,306,306,Reference to array element out of bounds
+overrun_st.c,320,320,Reference to array element out of bounds
+overrun_st.c,333,333,Reference to array element out of bounds
+overrun_st.c,346,346,Reference to array element out of bounds
+overrun_st.c,359,359,Reference to array element out of bounds
+overrun_st.c,372,372,Reference to array element out of bounds
+overrun_st.c,387,387,Reference to array element out of bounds
+overrun_st.c,402,402,Reference to array element out of bounds
+overrun_st.c,415,415,Reference to array element out of bounds
+overrun_st.c,428,428,Reference to array element out of bounds
+overrun_st.c,457,457,Reference to array element out of bounds
+overrun_st.c,471,471,Reference to array element out of bounds
+overrun_st.c,489,489,Reference to array element out of bounds
+overrun_st.c,502,502,Reference to array element out of bounds
+overrun_st.c,522,522,Reference to array element out of bounds
+overrun_st.c,538,538,Reference to array element out of bounds
+overrun_st.c,556,556,Reference to array element out of bounds
+overrun_st.c,570,570,Reference to array element out of bounds
+overrun_st.c,588,588,Reference to array element out of bounds
+overrun_st.c,613,613,Reference to array element out of bounds
+overrun_st.c,630,630,Reference to array element out of bounds
+overrun_st.c,642,642,Reference to array element out of bounds
+overrun_st.c,658,658,Reference to array element out of bounds
+overrun_st.c,674,674,Reference to array element out of bounds
+overrun_st.c,689,689,Reference to array element out of bounds
+overrun_st.c,706,706,Reference to array element out of bounds
+overrun_st.c,724,724,Reference to array element out of bounds
+overrun_st.c,739,739,Reference to array element out of bounds
+overrun_st.c,749,749,Reference to array element out of bounds
+overrun_st.c,761,761,Reference to array element out of bounds
+overrun_st.c,773,773,Reference to array element out of bounds
+st_underrun.c,25,25,Reference to array element out of bounds
+st_underrun.c,51,51,Reference to array element out of bounds
+st_underrun.c,88,88,Reference to array element out of bounds
+st_underrun.c,92,92,Reference to array element out of bounds
+st_underrun.c,125,125,Reference to array element out of bounds
+st_underrun.c,126,126,Reference to array element out of bounds
+st_underrun.c,126,126,Reference to array element out of bounds
+st_underrun.c,130,130,Reference to array element out of bounds
+st_underrun.c,150,150,Reference to array element out of bounds
+st_underrun.c,160,160,Reference to array element out of bounds
+st_underrun.c,193,193,Reference to array element out of bounds
+st_underrun.c,195,195,Reference to array element out of bounds
+st_underrun.c,227,227,Reference to array element out of bounds
+st_underrun.c,229,229,Reference to array element out of bounds
+underrun_st.c,21,21,Reference to array element out of bounds
+underrun_st.c,31,31,Reference to array element out of bounds
+underrun_st.c,42,42,Reference to array element out of bounds
+underrun_st.c,55,55,Reference to array element out of bounds
+underrun_st.c,67,67,Reference to array element out of bounds
+underrun_st.c,80,80,Reference to array element out of bounds
+underrun_st.c,93,93,Reference to array element out of bounds
+underrun_st.c,109,109,Reference to array element out of bounds
+underrun_st.c,124,124,Reference to array element out of bounds
+underrun_st.c,140,140,Reference to array element out of bounds
+underrun_st.c,155,155,Reference to array element out of bounds
+underrun_st.c,172,172,Reference to array element out of bounds
+underrun_st.c,190,190,Reference to array element out of bounds
+wrong_arguments_func_pointer.c,271,271,Reference to array element out of bounds
+wrong_arguments_func_pointer.c,324,324,Reference to array element out of bounds
+littlemem_st.c,35,35,Type cast error
+littlemem_st.c,54,54,Type cast error
+littlemem_st.c,91,91,Type cast error
+littlemem_st.c,111,111,Type cast error
+littlemem_st.c,137,137,Type cast error
+littlemem_st.c,171,171,Type cast error
+littlemem_st.c,214,214,Type cast error
+littlemem_st.c,258,258,Type cast error
+littlemem_st.c,300,300,Type cast error
+littlemem_st.c,332,332,Type cast error
+bit_shift.c,22,22,Undefined result
+bit_shift.c,46,46,Undefined result
+bit_shift.c,70,70,Undefined result
+bit_shift.c,82,82,Undefined result
+bit_shift.c,94,94,Undefined result
+bit_shift.c,107,107,Undefined result
+bit_shift.c,134,134,Undefined result
+bit_shift.c,147,147,Undefined result
+bit_shift.c,164,164,Undefined result
+bit_shift.c,176,176,Undefined result
+bit_shift.c,194,194,Undefined result
+bit_shift.c,209,209,Undefined result
+bit_shift.c,226,226,Undefined result
+bit_shift.c,237,237,Undefined result
+zero_division.c,23,23,Undefined result
+zero_division.c,34,34,Undefined result
+zero_division.c,47,47,Undefined result
+zero_division.c,78,78,Undefined result
+zero_division.c,118,118,Undefined result
+zero_division.c,141,141,Undefined result
+zero_division.c,166,166,Undefined result
+zero_division.c,178,178,Undefined result
+zero_division.c,195,195,Undefined result
+zero_division.c,206,206,Undefined result
+zero_division.c,225,225,Undefined result
+zero_division.c,252,252,Undefined result
+buffer_overrun_dynamic.c,333,333,Undefined result
+buffer_underrun_dynamic.c,178,178,Uninitialized variable
+buffer_underrun_dynamic.c,648,648,Uninitialized variable
+buffer_underrun_dynamic.c,674,674,Uninitialized variable
+buffer_underrun_dynamic.c,722,722,Uninitialized variable
+buffer_underrun_dynamic.c,724,724,Uninitialized variable
+func_pointer.c,262,262,Uninitialized variable
+func_pointer.c,262,262,Uninitialized variable
+memory_leak.c,276,276,Uninitialized variable
+overrun_st.c,44,44,Uninitialized variable
+overrun_st.c,320,320,Uninitialized variable
+ow_memcpy.c,41,41,Uninitialized variable
+st_underrun.c,227,227,Uninitialized variable
+st_underrun.c,229,229,Uninitialized variable
+underrun_st.c,21,21,Uninitialized variable
+underrun_st.c,55,55,Uninitialized variable
+uninit_memory_access.c,98,98,Uninitialized variable
+uninit_memory_access.c,200,200,Uninitialized variable
+uninit_memory_access.c,249,249,Uninitialized variable
+uninit_memory_access.c,249,249,Uninitialized variable
+uninit_memory_access.c,298,298,Uninitialized variable
+uninit_pointer.c,30,30,Uninitialized variable
+uninit_pointer.c,41,41,Uninitialized variable
+uninit_pointer.c,55,55,Uninitialized variable
+uninit_pointer.c,90,90,Uninitialized variable
+uninit_pointer.c,104,104,Uninitialized variable
+uninit_pointer.c,131,131,Uninitialized variable
+uninit_pointer.c,152,152,Uninitialized variable
+uninit_pointer.c,200,200,Uninitialized variable
+uninit_pointer.c,200,200,Uninitialized variable
+uninit_pointer.c,231,231,Uninitialized variable
+uninit_pointer.c,231,231,Uninitialized variable
+uninit_pointer.c,254,254,Uninitialized variable
+uninit_pointer.c,254,254,Uninitialized variable
+uninit_var.c,23,23,Uninitialized variable
+uninit_var.c,34,34,Uninitialized variable
+uninit_var.c,45,45,Uninitialized variable
+uninit_var.c,63,63,Uninitialized variable
+uninit_var.c,75,75,Uninitialized variable
+uninit_var.c,92,92,Uninitialized variable
+uninit_var.c,111,111,Uninitialized variable
+uninit_var.c,161,161,Uninitialized variable
+uninit_var.c,177,177,Uninitialized variable
+uninit_var.c,178,178,Uninitialized variable
+uninit_var.c,243,243,Uninitialized variable
+uninit_var.c,296,296,Uninitialized variable
+zero_division.c,34,34,Uninitialized variable
+zero_division.c,35,35,Uninitialized variable
+wrong_arguments_func_pointer.c,337,337,Uninitialized variable
+wrong_arguments_func_pointer.c,337,337,Uninitialized variable
+bit_shift.c,120,120,Unsafe function: rand
+buffer_underrun_dynamic.c,249,249,Unsafe function: rand
+conflicting_cond.c,23,23,Unsafe function: rand
+conflicting_cond.c,42,42,Unsafe function: rand
+conflicting_cond.c,61,61,Unsafe function: rand
+conflicting_cond.c,80,80,Unsafe function: rand
+conflicting_cond.c,102,102,Unsafe function: rand
+conflicting_cond.c,136,136,Unsafe function: rand
+conflicting_cond.c,156,156,Unsafe function: rand
+conflicting_cond.c,176,176,Unsafe function: rand
+conflicting_cond.c,197,197,Unsafe function: rand
+data_lost.c,157,157,Unsafe function: rand
+data_overflow.c,204,204,Unsafe function: rand
+double_free.c,81,81,Unsafe function: rand
+double_free.c,86,86,Unsafe function: rand
+double_release.c,54,54,Unsafe function: rand
+double_release.c,105,105,Unsafe function: rand
+double_release.c,151,151,Unsafe function: rand
+double_release.c,196,196,Unsafe function: rand
+double_release.c,245,245,Unsafe function: rand
+double_release.c,281,281,Unsafe function: rand
+double_release.c,292,292,Unsafe function: rand
+free_null_pointer.c,392,392,Unsafe function: rand
+func_pointer.c,330,330,Unsafe function: rand
+insign_code.c,22,22,Unsafe function: rand
+memory_allocation_failure.c,150,150,Unsafe function: rand
+memory_leak.c,197,197,Unsafe function: rand
+not_return.c,29,29,Unsafe function: rand
+not_return.c,55,55,Unsafe function: rand
+not_return.c,81,81,Unsafe function: rand
+not_return.c,104,104,Unsafe function: rand
+null_pointer.c,104,104,Unsafe function: rand
+overrun_st.c,181,181,Unsafe function: rand
+overrun_st.c,442,442,Unsafe function: rand
+redundant_cond.c,25,25,Unsafe function: rand
+redundant_cond.c,44,44,Unsafe function: rand
+redundant_cond.c,63,63,Unsafe function: rand
+redundant_cond.c,82,82,Unsafe function: rand
+redundant_cond.c,101,101,Unsafe function: rand
+redundant_cond.c,120,120,Unsafe function: rand
+redundant_cond.c,142,142,Unsafe function: rand
+redundant_cond.c,176,176,Unsafe function: rand
+redundant_cond.c,196,196,Unsafe function: rand
+redundant_cond.c,216,216,Unsafe function: rand
+redundant_cond.c,236,236,Unsafe function: rand
+redundant_cond.c,256,256,Unsafe function: rand
+redundant_cond.c,276,276,Unsafe function: rand
+sign_conv.c,165,165,Unsafe function: rand
+sleep_lock.c,70,70,Unsafe function: rand
+sleep_lock.c,148,148,Unsafe function: rand
+sleep_lock.c,202,202,Unsafe function: rand
+uninit_memory_access.c,385,385,Unsafe function: rand
+zero_division.c,153,153,Unsafe function: rand
+invalid_memory_access.c,45,45,Use after free
+invalid_memory_access.c,84,84,Use after free
+invalid_memory_access.c,133,133,Use after free
+invalid_memory_access.c,188,188,Use after free
+invalid_memory_access.c,210,210,Use after free
+invalid_memory_access.c,224,224,Use after free
+invalid_memory_access.c,270,270,Use after free
+invalid_memory_access.c,294,294,Use after free
+invalid_memory_access.c,320,320,Use after free
+invalid_memory_access.c,371,371,Use after free
+invalid_memory_access.c,432,432,Use after free
+invalid_memory_access.c,516,516,Use after free
+invalid_memory_access.c,568,568,Use after free
+invalid_memory_access.c,622,622,Use after free
+bit_shift.c,120,120,Weak random number generator
+buffer_underrun_dynamic.c,249,249,Weak random number generator
+conflicting_cond.c,23,23,Weak random number generator
+conflicting_cond.c,42,42,Weak random number generator
+conflicting_cond.c,61,61,Weak random number generator
+conflicting_cond.c,80,80,Weak random number generator
+conflicting_cond.c,102,102,Weak random number generator
+conflicting_cond.c,136,136,Weak random number generator
+conflicting_cond.c,156,156,Weak random number generator
+conflicting_cond.c,176,176,Weak random number generator
+conflicting_cond.c,197,197,Weak random number generator
+data_lost.c,157,157,Weak random number generator
+data_overflow.c,204,204,Weak random number generator
+double_free.c,81,81,Weak random number generator
+double_free.c,86,86,Weak random number generator
+double_release.c,54,54,Weak random number generator
+double_release.c,105,105,Weak random number generator
+double_release.c,151,151,Weak random number generator
+double_release.c,196,196,Weak random number generator
+double_release.c,245,245,Weak random number generator
+double_release.c,281,281,Weak random number generator
+double_release.c,292,292,Weak random number generator
+free_null_pointer.c,392,392,Weak random number generator
+func_pointer.c,330,330,Weak random number generator
+insign_code.c,22,22,Weak random number generator
+memory_allocation_failure.c,150,150,Weak random number generator
+memory_leak.c,197,197,Weak random number generator
+not_return.c,29,29,Weak random number generator
+not_return.c,55,55,Weak random number generator
+not_return.c,81,81,Weak random number generator
+not_return.c,104,104,Weak random number generator
+null_pointer.c,104,104,Weak random number generator
+overrun_st.c,181,181,Weak random number generator
+overrun_st.c,442,442,Weak random number generator
+redundant_cond.c,25,25,Weak random number generator
+redundant_cond.c,44,44,Weak random number generator
+redundant_cond.c,63,63,Weak random number generator
+redundant_cond.c,82,82,Weak random number generator
+redundant_cond.c,101,101,Weak random number generator
+redundant_cond.c,120,120,Weak random number generator
+redundant_cond.c,142,142,Weak random number generator
+redundant_cond.c,176,176,Weak random number generator
+redundant_cond.c,196,196,Weak random number generator
+redundant_cond.c,216,216,Weak random number generator
+redundant_cond.c,236,236,Weak random number generator
+redundant_cond.c,256,256,Weak random number generator
+redundant_cond.c,276,276,Weak random number generator
+sign_conv.c,165,165,Weak random number generator
+sleep_lock.c,70,70,Weak random number generator
+sleep_lock.c,148,148,Weak random number generator
+sleep_lock.c,202,202,Weak random number generator
+uninit_memory_access.c,385,385,Weak random number generator
+zero_division.c,153,153,Weak random number generator
+sleep_lock.c,50,50,Block critical section
+sleep_lock.c,123,123,Block critical section
+sleep_lock.c,124,124,Block critical section
+sleep_lock.c,173,173,Block critical section
+buffer_underrun_dynamic.c,701,701,Dead store
+free_nondynamically_allocated_memory.c,98,98,Dead store
+free_nondynamically_allocated_memory.c,99,99,Dead store
+free_null_pointer.c,419,419,Dead store
+free_null_pointer.c,420,420,Dead store
+free_null_pointer.c,452,452,Dead store
+function_return_value_unchecked.c,393,393,Dead store
+function_return_value_unchecked.c,398,398,Dead store
+func_pointer.c,34,34,Dead store
+func_pointer.c,42,42,Dead store
+func_pointer.c,81,81,Dead store
+func_pointer.c,123,123,Dead store
+func_pointer.c,256,256,Dead store
+func_pointer.c,265,265,Dead store
+func_pointer.c,285,285,Dead store
+func_pointer.c,330,330,Dead store
+func_pointer.c,353,353,Dead store
+func_pointer.c,365,365,Dead store
+func_pointer.c,375,375,Dead store
+func_pointer.c,498,498,Dead store
+func_pointer.c,538,538,Dead store
+func_pointer.c,548,548,Dead store
+func_pointer.c,592,592,Dead store
+insign_code.c,24,24,Dead store
+invalid_memory_access.c,45,45,Dead store
+invalid_memory_access.c,147,147,Dead store
+invalid_memory_access.c,410,410,Dead store
+invalid_memory_access.c,422,422,Dead store
+invalid_memory_access.c,532,532,Dead store
+littlemem_st.c,36,36,Dead store
+lock_never_unlock.c,228,228,Dead store
+lock_never_unlock.c,325,325,Dead store
+memory_allocation_failure.c,282,282,Dead store
+memory_allocation_failure.c,448,448,Dead store
+memory_leak.c,212,212,Dead store
+memory_leak.c,228,228,Dead store
+memory_leak.c,245,245,Dead store
+memory_leak.c,276,276,Dead store
+memory_leak.c,308,308,Dead store
+memory_leak.c,372,372,Dead store
+memory_leak.c,382,382,Dead store
+overrun_st.c,44,44,Dead store
+overrun_st.c,320,320,Dead store
+ptr_subtraction.c,35,35,Dead store
+race_condition.c,372,372,Dead store
+race_condition.c,392,392,Dead store
+st_underrun.c,137,137,Dead store
+st_underrun.c,195,195,Dead store
+st_underrun.c,229,229,Dead store
+underrun_st.c,21,21,Dead store
+underrun_st.c,55,55,Dead store
+uninit_memory_access.c,98,98,Dead store
+uninit_memory_access.c,169,169,Dead store
+uninit_memory_access.c,419,419,Dead store
+uninit_pointer.c,30,30,Dead store
+uninit_pointer.c,55,55,Dead store
+uninit_pointer.c,65,65,Dead store
+uninit_pointer.c,81,81,Dead store
+uninit_pointer.c,90,90,Dead store
+uninit_pointer.c,200,200,Dead store
+uninit_pointer.c,335,335,Dead store
+uninit_var.c,23,23,Dead store
+uninit_var.c,34,34,Dead store
+uninit_var.c,45,45,Dead store
+uninit_var.c,63,63,Dead store
+uninit_var.c,81,81,Dead store
+uninit_var.c,111,111,Dead store
+uninit_var.c,186,186,Dead store
+uninit_var.c,228,228,Dead store
+uninit_var.c,249,249,Dead store
+uninit_var.c,276,276,Dead store
+uninit_var.c,296,296,Dead store
+unused_var.c,24,24,Dead store
+wrong_arguments_func_pointer.c,53,53,Dead store
+wrong_arguments_func_pointer.c,74,74,Dead store
+wrong_arguments_func_pointer.c,94,94,Dead store
+wrong_arguments_func_pointer.c,114,114,Dead store
+wrong_arguments_func_pointer.c,141,141,Dead store
+wrong_arguments_func_pointer.c,161,161,Dead store
+wrong_arguments_func_pointer.c,182,182,Dead store
+wrong_arguments_func_pointer.c,201,201,Dead store
+wrong_arguments_func_pointer.c,225,225,Dead store
+wrong_arguments_func_pointer.c,282,282,Dead store
+wrong_arguments_func_pointer.c,423,423,Dead store
+wrong_arguments_func_pointer.c,491,491,Dead store
+wrong_arguments_func_pointer.c,502,502,Dead store
+wrong_arguments_func_pointer.c,528,528,Dead store
+wrong_arguments_func_pointer.c,539,539,Dead store
+zero_division.c,23,23,Dead store
+zero_division.c,35,35,Dead store
+zero_division.c,47,47,Dead store
+zero_division.c,78,78,Dead store
+zero_division.c,93,93,Dead store
+zero_division.c,118,118,Dead store
+zero_division.c,129,129,Dead store
+zero_division.c,141,141,Dead store
+zero_division.c,154,154,Dead store
+zero_division.c,166,166,Dead store
+zero_division.c,178,178,Dead store
+zero_division.c,195,195,Dead store
+zero_division.c,206,206,Dead store
+zero_division.c,225,225,Dead store
+zero_division.c,252,252,Dead store
+littlemem_st.c,93,93,Garbage memory usage is possible
+return_local.c,19,19,Garbage memory usage is possible
+st_cross_thread_access.c,55,55,Garbage memory usage is possible
+st_cross_thread_access.c,143,143,Garbage memory usage is possible
+st_cross_thread_access.c,231,231,Garbage memory usage is possible
+st_cross_thread_access.c,320,320,Garbage memory usage is possible
+st_cross_thread_access.c,399,399,Garbage memory usage is possible
+st_cross_thread_access.c,482,482,Garbage memory usage is possible
+func_pointer.c,375,375,Incorrect function call
+memory_allocation_failure.c,514,514,Incorrect function call
+uninit_memory_access.c,27,27,Incorrect function call
+uninit_memory_access.c,54,54,Incorrect function call
+uninit_memory_access.c,127,127,Incorrect function call
+uninit_memory_access.c,319,319,Incorrect function call
+uninit_pointer.c,71,71,Incorrect function call
+uninit_pointer.c,187,187,Incorrect function call
+uninit_pointer.c,358,358,Incorrect function call
+wrong_arguments_func_pointer.c,161,161,Incorrect function call
+wrong_arguments_func_pointer.c,381,381,Incorrect function call
+wrong_arguments_func_pointer.c,423,423,Incorrect function call
+wrong_arguments_func_pointer.c,457,457,Incorrect function call
+wrong_arguments_func_pointer.c,213,213,Use of overlapping buffers
+deletion_of_data_structure_sentinel.c,41,41,Using an insecure method
+free_null_pointer.c,108,108,Using an insecure method
+free_null_pointer.c,240,240,Using an insecure method
+function_return_value_unchecked.c,334,334,Using an insecure method
+func_pointer.c,97,97,Using an insecure method
+func_pointer.c,391,391,Using an insecure method
+invalid_memory_access.c,505,505,Using an insecure method
+main.c,22,22,Using an insecure method
+memory_leak.c,72,72,Using an insecure method
+memory_leak.c,399,399,Using an insecure method
+memory_leak.c,423,423,Using an insecure method
+null_pointer.c,237,237,Using an insecure method
+st_underrun.c,24,24,Using an insecure method
+st_underrun.c,50,50,Using an insecure method
+st_underrun.c,85,85,Using an insecure method
+st_underrun.c,122,122,Using an insecure method
+st_underrun.c,191,191,Using an insecure method
+st_underrun.c,225,225,Using an insecure method

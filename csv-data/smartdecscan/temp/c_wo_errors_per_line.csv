@@ -1,0 +1,261 @@
+File,LineStart,LineEnd,Error
+st_underrun.c,213,213,Buffer overflow
+ptr_subtraction.c,23,23,Dangerous pointer manipulation
+free_null_pointer.c,119,119,Function calling with invalid null argument
+free_null_pointer.c,249,249,Function calling with invalid null argument
+memory_leak.c,431,431,Function calling with invalid null argument
+null_pointer.c,259,259,Function calling with invalid null argument
+uninit_pointer.c,227,227,Incompatible allocated type
+free_null_pointer.c,26,26,Insecure string API
+free_null_pointer.c,119,119,Insecure string API
+free_null_pointer.c,156,156,Insecure string API
+free_null_pointer.c,249,249,Insecure string API
+free_null_pointer.c,284,284,Insecure string API
+free_null_pointer.c,325,325,Insecure string API
+invalid_memory_access.c,105,105,Insecure string API
+invalid_memory_access.c,213,213,Insecure string API
+invalid_memory_access.c,567,567,Insecure string API
+invalid_memory_access.c,576,576,Insecure string API
+invalid_memory_access.c,622,622,Insecure string API
+invalid_memory_access.c,634,634,Insecure string API
+memory_allocation_failure.c,594,594,Insecure string API
+memory_leak.c,76,76,Insecure string API
+memory_leak.c,100,100,Insecure string API
+memory_leak.c,277,277,Insecure string API
+memory_leak.c,408,408,Insecure string API
+memory_leak.c,431,431,Insecure string API
+memory_leak.c,526,526,Insecure string API
+null_pointer.c,259,259,Insecure string API
+null_pointer.c,354,354,Insecure string API
+st_underrun.c,81,81,Insecure string API
+st_underrun.c,116,116,Insecure string API
+st_underrun.c,213,213,Insecure string API
+uninit_memory_access.c,55,55,Insecure string API
+uninit_pointer.c,197,197,Insecure string API
+uninit_pointer.c,400,400,Insecure string API
+uninit_pointer.c,423,423,Insecure string API
+uninit_var.c,152,152,Insecure string API
+wrong_arguments_func_pointer.c,208,208,Insecure string API
+wrong_arguments_func_pointer.c,209,209,Insecure string API
+wrong_arguments_func_pointer.c,381,381,Insecure string API
+wrong_arguments_func_pointer.c,435,435,Insecure string API
+wrong_arguments_func_pointer.c,474,474,Insecure string API
+data_overflow.c,99,99,Loss of precision
+data_overflow.c,111,111,Loss of precision
+wrong_arguments_func_pointer.c,370,370,Malloc overflow
+free_null_pointer.c,112,112,Malloc overflow
+free_null_pointer.c,239,239,Malloc overflow
+invalid_memory_access.c,289,289,Malloc overflow
+memory_allocation_failure.c,267,267,Malloc overflow
+memory_leak.c,67,67,Malloc overflow
+memory_leak.c,398,398,Malloc overflow
+memory_leak.c,424,424,Malloc overflow
+null_pointer.c,252,252,Malloc overflow
+free_null_pointer.c,491,491,Memory leak
+func_pointer.c,635,635,Memory leak
+memory_allocation_failure.c,293,293,Memory leak
+uninit_memory_access.c,131,131,Memory leak
+uninit_pointer.c,132,132,Memory leak
+uninit_pointer.c,132,132,Memory leak
+uninit_pointer.c,132,132,Memory leak
+uninit_pointer.c,132,132,Memory leak
+uninit_pointer.c,132,132,Memory leak
+uninit_pointer.c,248,248,Memory leak
+wrong_arguments_func_pointer.c,218,218,Memory leak
+wrong_arguments_func_pointer.c,220,220,Memory leak
+wrong_arguments_func_pointer.c,357,357,Memory leak
+wrong_arguments_func_pointer.c,596,596,Memory leak
+livelock.c,33,33,Mutex double unlock
+livelock.c,52,52,Mutex double unlock
+buffer_underrun_dynamic.c,723,723,Null pointer dereference
+invalid_memory_access.c,70,70,Null pointer dereference
+invalid_memory_access.c,183,183,Null pointer dereference
+invalid_memory_access.c,275,275,Null pointer dereference
+memory_allocation_failure.c,84,84,Null pointer dereference
+memory_leak.c,100,100,Null pointer dereference
+uninit_memory_access.c,76,76,Null pointer dereference
+free_nondynamically_allocated_memory.c,82,82,Reference to array element out of bounds
+func_pointer.c,414,414,Reference to array element out of bounds
+st_underrun.c,52,52,Reference to array element out of bounds
+st_underrun.c,236,236,Reference to array element out of bounds
+st_underrun.c,238,238,Reference to array element out of bounds
+wrong_arguments_func_pointer.c,409,409,Reference to array element out of bounds
+littlemem_st.c,36,36,Type cast error
+littlemem_st.c,55,55,Type cast error
+littlemem_st.c,92,92,Type cast error
+littlemem_st.c,112,112,Type cast error
+littlemem_st.c,138,138,Type cast error
+littlemem_st.c,172,172,Type cast error
+littlemem_st.c,215,215,Type cast error
+littlemem_st.c,259,259,Type cast error
+littlemem_st.c,301,301,Type cast error
+littlemem_st.c,333,333,Type cast error
+ow_memcpy.c,42,42,Uninitialized variable
+st_underrun.c,236,236,Uninitialized variable
+st_underrun.c,238,238,Uninitialized variable
+st_underrun.c,242,242,Uninitialized variable
+wrong_arguments_func_pointer.c,409,409,Uninitialized variable
+bit_shift.c,120,120,Unsafe function: rand
+conflicting_cond.c,24,24,Unsafe function: rand
+conflicting_cond.c,43,43,Unsafe function: rand
+conflicting_cond.c,62,62,Unsafe function: rand
+conflicting_cond.c,81,81,Unsafe function: rand
+conflicting_cond.c,104,104,Unsafe function: rand
+conflicting_cond.c,138,138,Unsafe function: rand
+conflicting_cond.c,158,158,Unsafe function: rand
+conflicting_cond.c,178,178,Unsafe function: rand
+conflicting_cond.c,199,199,Unsafe function: rand
+data_lost.c,160,160,Unsafe function: rand
+data_overflow.c,205,205,Unsafe function: rand
+double_release.c,53,53,Unsafe function: rand
+double_release.c,106,106,Unsafe function: rand
+double_release.c,154,154,Unsafe function: rand
+double_release.c,201,201,Unsafe function: rand
+double_release.c,250,250,Unsafe function: rand
+double_release.c,292,292,Unsafe function: rand
+free_null_pointer.c,364,364,Unsafe function: rand
+func_pointer.c,341,341,Unsafe function: rand
+insign_code.c,23,23,Unsafe function: rand
+memory_leak.c,200,200,Unsafe function: rand
+not_return.c,34,34,Unsafe function: rand
+not_return.c,61,61,Unsafe function: rand
+not_return.c,87,87,Unsafe function: rand
+not_return.c,111,111,Unsafe function: rand
+overrun_st.c,183,183,Unsafe function: rand
+overrun_st.c,443,443,Unsafe function: rand
+redundant_cond.c,26,26,Unsafe function: rand
+redundant_cond.c,45,45,Unsafe function: rand
+redundant_cond.c,64,64,Unsafe function: rand
+redundant_cond.c,83,83,Unsafe function: rand
+redundant_cond.c,102,102,Unsafe function: rand
+redundant_cond.c,121,121,Unsafe function: rand
+redundant_cond.c,141,141,Unsafe function: rand
+redundant_cond.c,175,175,Unsafe function: rand
+redundant_cond.c,195,195,Unsafe function: rand
+redundant_cond.c,215,215,Unsafe function: rand
+redundant_cond.c,235,235,Unsafe function: rand
+redundant_cond.c,255,255,Unsafe function: rand
+redundant_cond.c,275,275,Unsafe function: rand
+sign_conv.c,165,165,Unsafe function: rand
+uninit_memory_access.c,401,401,Unsafe function: rand
+zero_division.c,151,151,Unsafe function: rand
+buffer_underrun_dynamic.c,723,723,Use after free
+bit_shift.c,120,120,Weak random number generator
+conflicting_cond.c,24,24,Weak random number generator
+conflicting_cond.c,43,43,Weak random number generator
+conflicting_cond.c,62,62,Weak random number generator
+conflicting_cond.c,81,81,Weak random number generator
+conflicting_cond.c,104,104,Weak random number generator
+conflicting_cond.c,138,138,Weak random number generator
+conflicting_cond.c,158,158,Weak random number generator
+conflicting_cond.c,178,178,Weak random number generator
+conflicting_cond.c,199,199,Weak random number generator
+data_lost.c,160,160,Weak random number generator
+data_overflow.c,205,205,Weak random number generator
+double_release.c,53,53,Weak random number generator
+double_release.c,106,106,Weak random number generator
+double_release.c,154,154,Weak random number generator
+double_release.c,201,201,Weak random number generator
+double_release.c,250,250,Weak random number generator
+double_release.c,292,292,Weak random number generator
+free_null_pointer.c,364,364,Weak random number generator
+func_pointer.c,341,341,Weak random number generator
+insign_code.c,23,23,Weak random number generator
+memory_leak.c,200,200,Weak random number generator
+not_return.c,34,34,Weak random number generator
+not_return.c,61,61,Weak random number generator
+not_return.c,87,87,Weak random number generator
+not_return.c,111,111,Weak random number generator
+overrun_st.c,183,183,Weak random number generator
+overrun_st.c,443,443,Weak random number generator
+redundant_cond.c,26,26,Weak random number generator
+redundant_cond.c,45,45,Weak random number generator
+redundant_cond.c,64,64,Weak random number generator
+redundant_cond.c,83,83,Weak random number generator
+redundant_cond.c,102,102,Weak random number generator
+redundant_cond.c,121,121,Weak random number generator
+redundant_cond.c,141,141,Weak random number generator
+redundant_cond.c,175,175,Weak random number generator
+redundant_cond.c,195,195,Weak random number generator
+redundant_cond.c,215,215,Weak random number generator
+redundant_cond.c,235,235,Weak random number generator
+redundant_cond.c,255,255,Weak random number generator
+redundant_cond.c,275,275,Weak random number generator
+sign_conv.c,165,165,Weak random number generator
+uninit_memory_access.c,401,401,Weak random number generator
+zero_division.c,151,151,Weak random number generator
+free_nondynamically_allocated_memory.c,60,60,Dead store
+free_null_pointer.c,364,364,Dead store
+free_null_pointer.c,425,425,Dead store
+free_null_pointer.c,458,458,Dead store
+func_pointer.c,341,341,Dead store
+func_pointer.c,513,513,Dead store
+func_pointer.c,565,565,Dead store
+littlemem_st.c,37,37,Dead store
+lock_never_unlock.c,231,231,Dead store
+lock_never_unlock.c,327,327,Dead store
+memory_allocation_failure.c,292,292,Dead store
+memory_allocation_failure.c,457,457,Dead store
+memory_leak.c,378,378,Dead store
+race_condition.c,222,222,Dead store
+race_condition.c,420,420,Dead store
+race_condition.c,440,440,Dead store
+uninit_memory_access.c,100,100,Dead store
+uninit_memory_access.c,401,401,Dead store
+wrong_arguments_func_pointer.c,53,53,Dead store
+wrong_arguments_func_pointer.c,74,74,Dead store
+wrong_arguments_func_pointer.c,94,94,Dead store
+wrong_arguments_func_pointer.c,114,114,Dead store
+wrong_arguments_func_pointer.c,139,139,Dead store
+wrong_arguments_func_pointer.c,158,158,Dead store
+wrong_arguments_func_pointer.c,178,178,Dead store
+wrong_arguments_func_pointer.c,197,197,Dead store
+wrong_arguments_func_pointer.c,224,224,Dead store
+wrong_arguments_func_pointer.c,284,284,Dead store
+wrong_arguments_func_pointer.c,420,420,Dead store
+wrong_arguments_func_pointer.c,487,487,Dead store
+wrong_arguments_func_pointer.c,498,498,Dead store
+wrong_arguments_func_pointer.c,525,525,Dead store
+wrong_arguments_func_pointer.c,536,536,Dead store
+zero_division.c,23,23,Dead store
+zero_division.c,35,35,Dead store
+zero_division.c,46,46,Dead store
+zero_division.c,76,76,Dead store
+zero_division.c,91,91,Dead store
+zero_division.c,116,116,Dead store
+zero_division.c,127,127,Dead store
+zero_division.c,139,139,Dead store
+zero_division.c,154,154,Dead store
+zero_division.c,167,167,Dead store
+zero_division.c,179,179,Dead store
+zero_division.c,196,196,Dead store
+zero_division.c,207,207,Dead store
+zero_division.c,226,226,Dead store
+zero_division.c,253,253,Dead store
+littlemem_st.c,94,94,Garbage memory usage is possible
+st_cross_thread_access.c,56,56,Garbage memory usage is possible
+st_cross_thread_access.c,144,144,Garbage memory usage is possible
+st_cross_thread_access.c,233,233,Garbage memory usage is possible
+st_cross_thread_access.c,321,321,Garbage memory usage is possible
+st_cross_thread_access.c,400,400,Garbage memory usage is possible
+st_cross_thread_access.c,483,483,Garbage memory usage is possible
+buffer_underrun_dynamic.c,647,647,Using an insecure method
+deletion_of_data_structure_sentinel.c,42,42,Using an insecure method
+free_null_pointer.c,118,118,Using an insecure method
+free_null_pointer.c,248,248,Using an insecure method
+function_return_value_unchecked.c,335,335,Using an insecure method
+func_pointer.c,104,104,Using an insecure method
+func_pointer.c,407,407,Using an insecure method
+invalid_memory_access.c,510,510,Using an insecure method
+main.c,22,22,Using an insecure method
+memory_allocation_failure.c,224,224,Using an insecure method
+memory_leak.c,75,75,Using an insecure method
+memory_leak.c,405,405,Using an insecure method
+memory_leak.c,430,430,Using an insecure method
+null_pointer.c,258,258,Using an insecure method
+st_underrun.c,25,25,Using an insecure method
+st_underrun.c,51,51,Using an insecure method
+st_underrun.c,86,86,Using an insecure method
+st_underrun.c,123,123,Using an insecure method
+st_underrun.c,234,234,Using an insecure method
+wrong_arguments_func_pointer.c,380,380,Using an insecure method

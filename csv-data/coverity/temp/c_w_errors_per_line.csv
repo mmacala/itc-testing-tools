@@ -1,0 +1,285 @@
+File,LineStart,LineEnd,Error
+sleep_lock.c,124,124,Waiting while holding a lock
+memory_allocation_failure.c,641,641,Integer overflowed argument
+sleep_lock.c,202,202,Calling risky function
+sleep_lock.c,148,148,Calling risky function
+buffer_overrun_dynamic.c,151,151,Out-of-bounds write
+sleep_lock.c,50,50,Waiting while holding a lock
+memory_allocation_failure.c,103,103,Integer overflowed argument
+sleep_lock.c,70,70,Calling risky function
+sleep_lock.c,182,182,Waiting while holding a lock
+uninit_var.c,22,22,Uninitialized scalar variable
+double_free.c,168,168,Double free
+buffer_overrun_dynamic.c,368,368,Out-of-bounds write
+overrun_st.c,749,749,Out-of-bounds write
+free_nondynamic_allocated_memory.c,170,170,Free of array-typed value
+overrun_st.c,588,588,Out-of-bounds read
+double_free.c,87,87,Double free
+bit_shift.c,45,45,Operands don't affect result
+improper_termination_of_block.c,67,67,Infinite loop
+invalid_memory_access.c,320,320,Write to pointer after free
+bit_shift.c,45,45,Bad bit shift operation
+overrun_st.c,44,44,Out-of-bounds read
+null_pointer.c,63,63,Explicit null dereferenced
+bit_shift.c,81,81,Operands don't affect result
+unlock_without_lock.c,373,373,Double unlock
+overrun_st.c,359,359,Out-of-bounds write
+double_free.c,88,88,Resource leak
+conflicting_cond.c,177,177,Logically dead code
+dead_code.c,99,99,Logically dead code
+conflicting_cond.c,199,199,Constant expression result
+conflicting_cond.c,103,103,Constant expression result
+overrun_st.c,457,457,Out-of-bounds write
+bit_shift.c,146,146,Bad bit shift operation
+buffer_overrun_dynamic.c,349,349,Out-of-bounds write
+endless_loop.c,152,152,'Constant' variable guards dead code
+invalid_memory_access.c,45,45,Read from pointer after free
+memory_leak.c,404,404,Resource leak
+not_return.c,50,50,Missing return statement
+memory_allocation_failure.c,422,422,Argument cannot be negative
+free_nondynamic_allocated_memory.c,128,128,Free of array-typed value
+buffer_overrun_dynamic.c,461,461,Out-of-bounds write
+dead_code.c,248,248,'Constant' variable guards dead code
+overrun_st.c,77,77,Out-of-bounds write
+underrun_st.c,42,42,Negative array index write
+cmp_funcadr.c,48,48,Function address comparison
+double_release.c,281,281,Calling risky function
+free_nondynamic_allocated_memory.c,115,115,Double free
+double_release.c,35,35,Double unlock
+buffer_overrun_dynamic.c,332,332,Out-of-bounds read
+memory_allocation_failure.c,322,322,Operands don't affect result
+null_pointer.c,34,34,Explicit null dereferenced
+overrun_st.c,680,680,Out-of-bounds access
+double_free.c,64,64,Double free
+uninit_pointer.c,40,40,Uninitialized pointer write
+unlock_without_lock.c,280,280,Double unlock
+invalid_memory_access.c,320,320,Dereference after null check
+lock_never_unlock.c,551,551,Double lock
+unlock_without_lock.c,514,514,Data race condition
+overrun_st.c,538,538,Out-of-bounds write
+endless_loop.c,109,109,Infinite loop
+free_null_pointer.c,392,392,Calling risky function
+buffer_overrun_dynamic.c,26,26,Out-of-bounds write
+invalid_memory_access.c,45,45,Dereference after null check
+buffer_overrun_dynamic.c,93,93,Out-of-bounds write
+buffer_overrun_dynamic.c,232,232,Out-of-bounds write
+bit_shift.c,93,93,Bad bit shift operation
+memory_allocation_failure.c,41,41,Resource leak
+null_pointer.c,180,180,Explicit null dereferenced
+memory_leak.c,309,309,Resource leak
+dead_code.c,40,40,'Constant' variable guards dead code
+func_pointer.c,352,352,Explicit null dereferenced
+memory_leak.c,25,25,Resource leak
+invalid_memory_access.c,270,270,Read from pointer after free
+uninit_pointer.c,357,357,Uninitialized pointer read
+double_free.c,187,187,Double free
+free_nondynamic_allocated_memory.c,141,141,Free of array-typed value
+bit_shift.c,208,208,Bad bit shift operation
+double_free.c,22,22,Double free
+buffer_overrun_dynamic.c,247,247,Out-of-bounds write
+conflicting_cond.c,24,24,Constant expression result
+conflicting_cond.c,103,103,Logically dead code
+invalid_memory_access.c,371,371,Dereference after null check
+conflicting_cond.c,120,120,Logically dead code
+memory_allocation_failure.c,513,513,Uninitialized scalar variable
+overrun_st.c,158,158,Out-of-bounds write
+double_free.c,131,131,Double free
+uninit_pointer.c,186,186,Uninitialized pointer read
+function_return_value_unchecked.c,69,69,Useless call
+double_free.c,222,222,Double free
+buffer_overrun_dynamic.c,129,129,Out-of-bounds write
+overrun_st.c,630,630,Out-of-bounds write
+dead_code.c,168,168,'Constant' variable guards dead code
+overrun_st.c,142,142,Out-of-bounds write
+bit_shift.c,163,163,Bad bit shift operation
+unlock_without_lock.c,543,543,Double unlock
+invalid_memory_access.c,105,105,Use after free
+null_pointer.c,104,104,Calling risky function
+buffer_underrun_dynamic.c,605,605,Negative array index write
+buffer_overrun_dynamic.c,262,262,Out-of-bounds write
+lock_never_unlock.c,398,398,Double lock
+overrun_st.c,99,99,Out-of-bounds read
+overrun_st.c,706,706,Out-of-bounds write
+bit_shift.c,106,106,Bad bit shift operation
+lock_never_unlock.c,461,461,Missing unlock
+bit_shift.c,236,236,Bad bit shift operation
+buffer_overrun_dynamic.c,76,76,Out-of-bounds write
+invalid_memory_access.c,224,224,Use after free
+overrun_st.c,306,306,Out-of-bounds write
+wrong_arguments_func_pointer.c,336,336,Uninitialized scalar variable
+null_pointer.c,173,173,Explicit null dereferenced
+buffer_underrun_dynamic.c,248,248,Calling risky function
+buffer_overrun_dynamic.c,41,41,Out-of-bounds write
+bit_shift.c,81,81,Bad bit shift operation
+uninit_memory_access.c,434,434,Uninitialized scalar variable
+overrun_st.c,724,724,Out-of-bounds read
+free_nondynamic_allocated_memory.c,103,103,Free of address-of expression
+invalid_memory_access.c,147,147,Uninitialized pointer read
+improper_termination_of_block.c,38,38,Stray semicolon
+overrun_st.c,32,32,Out-of-bounds write
+conflicting_cond.c,159,159,Logically dead code
+dead_lock.c,39,39,Data race condition
+conflicting_cond.c,137,137,Constant expression result
+null_pointer.c,196,196,Dereference after null check
+overrun_st.c,320,320,Out-of-bounds read
+zero_division.c,177,177,Division or modulo by zero
+overrun_st.c,110,110,Out-of-bounds read
+overrun_st.c,21,21,Out-of-bounds write
+uninit_var.c,74,74,Uninitialized scalar variable
+uninit_var.c,185,185,Uninitialized scalar variable
+overrun_st.c,293,293,Out-of-bounds write
+free_nondynamic_allocated_memory.c,155,155,Free of array-typed value
+bit_shift.c,225,225,Bad bit shift operation
+buffer_overrun_dynamic.c,402,402,Out-of-bounds write
+buffer_overrun_dynamic.c,495,495,Out-of-bounds write
+return_local.c,36,36,Pointer to local outside scope
+function_return_value_unchecked.c,212,212,Logically dead code
+double_release.c,283,283,Double unlock
+conflicting_cond.c,118,118,Constant expression result
+uninit_var.c,141,141,Uninitialized scalar variable
+dead_lock.c,44,44,Thread deadlock
+wrong_arguments_func_pointer.c,356,356,Uninitialized scalar variable
+free_null_pointer.c,452,452,Explicit null dereferenced
+conflicting_cond.c,26,26,Logically dead code
+invalid_memory_access.c,188,188,Read from pointer after free
+conflicting_cond.c,85,85,Logically dead code
+conflicting_cond.c,62,62,Logically dead code
+null_pointer.c,23,23,Explicit null dereferenced
+dead_code.c,230,230,Logically dead code
+double_lock.c,94,94,Double lock
+overrun_st.c,489,489,Out-of-bounds write
+buffer_overrun_dynamic.c,513,513,Out-of-bounds read
+endless_loop.c,39,39,Infinite loop
+uninit_var.c,33,33,Uninitialized scalar variable
+free_null_pointer.c,514,514,Logically dead code
+zero_division.c,210,210,Division or modulo by zero
+bit_shift.c,133,133,Bad bit shift operation
+endless_loop.c,76,76,'Constant' variable guards dead code
+dead_code.c,116,116,'Constant' variable guards dead code
+uninit_var.c,91,91,Uninitialized scalar variable
+memory_leak.c,228,228,Resource leak
+buffer_overrun_dynamic.c,297,297,Out-of-bounds write
+invalid_memory_access.c,432,432,Dereference after null check
+dead_lock.c,308,308,Thread deadlock
+free_nondynamic_allocated_memory.c,141,141,Double free
+uninit_memory_access.c,53,53,Uninitialized pointer read
+free_null_pointer.c,479,479,Logically dead code
+free_nondynamic_allocated_memory.c,62,62,Free of address-of expression
+buffer_overrun_dynamic.c,421,421,Out-of-bounds write
+dead_lock.c,654,654,Thread deadlock
+overrun_st.c,471,471,Out-of-bounds write
+dead_lock.c,473,473,Thread deadlock
+function_return_value_unchecked.c,294,294,Useless call
+invalid_memory_access.c,85,85,Uninitialized scalar variable
+overrun_st.c,222,222,Out-of-bounds write
+overrun_st.c,264,264,Out-of-bounds write
+invalid_memory_access.c,516,516,Use after free
+buffer_overrun_dynamic.c,61,61,Out-of-bounds read
+buffer_overrun_dynamic.c,217,217,Out-of-bounds read
+uninit_pointer.c,110,110,Uninitialized pointer read
+not_return.c,24,24,Missing return statement
+bit_shift.c,69,69,Bad bit shift operation
+buffer_overrun_dynamic.c,197,197,Out-of-bounds write
+conflicting_cond.c,45,45,Logically dead code
+overrun_st.c,372,372,Out-of-bounds write
+zero_division.c,224,224,Division or modulo by zero
+function_return_value_unchecked.c,90,90,Logically dead code
+uninit_var.c,242,242,Uninitialized scalar variable
+double_free.c,204,204,Double free
+memory_leak.c,120,120,Resource leak
+overrun_st.c,664,664,Out-of-bounds access
+overrun_st.c,695,695,Out-of-bounds access
+invalid_memory_access.c,294,294,Write to pointer after free
+memory_leak.c,119,119,Logically dead code
+endless_loop.c,43,43,Logically dead code
+uninit_memory_access.c,126,126,Uninitialized pointer read
+uninit_var.c,62,62,Uninitialized scalar variable
+buffer_overrun_dynamic.c,479,479,Out-of-bounds write
+memory_leak.c,348,348,Resource leak
+null_pointer.c,159,159,Explicit null dereferenced
+free_nondynamic_allocated_memory.c,22,22,Free of array-typed value
+overrun_st.c,169,169,Out-of-bounds write
+conflicting_cond.c,139,139,Logically dead code
+uninit_pointer.c,29,29,Uninitialized pointer read
+overrun_st.c,402,402,Out-of-bounds write
+buffer_overrun_dynamic.c,386,386,Out-of-bounds write
+invalid_memory_access.c,210,210,Read from pointer after free
+zero_division.c,165,165,Division or modulo by zero
+invalid_memory_access.c,432,432,Read from pointer after free
+return_local.c,19,19,Pointer to local outside scope
+overrun_st.c,570,570,Out-of-bounds write
+endless_loop.c,131,131,Infinite loop
+uninit_var.c,130,130,Uninitialized scalar variable
+unlock_without_lock.c,109,109,Double unlock
+memory_leak.c,247,247,Resource leak
+memory_leak.c,151,151,Resource leak
+endless_loop.c,72,72,Infinite loop
+overrun_st.c,280,280,Out-of-bounds write
+overrun_st.c,66,66,Out-of-bounds write
+double_release.c,226,226,Double unlock
+wrong_arguments_func_pointer.c,381,381,Explicit null dereferenced
+bit_shift.c,21,21,Operands don't affect result
+invalid_memory_access.c,84,84,Read from pointer after free
+buffer_overrun_dynamic.c,579,579,Out-of-bounds write
+uninit_memory_access.c,318,318,Uninitialized pointer read
+endless_loop.c,135,135,Logically dead code
+wrong_arguments_func_pointer.c,250,250,Uninitialized scalar variable
+overrun_st.c,238,238,Out-of-bounds access
+free_nondynamic_allocated_memory.c,209,209,Free of address-of expression
+uninit_var.c,110,110,Uninitialized scalar variable
+overrun_st.c,428,428,Out-of-bounds write
+zero_division.c,140,140,Division or modulo by zero
+dead_lock.c,65,65,Data race condition
+overrun_st.c,55,55,Out-of-bounds write
+uninit_var.c,227,227,Uninitialized scalar variable
+overrun_st.c,761,761,Out-of-bounds write
+invalid_memory_access.c,476,476,Structurally dead code
+not_return.c,76,76,Missing return statement
+double_free.c,86,86,Calling risky function
+unlock_without_lock.c,443,443,Data race condition
+overrun_st.c,333,333,Out-of-bounds write
+buffer_overrun_dynamic.c,606,606,Out-of-bounds write
+overrun_st.c,415,415,Out-of-bounds write
+free_nondynamic_allocated_memory.c,187,187,Free of array-typed value
+uninit_pointer.c,151,151,Uninitialized scalar variable
+double_lock.c,42,42,Double lock
+double_release.c,178,178,Double unlock
+invalid_memory_access.c,133,133,Use after free
+free_null_pointer.c,544,544,Logically dead code
+overrun_st.c,194,194,Out-of-bounds write
+memory_allocation_failure.c,149,149,Calling risky function
+free_nondynamic_allocated_memory.c,115,115,Free of array-typed value
+double_free.c,115,115,Double free
+unlock_without_lock.c,104,104,Data race condition
+overrun_st.c,206,206,Out-of-bounds write
+unlock_without_lock.c,279,279,Data race condition
+null_pointer.c,94,94,Explicit null dereferenced
+zero_division.c,46,46,Division or modulo by zero
+free_nondynamic_allocated_memory.c,86,86,Free of array-typed value
+bit_shift.c,21,21,Bad bit shift operation
+overrun_st.c,346,346,Out-of-bounds write
+improper_termination_of_block.c,68,68,Logically dead code
+overrun_st.c,773,773,Out-of-bounds write
+free_nondynamic_allocated_memory.c,36,36,Free of array-typed value
+cmp_funcadr.c,26,26,Function address comparison
+double_free.c,101,101,Double free
+memory_leak.c,212,212,Resource leak
+uninit_memory_access.c,200,200,Resource leak
+zero_division.c,194,194,Division or modulo by zero
+invalid_memory_access.c,371,371,Read from pointer after free
+not_return.c,99,99,Missing return statement
+overrun_st.c,88,88,Out-of-bounds write
+memory_leak.c,74,74,Resource leak
+dead_code.c,133,133,Logically dead code
+overrun_st.c,648,648,Out-of-bounds access
+lock_never_unlock.c,93,93,Double lock
+free_nondynamic_allocated_memory.c,128,128,Double free
+buffer_overrun_dynamic.c,441,441,Out-of-bounds access
+func_pointer.c,177,177,Explicit null dereferenced
+endless_loop.c,148,148,Infinite loop
+double_free.c,43,43,Double free
+buffer_overrun_dynamic.c,277,277,Out-of-bounds write
+dead_lock.c,465,465,Thread deadlock
+overrun_st.c,556,556,Out-of-bounds write
+buffer_overrun_dynamic.c,111,111,Out-of-bounds write
+st_underrun.c,235,235,Parse warning

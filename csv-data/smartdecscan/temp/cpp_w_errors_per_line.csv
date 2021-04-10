@@ -1,0 +1,8 @@
+File,LineStart,LineEnd,Error
+improper_error_handling.cpp,22,22,Division by zero
+improper_error_handling.cpp,22,22,Uninitialized variable
+improper_error_handling.cpp,22,22,Dead store
+improper_error_handling.cpp,42,42,Dead store
+improper_error_handling.cpp,63,63,Dead store
+improper_error_handling.cpp,87,87,Dead store
+main.cpp,24,24,Using an insecure method

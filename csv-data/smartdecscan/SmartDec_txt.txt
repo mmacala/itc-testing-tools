@@ -1,0 +1,4623 @@
+Vulnerability Table
+
+Vulnerabilities are displayed depending on export settings.
+
+Critical vulnerabilities
+
+Buffer overflow
+
+C/C++
+
+Dangerous pointer manipulation
+
+C/C++
+
+01.w_Defects/st_underrun.c:204
+
+02.wo_Defects/st_underrun.c:213
+
+01.w_Defects/ptr_subtraction.c:22
+
+01.w_Defects/ptr_subtraction.c:35
+
+02.wo_Defects/ptr_subtraction.c:23
+
+Medium-level vulnerabilities
+
+Division by zero
+
+C/C++
+
+01.w_Defects/zero_division.c:23
+
+01.w_Defects/zero_division.c:34
+
+01.w_Defects/zero_division.c:47
+
+01.w_Defects/zero_division.c:78
+
+01.w_Defects/zero_division.c:118
+
+01.w_Defects/zero_division.c:141
+
+01.w_Defects/zero_division.c:166
+
+01.w_Defects/zero_division.c:178
+
+01.w_Defects/zero_division.c:195
+
+01.w_Defects/zero_division.c:206
+
+01.w_Defects/zero_division.c:225
+
+01.w_Defects/zero_division.c:252
+
+* Rejected vulnerabilities are not taken into account
+
+itc-benchmarks-test.git
+
+5*
+
+2
+
+3
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+733*
+
+13
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+7
+
+itc-benchmarks-test.git
+
+Medium-level vulnerabilities
+
+Division by zero
+
+C/C++
+
+03.w_Defects_Cpp/improper_error_handling.cpp:22
+
+Not processed
+
+Double free
+
+C/C++
+
+12
+
+01.w_Defects/double_free.c:22
+
+01.w_Defects/double_free.c:43
+
+01.w_Defects/double_free.c:64
+
+01.w_Defects/double_free.c:87
+
+01.w_Defects/double_free.c:101
+
+01.w_Defects/double_free.c:115
+
+01.w_Defects/double_free.c:131
+
+01.w_Defects/double_free.c:149
+
+01.w_Defects/double_free.c:168
+
+01.w_Defects/double_free.c:187
+
+01.w_Defects/double_free.c:204
+
+01.w_Defects/double_free.c:222
+
+01.w_Defects/free_null_pointer.c:109
+
+01.w_Defects/free_null_pointer.c:146
+
+01.w_Defects/free_null_pointer.c:241
+
+01.w_Defects/memory_leak.c:424
+
+01.w_Defects/null_pointer.c:238
+
+02.wo_Defects/free_null_pointer.c:119
+
+02.wo_Defects/free_null_pointer.c:249
+
+02.wo_Defects/memory_leak.c:431
+
+* Rejected vulnerabilities are not taken into account
+
+Function calling with invalid null argument
+
+C/C++
+
+9
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+8
+
+itc-benchmarks-test.git
+
+Medium-level vulnerabilities
+
+Function calling with invalid null argument
+
+C/C++
+
+02.wo_Defects/null_pointer.c:259
+
+Not processed
+
+01.w_Defects/pow_related_errors.c:441
+
+Not processed
+
+Identical expressions
+
+Incompatible allocated type
+
+01.w_Defects/uninit_pointer.c:215
+
+02.wo_Defects/uninit_pointer.c:227
+
+C/C++
+
+C/C++
+
+Insecure string API
+
+C/C++
+
+01.w_Defects/free_null_pointer.c:109
+
+01.w_Defects/free_null_pointer.c:146
+
+01.w_Defects/free_null_pointer.c:241
+
+01.w_Defects/free_null_pointer.c:275
+
+01.w_Defects/free_null_pointer.c:320
+
+01.w_Defects/invalid_memory_access.c:102
+
+01.w_Defects/invalid_memory_access.c:205
+
+01.w_Defects/invalid_memory_access.c:210
+
+01.w_Defects/invalid_memory_access.c:560
+
+01.w_Defects/invalid_memory_access.c:568
+
+01.w_Defects/invalid_memory_access.c:611
+
+01.w_Defects/invalid_memory_access.c:622
+
+01.w_Defects/memory_allocation_failure.c:495
+
+01.w_Defects/memory_allocation_failure.c:577
+
+01.w_Defects/memory_leak.c:73
+
+* Rejected vulnerabilities are not taken into account
+
+1
+
+2
+
+70
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+9
+
+itc-benchmarks-test.git
+
+Medium-level vulnerabilities
+
+Insecure string API
+
+C/C++
+
+01.w_Defects/memory_leak.c:96
+
+01.w_Defects/memory_leak.c:270
+
+01.w_Defects/memory_leak.c:402
+
+01.w_Defects/memory_leak.c:424
+
+01.w_Defects/memory_leak.c:517
+
+01.w_Defects/null_pointer.c:238
+
+01.w_Defects/null_pointer.c:334
+
+01.w_Defects/st_cross_thread_access.c:335
+
+01.w_Defects/st_underrun.c:80
+
+01.w_Defects/st_underrun.c:115
+
+01.w_Defects/st_underrun.c:204
+
+01.w_Defects/uninit_memory_access.c:54
+
+01.w_Defects/uninit_pointer.c:187
+
+01.w_Defects/uninit_pointer.c:385
+
+01.w_Defects/uninit_pointer.c:406
+
+01.w_Defects/uninit_var.c:142
+
+01.w_Defects/wrong_arguments_func_pointer.c:213
+
+01.w_Defects/wrong_arguments_func_pointer.c:214
+
+01.w_Defects/wrong_arguments_func_pointer.c:382
+
+01.w_Defects/wrong_arguments_func_pointer.c:439
+
+01.w_Defects/wrong_arguments_func_pointer.c:478
+
+02.wo_Defects/free_null_pointer.c:26
+
+02.wo_Defects/free_null_pointer.c:119
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+* Rejected vulnerabilities are not taken into account
+
+10
+
+itc-benchmarks-test.git
+
+Medium-level vulnerabilities
+
+Insecure string API
+
+C/C++
+
+02.wo_Defects/free_null_pointer.c:156
+
+02.wo_Defects/free_null_pointer.c:249
+
+02.wo_Defects/free_null_pointer.c:284
+
+02.wo_Defects/free_null_pointer.c:325
+
+02.wo_Defects/invalid_memory_access.c:105
+
+02.wo_Defects/invalid_memory_access.c:213
+
+02.wo_Defects/invalid_memory_access.c:567
+
+02.wo_Defects/invalid_memory_access.c:576
+
+02.wo_Defects/invalid_memory_access.c:622
+
+02.wo_Defects/invalid_memory_access.c:634
+
+02.wo_Defects/memory_allocation_failure.c:594
+
+02.wo_Defects/memory_leak.c:76
+
+02.wo_Defects/memory_leak.c:100
+
+02.wo_Defects/memory_leak.c:277
+
+02.wo_Defects/memory_leak.c:408
+
+02.wo_Defects/memory_leak.c:431
+
+02.wo_Defects/memory_leak.c:526
+
+02.wo_Defects/null_pointer.c:259
+
+02.wo_Defects/null_pointer.c:354
+
+02.wo_Defects/st_underrun.c:81
+
+02.wo_Defects/st_underrun.c:116
+
+02.wo_Defects/st_underrun.c:213
+
+02.wo_Defects/uninit_memory_access.c:55
+
+* Rejected vulnerabilities are not taken into account
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+11
+
+Medium-level vulnerabilities
+
+Insecure string API
+
+C/C++
+
+02.wo_Defects/uninit_pointer.c:197
+
+02.wo_Defects/uninit_pointer.c:400
+
+02.wo_Defects/uninit_pointer.c:423
+
+02.wo_Defects/uninit_var.c:152
+
+02.wo_Defects/wrong_arguments_func_pointer.c:208
+
+02.wo_Defects/wrong_arguments_func_pointer.c:209
+
+02.wo_Defects/wrong_arguments_func_pointer.c:381
+
+02.wo_Defects/wrong_arguments_func_pointer.c:435
+
+02.wo_Defects/wrong_arguments_func_pointer.c:474
+
+01.w_Defects/free_nondynamically_allocated_memory.c:22
+
+01.w_Defects/free_nondynamically_allocated_memory.c:36
+
+01.w_Defects/free_nondynamically_allocated_memory.c:48
+
+01.w_Defects/free_nondynamically_allocated_memory.c:62
+
+01.w_Defects/free_nondynamically_allocated_memory.c:86
+
+itc-benchmarks-test.git
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Invalid memory deallocation function usage
+
+C/C++
+
+17
+
+01.w_Defects/free_nondynamically_allocated_memory.c:103
+
+Not processed
+
+01.w_Defects/free_nondynamically_allocated_memory.c:115
+
+Not processed
+
+01.w_Defects/free_nondynamically_allocated_memory.c:128
+
+Not processed
+
+01.w_Defects/free_nondynamically_allocated_memory.c:141
+
+Not processed
+
+01.w_Defects/free_nondynamically_allocated_memory.c:155
+
+Not processed
+
+01.w_Defects/free_nondynamically_allocated_memory.c:170
+
+Not processed
+
+01.w_Defects/free_nondynamically_allocated_memory.c:187
+
+Not processed
+
+01.w_Defects/free_nondynamically_allocated_memory.c:209
+
+Not processed
+
+* Rejected vulnerabilities are not taken into account
+
+12
+
+itc-benchmarks-test.git
+
+Medium-level vulnerabilities
+
+Invalid memory deallocation function usage
+
+C/C++
+
+01.w_Defects/free_nondynamically_allocated_memory.c:229
+
+Not processed
+
+01.w_Defects/free_nondynamically_allocated_memory.c:239
+
+Not processed
+
+01.w_Defects/free_nondynamically_allocated_memory.c:262
+
+Not processed
+
+01.w_Defects/uninit_memory_access.c:420
+
+Not processed
+
+Loss of precision
+
+C/C++
+
+34
+
+01.w_Defects/bit_shift.c:35
+
+01.w_Defects/bit_shift.c:59
+
+01.w_Defects/data_lost.c:22
+
+01.w_Defects/data_lost.c:34
+
+01.w_Defects/data_lost.c:46
+
+01.w_Defects/data_lost.c:94
+
+01.w_Defects/data_lost.c:106
+
+01.w_Defects/data_lost.c:118
+
+01.w_Defects/data_lost.c:209
+
+01.w_Defects/data_lost.c:240
+
+01.w_Defects/data_lost.c:256
+
+01.w_Defects/data_overflow.c:62
+
+01.w_Defects/data_overflow.c:110
+
+01.w_Defects/data_underflow.c:34
+
+01.w_Defects/sign_conv.c:23
+
+01.w_Defects/sign_conv.c:35
+
+01.w_Defects/sign_conv.c:47
+
+01.w_Defects/sign_conv.c:60
+
+* Rejected vulnerabilities are not taken into account
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+13
+
+itc-benchmarks-test.git
+
+Medium-level vulnerabilities
+
+Loss of precision
+
+C/C++
+
+01.w_Defects/sign_conv.c:71
+
+01.w_Defects/sign_conv.c:83
+
+01.w_Defects/sign_conv.c:95
+
+01.w_Defects/sign_conv.c:96
+
+01.w_Defects/sign_conv.c:107
+
+01.w_Defects/sign_conv.c:108
+
+01.w_Defects/sign_conv.c:151
+
+01.w_Defects/sign_conv.c:180
+
+01.w_Defects/sign_conv.c:192
+
+01.w_Defects/sign_conv.c:217
+
+01.w_Defects/sign_conv.c:246
+
+01.w_Defects/sign_conv.c:247
+
+01.w_Defects/sign_conv.c:262
+
+01.w_Defects/sign_conv.c:263
+
+02.wo_Defects/data_overflow.c:99
+
+02.wo_Defects/data_overflow.c:111
+
+Malloc overflow
+
+C/C++
+
+18
+
+01.w_Defects/free_null_pointer.c:102
+
+01.w_Defects/free_null_pointer.c:231
+
+01.w_Defects/invalid_memory_access.c:280
+
+01.w_Defects/memory_allocation_failure.c:258
+
+01.w_Defects/memory_leak.c:64
+
+01.w_Defects/memory_leak.c:392
+
+* Rejected vulnerabilities are not taken into account
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+14
+
+itc-benchmarks-test.git
+
+Medium-level vulnerabilities
+
+Malloc overflow
+
+C/C++
+
+02.wo_Defects/wrong_arguments_func_pointer.c:370
+
+Memory leak
+
+C/C++
+
+37
+
+01.w_Defects/memory_leak.c:417
+
+01.w_Defects/null_pointer.c:231
+
+01.w_Defects/wrong_arguments_func_pointer.c:371
+
+02.wo_Defects/free_null_pointer.c:112
+
+02.wo_Defects/free_null_pointer.c:239
+
+02.wo_Defects/invalid_memory_access.c:289
+
+02.wo_Defects/memory_allocation_failure.c:267
+
+02.wo_Defects/memory_leak.c:67
+
+02.wo_Defects/memory_leak.c:398
+
+02.wo_Defects/memory_leak.c:424
+
+02.wo_Defects/null_pointer.c:252
+
+01.w_Defects/memory_allocation_failure.c:283
+
+01.w_Defects/double_free.c:88
+
+01.w_Defects/func_pointer.c:117
+
+01.w_Defects/func_pointer.c:411
+
+01.w_Defects/func_pointer.c:608
+
+01.w_Defects/memory_leak.c:74
+
+01.w_Defects/memory_leak.c:120
+
+01.w_Defects/memory_leak.c:151
+
+01.w_Defects/memory_leak.c:219
+
+01.w_Defects/memory_leak.c:236
+
+* Rejected vulnerabilities are not taken into account
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+15
+
+itc-benchmarks-test.git
+
+Medium-level vulnerabilities
+
+Memory leak
+
+C/C++
+
+01.w_Defects/memory_leak.c:248
+
+01.w_Defects/memory_leak.c:276
+
+01.w_Defects/memory_leak.c:311
+
+01.w_Defects/memory_leak.c:359
+
+01.w_Defects/memory_leak.c:384
+
+01.w_Defects/memory_leak.c:404
+
+01.w_Defects/uninit_pointer.c:125
+
+01.w_Defects/uninit_pointer.c:125
+
+01.w_Defects/uninit_pointer.c:125
+
+01.w_Defects/uninit_pointer.c:125
+
+01.w_Defects/uninit_pointer.c:236
+
+01.w_Defects/uninit_memory_access.c:201
+
+01.w_Defects/wrong_arguments_func_pointer.c:601
+
+02.wo_Defects/free_null_pointer.c:491
+
+02.wo_Defects/func_pointer.c:635
+
+02.wo_Defects/memory_allocation_failure.c:293
+
+02.wo_Defects/uninit_memory_access.c:131
+
+02.wo_Defects/uninit_pointer.c:132
+
+02.wo_Defects/uninit_pointer.c:132
+
+02.wo_Defects/uninit_pointer.c:132
+
+02.wo_Defects/uninit_pointer.c:132
+
+02.wo_Defects/uninit_pointer.c:132
+
+02.wo_Defects/uninit_pointer.c:248
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+* Rejected vulnerabilities are not taken into account
+
+16
+
+itc-benchmarks-test.git
+
+Medium-level vulnerabilities
+
+Memory leak
+
+C/C++
+
+02.wo_Defects/wrong_arguments_func_pointer.c:218
+
+02.wo_Defects/wrong_arguments_func_pointer.c:220
+
+02.wo_Defects/wrong_arguments_func_pointer.c:357
+
+02.wo_Defects/wrong_arguments_func_pointer.c:596
+
+Mutex double lock
+
+C/C++
+
+9
+
+01.w_Defects/double_lock.c:42
+
+01.w_Defects/double_lock.c:93
+
+01.w_Defects/double_lock.c:140
+
+01.w_Defects/livelock.c:32
+
+01.w_Defects/livelock.c:49
+
+01.w_Defects/lock_never_unlock.c:93
+
+01.w_Defects/lock_never_unlock.c:147
+
+01.w_Defects/lock_never_unlock.c:398
+
+01.w_Defects/lock_never_unlock.c:551
+
+01.w_Defects/double_release.c:35
+
+01.w_Defects/double_release.c:133
+
+01.w_Defects/double_release.c:178
+
+01.w_Defects/double_release.c:226
+
+01.w_Defects/double_release.c:283
+
+01.w_Defects/unlock_without_lock.c:110
+
+01.w_Defects/unlock_without_lock.c:202
+
+01.w_Defects/unlock_without_lock.c:281
+
+Mutex double unlock
+
+C/C++
+
+12
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+* Rejected vulnerabilities are not taken into account
+
+17
+
+itc-benchmarks-test.git
+
+Medium-level vulnerabilities
+
+Mutex double unlock
+
+C/C++
+
+01.w_Defects/unlock_without_lock.c:374
+
+01.w_Defects/unlock_without_lock.c:544
+
+02.wo_Defects/livelock.c:33
+
+02.wo_Defects/livelock.c:52
+
+Null pointer dereference
+
+C/C++
+
+36
+
+01.w_Defects/buffer_underrun_dynamic.c:155
+
+01.w_Defects/free_nondynamically_allocated_memory.c:82
+
+01.w_Defects/free_null_pointer.c:275
+
+01.w_Defects/free_null_pointer.c:452
+
+01.w_Defects/free_null_pointer.c:483
+
+01.w_Defects/func_pointer.c:177
+
+01.w_Defects/func_pointer.c:352
+
+01.w_Defects/invalid_memory_access.c:45
+
+01.w_Defects/invalid_memory_access.c:181
+
+01.w_Defects/invalid_memory_access.c:265
+
+01.w_Defects/invalid_memory_access.c:320
+
+01.w_Defects/invalid_memory_access.c:371
+
+01.w_Defects/invalid_memory_access.c:432
+
+01.w_Defects/memory_allocation_failure.c:82
+
+01.w_Defects/memory_leak.c:96
+
+01.w_Defects/null_pointer.c:23
+
+01.w_Defects/null_pointer.c:34
+
+01.w_Defects/null_pointer.c:47
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+* Rejected vulnerabilities are not taken into account
+
+18
+
+itc-benchmarks-test.git
+
+Medium-level vulnerabilities
+
+Null pointer dereference
+
+C/C++
+
+01.w_Defects/null_pointer.c:63
+
+01.w_Defects/null_pointer.c:94
+
+01.w_Defects/null_pointer.c:117
+
+01.w_Defects/null_pointer.c:142
+
+01.w_Defects/null_pointer.c:159
+
+01.w_Defects/null_pointer.c:173
+
+01.w_Defects/null_pointer.c:180
+
+01.w_Defects/null_pointer.c:334
+
+01.w_Defects/uninit_memory_access.c:74
+
+01.w_Defects/uninit_pointer.c:131
+
+02.wo_Defects/buffer_underrun_dynamic.c:723
+
+02.wo_Defects/invalid_memory_access.c:70
+
+02.wo_Defects/invalid_memory_access.c:183
+
+02.wo_Defects/invalid_memory_access.c:275
+
+02.wo_Defects/memory_allocation_failure.c:84
+
+02.wo_Defects/memory_leak.c:100
+
+02.wo_Defects/uninit_memory_access.c:76
+
+01.w_Defects/buffer_overrun_dynamic.c:27
+
+01.w_Defects/buffer_overrun_dynamic.c:42
+
+01.w_Defects/buffer_overrun_dynamic.c:62
+
+01.w_Defects/buffer_overrun_dynamic.c:77
+
+02.wo_Defects/free_nondynamically_allocated_memory.c:82
+
+Not processed
+
+Reference to array element out of bounds
+
+C/C++
+
+152
+
+* Rejected vulnerabilities are not taken into account
+
+19
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+itc-benchmarks-test.git
+
+Medium-level vulnerabilities
+
+Reference to array element out of bounds
+
+C/C++
+
+01.w_Defects/buffer_overrun_dynamic.c:94
+
+01.w_Defects/buffer_overrun_dynamic.c:112
+
+01.w_Defects/buffer_overrun_dynamic.c:130
+
+01.w_Defects/buffer_overrun_dynamic.c:152
+
+01.w_Defects/buffer_overrun_dynamic.c:174
+
+01.w_Defects/buffer_overrun_dynamic.c:233
+
+01.w_Defects/buffer_overrun_dynamic.c:248
+
+01.w_Defects/buffer_overrun_dynamic.c:263
+
+01.w_Defects/buffer_overrun_dynamic.c:278
+
+01.w_Defects/buffer_overrun_dynamic.c:298
+
+01.w_Defects/buffer_overrun_dynamic.c:312
+
+01.w_Defects/buffer_overrun_dynamic.c:333
+
+01.w_Defects/buffer_overrun_dynamic.c:350
+
+01.w_Defects/buffer_overrun_dynamic.c:369
+
+01.w_Defects/buffer_overrun_dynamic.c:387
+
+01.w_Defects/buffer_overrun_dynamic.c:403
+
+01.w_Defects/buffer_overrun_dynamic.c:422
+
+01.w_Defects/buffer_overrun_dynamic.c:435
+
+01.w_Defects/buffer_overrun_dynamic.c:462
+
+01.w_Defects/buffer_overrun_dynamic.c:480
+
+01.w_Defects/buffer_overrun_dynamic.c:496
+
+01.w_Defects/buffer_overrun_dynamic.c:514
+
+01.w_Defects/buffer_overrun_dynamic.c:532
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+* Rejected vulnerabilities are not taken into account
+
+20
+
+itc-benchmarks-test.git
+
+Medium-level vulnerabilities
+
+Reference to array element out of bounds
+
+C/C++
+
+01.w_Defects/buffer_overrun_dynamic.c:559
+
+01.w_Defects/buffer_overrun_dynamic.c:580
+
+01.w_Defects/buffer_overrun_dynamic.c:607
+
+01.w_Defects/buffer_underrun_dynamic.c:29
+
+01.w_Defects/buffer_underrun_dynamic.c:45
+
+01.w_Defects/buffer_underrun_dynamic.c:65
+
+01.w_Defects/buffer_underrun_dynamic.c:80
+
+01.w_Defects/buffer_underrun_dynamic.c:97
+
+01.w_Defects/buffer_underrun_dynamic.c:115
+
+01.w_Defects/buffer_underrun_dynamic.c:133
+
+01.w_Defects/buffer_underrun_dynamic.c:155
+
+01.w_Defects/buffer_underrun_dynamic.c:178
+
+01.w_Defects/buffer_underrun_dynamic.c:237
+
+01.w_Defects/buffer_underrun_dynamic.c:268
+
+01.w_Defects/buffer_underrun_dynamic.c:283
+
+01.w_Defects/buffer_underrun_dynamic.c:303
+
+01.w_Defects/buffer_underrun_dynamic.c:317
+
+01.w_Defects/buffer_underrun_dynamic.c:338
+
+01.w_Defects/buffer_underrun_dynamic.c:355
+
+01.w_Defects/buffer_underrun_dynamic.c:374
+
+01.w_Defects/buffer_underrun_dynamic.c:392
+
+01.w_Defects/buffer_underrun_dynamic.c:408
+
+01.w_Defects/buffer_underrun_dynamic.c:427
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+* Rejected vulnerabilities are not taken into account
+
+21
+
+itc-benchmarks-test.git
+
+Medium-level vulnerabilities
+
+Reference to array element out of bounds
+
+C/C++
+
+01.w_Defects/buffer_underrun_dynamic.c:439
+
+01.w_Defects/buffer_underrun_dynamic.c:466
+
+01.w_Defects/buffer_underrun_dynamic.c:484
+
+01.w_Defects/buffer_underrun_dynamic.c:500
+
+01.w_Defects/buffer_underrun_dynamic.c:519
+
+01.w_Defects/buffer_underrun_dynamic.c:532
+
+01.w_Defects/buffer_underrun_dynamic.c:559
+
+01.w_Defects/buffer_underrun_dynamic.c:580
+
+01.w_Defects/buffer_underrun_dynamic.c:606
+
+01.w_Defects/buffer_underrun_dynamic.c:621
+
+01.w_Defects/buffer_underrun_dynamic.c:624
+
+01.w_Defects/buffer_underrun_dynamic.c:648
+
+01.w_Defects/buffer_underrun_dynamic.c:674
+
+01.w_Defects/buffer_underrun_dynamic.c:701
+
+01.w_Defects/buffer_underrun_dynamic.c:721
+
+01.w_Defects/func_pointer.c:395
+
+01.w_Defects/invalid_memory_access.c:320
+
+01.w_Defects/overrun_st.c:21
+
+01.w_Defects/overrun_st.c:32
+
+01.w_Defects/overrun_st.c:44
+
+01.w_Defects/overrun_st.c:55
+
+01.w_Defects/overrun_st.c:66
+
+01.w_Defects/overrun_st.c:77
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+* Rejected vulnerabilities are not taken into account
+
+22
+
+itc-benchmarks-test.git
+
+Medium-level vulnerabilities
+
+Reference to array element out of bounds
+
+C/C++
+
+01.w_Defects/overrun_st.c:88
+
+01.w_Defects/overrun_st.c:99
+
+01.w_Defects/overrun_st.c:110
+
+01.w_Defects/overrun_st.c:126
+
+01.w_Defects/overrun_st.c:158
+
+01.w_Defects/overrun_st.c:169
+
+01.w_Defects/overrun_st.c:194
+
+01.w_Defects/overrun_st.c:206
+
+01.w_Defects/overrun_st.c:222
+
+01.w_Defects/overrun_st.c:233
+
+01.w_Defects/overrun_st.c:250
+
+01.w_Defects/overrun_st.c:264
+
+01.w_Defects/overrun_st.c:280
+
+01.w_Defects/overrun_st.c:293
+
+01.w_Defects/overrun_st.c:306
+
+01.w_Defects/overrun_st.c:320
+
+01.w_Defects/overrun_st.c:333
+
+01.w_Defects/overrun_st.c:346
+
+01.w_Defects/overrun_st.c:359
+
+01.w_Defects/overrun_st.c:372
+
+01.w_Defects/overrun_st.c:387
+
+01.w_Defects/overrun_st.c:402
+
+01.w_Defects/overrun_st.c:415
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+* Rejected vulnerabilities are not taken into account
+
+23
+
+itc-benchmarks-test.git
+
+Medium-level vulnerabilities
+
+Reference to array element out of bounds
+
+C/C++
+
+01.w_Defects/overrun_st.c:428
+
+01.w_Defects/overrun_st.c:457
+
+01.w_Defects/overrun_st.c:471
+
+01.w_Defects/overrun_st.c:489
+
+01.w_Defects/overrun_st.c:502
+
+01.w_Defects/overrun_st.c:522
+
+01.w_Defects/overrun_st.c:538
+
+01.w_Defects/overrun_st.c:556
+
+01.w_Defects/overrun_st.c:570
+
+01.w_Defects/overrun_st.c:588
+
+01.w_Defects/overrun_st.c:613
+
+01.w_Defects/overrun_st.c:630
+
+01.w_Defects/overrun_st.c:642
+
+01.w_Defects/overrun_st.c:658
+
+01.w_Defects/overrun_st.c:674
+
+01.w_Defects/overrun_st.c:689
+
+01.w_Defects/overrun_st.c:706
+
+01.w_Defects/overrun_st.c:724
+
+01.w_Defects/overrun_st.c:739
+
+01.w_Defects/overrun_st.c:749
+
+01.w_Defects/overrun_st.c:761
+
+01.w_Defects/overrun_st.c:773
+
+01.w_Defects/st_underrun.c:25
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+* Rejected vulnerabilities are not taken into account
+
+24
+
+itc-benchmarks-test.git
+
+Medium-level vulnerabilities
+
+Reference to array element out of bounds
+
+C/C++
+
+01.w_Defects/st_underrun.c:51
+
+01.w_Defects/st_underrun.c:88
+
+01.w_Defects/st_underrun.c:92
+
+01.w_Defects/st_underrun.c:125
+
+01.w_Defects/st_underrun.c:126
+
+01.w_Defects/st_underrun.c:126
+
+01.w_Defects/st_underrun.c:130
+
+01.w_Defects/st_underrun.c:150
+
+01.w_Defects/st_underrun.c:160
+
+01.w_Defects/st_underrun.c:193
+
+01.w_Defects/st_underrun.c:195
+
+01.w_Defects/st_underrun.c:227
+
+01.w_Defects/st_underrun.c:229
+
+01.w_Defects/underrun_st.c:21
+
+01.w_Defects/underrun_st.c:31
+
+01.w_Defects/underrun_st.c:42
+
+01.w_Defects/underrun_st.c:55
+
+01.w_Defects/underrun_st.c:67
+
+01.w_Defects/underrun_st.c:80
+
+01.w_Defects/underrun_st.c:93
+
+01.w_Defects/underrun_st.c:109
+
+01.w_Defects/underrun_st.c:124
+
+01.w_Defects/underrun_st.c:140
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+* Rejected vulnerabilities are not taken into account
+
+25
+
+Medium-level vulnerabilities
+
+Reference to array element out of bounds
+
+C/C++
+
+01.w_Defects/underrun_st.c:155
+
+01.w_Defects/underrun_st.c:172
+
+01.w_Defects/underrun_st.c:190
+
+01.w_Defects/wrong_arguments_func_pointer.c:271
+
+01.w_Defects/wrong_arguments_func_pointer.c:324
+
+02.wo_Defects/func_pointer.c:414
+
+02.wo_Defects/st_underrun.c:52
+
+02.wo_Defects/st_underrun.c:236
+
+02.wo_Defects/st_underrun.c:238
+
+02.wo_Defects/wrong_arguments_func_pointer.c:409
+
+Type cast error
+
+C/C++
+
+20
+
+01.w_Defects/littlemem_st.c:35
+
+01.w_Defects/littlemem_st.c:54
+
+01.w_Defects/littlemem_st.c:91
+
+01.w_Defects/littlemem_st.c:111
+
+01.w_Defects/littlemem_st.c:137
+
+01.w_Defects/littlemem_st.c:171
+
+01.w_Defects/littlemem_st.c:214
+
+01.w_Defects/littlemem_st.c:258
+
+01.w_Defects/littlemem_st.c:300
+
+01.w_Defects/littlemem_st.c:332
+
+02.wo_Defects/littlemem_st.c:36
+
+02.wo_Defects/littlemem_st.c:55
+
+itc-benchmarks-test.git
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+* Rejected vulnerabilities are not taken into account
+
+26
+
+itc-benchmarks-test.git
+
+Medium-level vulnerabilities
+
+Type cast error
+
+C/C++
+
+Undefined result
+
+C/C++
+
+27
+
+02.wo_Defects/littlemem_st.c:92
+
+02.wo_Defects/littlemem_st.c:112
+
+02.wo_Defects/littlemem_st.c:138
+
+02.wo_Defects/littlemem_st.c:172
+
+02.wo_Defects/littlemem_st.c:215
+
+02.wo_Defects/littlemem_st.c:259
+
+02.wo_Defects/littlemem_st.c:301
+
+02.wo_Defects/littlemem_st.c:333
+
+01.w_Defects/bit_shift.c:22
+
+01.w_Defects/bit_shift.c:46
+
+01.w_Defects/bit_shift.c:70
+
+01.w_Defects/bit_shift.c:82
+
+01.w_Defects/bit_shift.c:94
+
+01.w_Defects/bit_shift.c:107
+
+01.w_Defects/bit_shift.c:134
+
+01.w_Defects/bit_shift.c:147
+
+01.w_Defects/bit_shift.c:164
+
+01.w_Defects/bit_shift.c:176
+
+01.w_Defects/bit_shift.c:194
+
+01.w_Defects/bit_shift.c:209
+
+01.w_Defects/bit_shift.c:226
+
+01.w_Defects/bit_shift.c:237
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+* Rejected vulnerabilities are not taken into account
+
+27
+
+itc-benchmarks-test.git
+
+Medium-level vulnerabilities
+
+Undefined result
+
+C/C++
+
+01.w_Defects/zero_division.c:23
+
+01.w_Defects/zero_division.c:34
+
+01.w_Defects/zero_division.c:47
+
+01.w_Defects/zero_division.c:78
+
+01.w_Defects/zero_division.c:118
+
+01.w_Defects/zero_division.c:141
+
+01.w_Defects/zero_division.c:166
+
+01.w_Defects/zero_division.c:178
+
+01.w_Defects/zero_division.c:195
+
+01.w_Defects/zero_division.c:206
+
+01.w_Defects/zero_division.c:225
+
+01.w_Defects/zero_division.c:252
+
+01.w_Defects/buffer_overrun_dynamic.c:333
+
+01.w_Defects/buffer_underrun_dynamic.c:178
+
+01.w_Defects/buffer_underrun_dynamic.c:648
+
+01.w_Defects/buffer_underrun_dynamic.c:674
+
+01.w_Defects/buffer_underrun_dynamic.c:722
+
+01.w_Defects/buffer_underrun_dynamic.c:724
+
+01.w_Defects/func_pointer.c:262
+
+01.w_Defects/func_pointer.c:262
+
+01.w_Defects/memory_leak.c:276
+
+* Rejected vulnerabilities are not taken into account
+
+03.w_Defects_Cpp/improper_error_handling.cpp:22
+
+Uninitialized variable
+
+C/C++
+
+55
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+28
+
+itc-benchmarks-test.git
+
+Medium-level vulnerabilities
+
+Uninitialized variable
+
+C/C++
+
+01.w_Defects/overrun_st.c:44
+
+01.w_Defects/overrun_st.c:320
+
+01.w_Defects/ow_memcpy.c:41
+
+01.w_Defects/st_underrun.c:227
+
+01.w_Defects/st_underrun.c:229
+
+01.w_Defects/underrun_st.c:21
+
+01.w_Defects/underrun_st.c:55
+
+01.w_Defects/uninit_memory_access.c:98
+
+01.w_Defects/uninit_memory_access.c:200
+
+01.w_Defects/uninit_memory_access.c:249
+
+01.w_Defects/uninit_memory_access.c:249
+
+01.w_Defects/uninit_memory_access.c:298
+
+01.w_Defects/uninit_pointer.c:30
+
+01.w_Defects/uninit_pointer.c:41
+
+01.w_Defects/uninit_pointer.c:55
+
+01.w_Defects/uninit_pointer.c:90
+
+01.w_Defects/uninit_pointer.c:104
+
+01.w_Defects/uninit_pointer.c:131
+
+01.w_Defects/uninit_pointer.c:152
+
+01.w_Defects/uninit_pointer.c:200
+
+01.w_Defects/uninit_pointer.c:200
+
+01.w_Defects/uninit_pointer.c:231
+
+01.w_Defects/uninit_pointer.c:231
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+* Rejected vulnerabilities are not taken into account
+
+29
+
+itc-benchmarks-test.git
+
+Medium-level vulnerabilities
+
+Uninitialized variable
+
+C/C++
+
+01.w_Defects/uninit_pointer.c:254
+
+01.w_Defects/uninit_pointer.c:254
+
+01.w_Defects/uninit_var.c:23
+
+01.w_Defects/uninit_var.c:34
+
+01.w_Defects/uninit_var.c:45
+
+01.w_Defects/uninit_var.c:63
+
+01.w_Defects/uninit_var.c:75
+
+01.w_Defects/uninit_var.c:92
+
+01.w_Defects/uninit_var.c:111
+
+01.w_Defects/uninit_var.c:161
+
+01.w_Defects/uninit_var.c:177
+
+01.w_Defects/uninit_var.c:178
+
+01.w_Defects/uninit_var.c:243
+
+01.w_Defects/uninit_var.c:296
+
+01.w_Defects/zero_division.c:34
+
+01.w_Defects/zero_division.c:35
+
+02.wo_Defects/ow_memcpy.c:42
+
+02.wo_Defects/st_underrun.c:236
+
+02.wo_Defects/st_underrun.c:238
+
+02.wo_Defects/st_underrun.c:242
+
+01.w_Defects/wrong_arguments_func_pointer.c:337
+
+01.w_Defects/wrong_arguments_func_pointer.c:337
+
+02.wo_Defects/wrong_arguments_func_pointer.c:409
+
+* Rejected vulnerabilities are not taken into account
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+30
+
+itc-benchmarks-test.git
+
+Medium-level vulnerabilities
+
+Unsafe function: rand
+
+C/C++
+
+97
+
+01.w_Defects/bit_shift.c:120
+
+01.w_Defects/buffer_underrun_dynamic.c:249
+
+01.w_Defects/conflicting_cond.c:23
+
+01.w_Defects/conflicting_cond.c:42
+
+01.w_Defects/conflicting_cond.c:61
+
+01.w_Defects/conflicting_cond.c:80
+
+01.w_Defects/conflicting_cond.c:102
+
+01.w_Defects/conflicting_cond.c:136
+
+01.w_Defects/conflicting_cond.c:156
+
+01.w_Defects/conflicting_cond.c:176
+
+01.w_Defects/conflicting_cond.c:197
+
+01.w_Defects/data_lost.c:157
+
+01.w_Defects/data_overflow.c:204
+
+01.w_Defects/double_free.c:81
+
+01.w_Defects/double_free.c:86
+
+01.w_Defects/double_release.c:54
+
+01.w_Defects/double_release.c:105
+
+01.w_Defects/double_release.c:151
+
+01.w_Defects/double_release.c:196
+
+01.w_Defects/double_release.c:245
+
+01.w_Defects/double_release.c:281
+
+01.w_Defects/double_release.c:292
+
+01.w_Defects/free_null_pointer.c:392
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+* Rejected vulnerabilities are not taken into account
+
+31
+
+Medium-level vulnerabilities
+
+Unsafe function: rand
+
+C/C++
+
+01.w_Defects/func_pointer.c:330
+
+01.w_Defects/insign_code.c:22
+
+01.w_Defects/memory_allocation_failure.c:150
+
+01.w_Defects/memory_leak.c:197
+
+01.w_Defects/not_return.c:29
+
+01.w_Defects/not_return.c:55
+
+01.w_Defects/not_return.c:81
+
+01.w_Defects/not_return.c:104
+
+01.w_Defects/null_pointer.c:104
+
+01.w_Defects/overrun_st.c:181
+
+01.w_Defects/overrun_st.c:442
+
+01.w_Defects/redundant_cond.c:25
+
+01.w_Defects/redundant_cond.c:44
+
+01.w_Defects/redundant_cond.c:63
+
+01.w_Defects/redundant_cond.c:82
+
+01.w_Defects/redundant_cond.c:101
+
+01.w_Defects/redundant_cond.c:120
+
+01.w_Defects/redundant_cond.c:142
+
+01.w_Defects/redundant_cond.c:176
+
+01.w_Defects/redundant_cond.c:196
+
+01.w_Defects/redundant_cond.c:216
+
+01.w_Defects/redundant_cond.c:236
+
+01.w_Defects/redundant_cond.c:256
+
+itc-benchmarks-test.git
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+* Rejected vulnerabilities are not taken into account
+
+32
+
+itc-benchmarks-test.git
+
+Medium-level vulnerabilities
+
+Unsafe function: rand
+
+C/C++
+
+01.w_Defects/redundant_cond.c:276
+
+01.w_Defects/sign_conv.c:165
+
+01.w_Defects/sleep_lock.c:70
+
+01.w_Defects/sleep_lock.c:148
+
+01.w_Defects/sleep_lock.c:202
+
+01.w_Defects/uninit_memory_access.c:385
+
+01.w_Defects/zero_division.c:153
+
+02.wo_Defects/bit_shift.c:120
+
+02.wo_Defects/conflicting_cond.c:24
+
+02.wo_Defects/conflicting_cond.c:43
+
+02.wo_Defects/conflicting_cond.c:62
+
+02.wo_Defects/conflicting_cond.c:81
+
+02.wo_Defects/conflicting_cond.c:104
+
+02.wo_Defects/conflicting_cond.c:138
+
+02.wo_Defects/conflicting_cond.c:158
+
+02.wo_Defects/conflicting_cond.c:178
+
+02.wo_Defects/conflicting_cond.c:199
+
+02.wo_Defects/data_lost.c:160
+
+02.wo_Defects/data_overflow.c:205
+
+02.wo_Defects/double_release.c:53
+
+02.wo_Defects/double_release.c:106
+
+02.wo_Defects/double_release.c:154
+
+02.wo_Defects/double_release.c:201
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+* Rejected vulnerabilities are not taken into account
+
+33
+
+itc-benchmarks-test.git
+
+Medium-level vulnerabilities
+
+Unsafe function: rand
+
+C/C++
+
+02.wo_Defects/double_release.c:250
+
+02.wo_Defects/double_release.c:292
+
+02.wo_Defects/free_null_pointer.c:364
+
+02.wo_Defects/func_pointer.c:341
+
+02.wo_Defects/insign_code.c:23
+
+02.wo_Defects/memory_leak.c:200
+
+02.wo_Defects/not_return.c:34
+
+02.wo_Defects/not_return.c:61
+
+02.wo_Defects/not_return.c:87
+
+02.wo_Defects/not_return.c:111
+
+02.wo_Defects/overrun_st.c:183
+
+02.wo_Defects/overrun_st.c:443
+
+02.wo_Defects/redundant_cond.c:26
+
+02.wo_Defects/redundant_cond.c:45
+
+02.wo_Defects/redundant_cond.c:64
+
+02.wo_Defects/redundant_cond.c:83
+
+02.wo_Defects/redundant_cond.c:102
+
+02.wo_Defects/redundant_cond.c:121
+
+02.wo_Defects/redundant_cond.c:141
+
+02.wo_Defects/redundant_cond.c:175
+
+02.wo_Defects/redundant_cond.c:195
+
+02.wo_Defects/redundant_cond.c:215
+
+02.wo_Defects/redundant_cond.c:235
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+* Rejected vulnerabilities are not taken into account
+
+34
+
+itc-benchmarks-test.git
+
+Medium-level vulnerabilities
+
+Unsafe function: rand
+
+C/C++
+
+Use after free
+
+C/C++
+
+15
+
+02.wo_Defects/redundant_cond.c:255
+
+02.wo_Defects/redundant_cond.c:275
+
+02.wo_Defects/sign_conv.c:165
+
+02.wo_Defects/uninit_memory_access.c:401
+
+02.wo_Defects/zero_division.c:151
+
+01.w_Defects/invalid_memory_access.c:45
+
+01.w_Defects/invalid_memory_access.c:84
+
+01.w_Defects/invalid_memory_access.c:133
+
+01.w_Defects/invalid_memory_access.c:188
+
+01.w_Defects/invalid_memory_access.c:210
+
+01.w_Defects/invalid_memory_access.c:224
+
+01.w_Defects/invalid_memory_access.c:270
+
+01.w_Defects/invalid_memory_access.c:294
+
+01.w_Defects/invalid_memory_access.c:320
+
+01.w_Defects/invalid_memory_access.c:371
+
+01.w_Defects/invalid_memory_access.c:432
+
+01.w_Defects/invalid_memory_access.c:516
+
+01.w_Defects/invalid_memory_access.c:568
+
+01.w_Defects/invalid_memory_access.c:622
+
+02.wo_Defects/buffer_underrun_dynamic.c:723
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Weak random number generator
+
+C/C++
+
+97
+
+01.w_Defects/bit_shift.c:120
+
+Not processed
+
+* Rejected vulnerabilities are not taken into account
+
+35
+
+Medium-level vulnerabilities
+
+Weak random number generator
+
+C/C++
+
+01.w_Defects/buffer_underrun_dynamic.c:249
+
+01.w_Defects/conflicting_cond.c:23
+
+01.w_Defects/conflicting_cond.c:42
+
+01.w_Defects/conflicting_cond.c:61
+
+01.w_Defects/conflicting_cond.c:80
+
+01.w_Defects/conflicting_cond.c:102
+
+01.w_Defects/conflicting_cond.c:136
+
+01.w_Defects/conflicting_cond.c:156
+
+01.w_Defects/conflicting_cond.c:176
+
+01.w_Defects/conflicting_cond.c:197
+
+01.w_Defects/data_lost.c:157
+
+01.w_Defects/data_overflow.c:204
+
+01.w_Defects/double_free.c:81
+
+01.w_Defects/double_free.c:86
+
+01.w_Defects/double_release.c:54
+
+01.w_Defects/double_release.c:105
+
+01.w_Defects/double_release.c:151
+
+01.w_Defects/double_release.c:196
+
+01.w_Defects/double_release.c:245
+
+01.w_Defects/double_release.c:281
+
+01.w_Defects/double_release.c:292
+
+01.w_Defects/free_null_pointer.c:392
+
+01.w_Defects/func_pointer.c:330
+
+itc-benchmarks-test.git
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+* Rejected vulnerabilities are not taken into account
+
+36
+
+Medium-level vulnerabilities
+
+Weak random number generator
+
+C/C++
+
+01.w_Defects/insign_code.c:22
+
+01.w_Defects/memory_allocation_failure.c:150
+
+01.w_Defects/memory_leak.c:197
+
+01.w_Defects/not_return.c:29
+
+01.w_Defects/not_return.c:55
+
+01.w_Defects/not_return.c:81
+
+01.w_Defects/not_return.c:104
+
+01.w_Defects/null_pointer.c:104
+
+01.w_Defects/overrun_st.c:181
+
+01.w_Defects/overrun_st.c:442
+
+01.w_Defects/redundant_cond.c:25
+
+01.w_Defects/redundant_cond.c:44
+
+01.w_Defects/redundant_cond.c:63
+
+01.w_Defects/redundant_cond.c:82
+
+01.w_Defects/redundant_cond.c:101
+
+01.w_Defects/redundant_cond.c:120
+
+01.w_Defects/redundant_cond.c:142
+
+01.w_Defects/redundant_cond.c:176
+
+01.w_Defects/redundant_cond.c:196
+
+01.w_Defects/redundant_cond.c:216
+
+01.w_Defects/redundant_cond.c:236
+
+01.w_Defects/redundant_cond.c:256
+
+01.w_Defects/redundant_cond.c:276
+
+itc-benchmarks-test.git
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+* Rejected vulnerabilities are not taken into account
+
+37
+
+itc-benchmarks-test.git
+
+Medium-level vulnerabilities
+
+Weak random number generator
+
+C/C++
+
+01.w_Defects/sign_conv.c:165
+
+01.w_Defects/sleep_lock.c:70
+
+01.w_Defects/sleep_lock.c:148
+
+01.w_Defects/sleep_lock.c:202
+
+01.w_Defects/uninit_memory_access.c:385
+
+01.w_Defects/zero_division.c:153
+
+02.wo_Defects/bit_shift.c:120
+
+02.wo_Defects/conflicting_cond.c:24
+
+02.wo_Defects/conflicting_cond.c:43
+
+02.wo_Defects/conflicting_cond.c:62
+
+02.wo_Defects/conflicting_cond.c:81
+
+02.wo_Defects/conflicting_cond.c:104
+
+02.wo_Defects/conflicting_cond.c:138
+
+02.wo_Defects/conflicting_cond.c:158
+
+02.wo_Defects/conflicting_cond.c:178
+
+02.wo_Defects/conflicting_cond.c:199
+
+02.wo_Defects/data_lost.c:160
+
+02.wo_Defects/data_overflow.c:205
+
+02.wo_Defects/double_release.c:53
+
+02.wo_Defects/double_release.c:106
+
+02.wo_Defects/double_release.c:154
+
+02.wo_Defects/double_release.c:201
+
+02.wo_Defects/double_release.c:250
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+* Rejected vulnerabilities are not taken into account
+
+38
+
+itc-benchmarks-test.git
+
+Medium-level vulnerabilities
+
+Weak random number generator
+
+C/C++
+
+02.wo_Defects/double_release.c:292
+
+02.wo_Defects/free_null_pointer.c:364
+
+02.wo_Defects/func_pointer.c:341
+
+02.wo_Defects/insign_code.c:23
+
+02.wo_Defects/memory_leak.c:200
+
+02.wo_Defects/not_return.c:34
+
+02.wo_Defects/not_return.c:61
+
+02.wo_Defects/not_return.c:87
+
+02.wo_Defects/not_return.c:111
+
+02.wo_Defects/overrun_st.c:183
+
+02.wo_Defects/overrun_st.c:443
+
+02.wo_Defects/redundant_cond.c:26
+
+02.wo_Defects/redundant_cond.c:45
+
+02.wo_Defects/redundant_cond.c:64
+
+02.wo_Defects/redundant_cond.c:83
+
+02.wo_Defects/redundant_cond.c:102
+
+02.wo_Defects/redundant_cond.c:121
+
+02.wo_Defects/redundant_cond.c:141
+
+02.wo_Defects/redundant_cond.c:175
+
+02.wo_Defects/redundant_cond.c:195
+
+02.wo_Defects/redundant_cond.c:215
+
+02.wo_Defects/redundant_cond.c:235
+
+02.wo_Defects/redundant_cond.c:255
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+* Rejected vulnerabilities are not taken into account
+
+39
+
+Medium-level vulnerabilities
+
+Weak random number generator
+
+C/C++
+
+02.wo_Defects/redundant_cond.c:275
+
+02.wo_Defects/sign_conv.c:165
+
+02.wo_Defects/uninit_memory_access.c:401
+
+02.wo_Defects/zero_division.c:151
+
+Low-level vulnerabilities
+
+Block critical section
+
+C/C++
+
+01.w_Defects/sleep_lock.c:50
+
+01.w_Defects/sleep_lock.c:123
+
+01.w_Defects/sleep_lock.c:124
+
+01.w_Defects/sleep_lock.c:173
+
+01.w_Defects/buffer_underrun_dynamic.c:701
+
+01.w_Defects/free_nondynamically_allocated_memory.c:98
+
+01.w_Defects/free_nondynamically_allocated_memory.c:99
+
+01.w_Defects/free_null_pointer.c:419
+
+01.w_Defects/free_null_pointer.c:420
+
+01.w_Defects/free_null_pointer.c:452
+
+01.w_Defects/function_return_value_unchecked.c:393
+
+01.w_Defects/function_return_value_unchecked.c:398
+
+01.w_Defects/func_pointer.c:34
+
+01.w_Defects/func_pointer.c:42
+
+01.w_Defects/func_pointer.c:81
+
+itc-benchmarks-test.git
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+232*
+
+4
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Dead store
+
+C/C++
+
+159
+
+* Rejected vulnerabilities are not taken into account
+
+40
+
+itc-benchmarks-test.git
+
+Low-level vulnerabilities
+
+Dead store
+
+C/C++
+
+01.w_Defects/func_pointer.c:123
+
+01.w_Defects/func_pointer.c:256
+
+01.w_Defects/func_pointer.c:265
+
+01.w_Defects/func_pointer.c:285
+
+01.w_Defects/func_pointer.c:330
+
+01.w_Defects/func_pointer.c:353
+
+01.w_Defects/func_pointer.c:365
+
+01.w_Defects/func_pointer.c:375
+
+01.w_Defects/func_pointer.c:498
+
+01.w_Defects/func_pointer.c:538
+
+01.w_Defects/func_pointer.c:548
+
+01.w_Defects/func_pointer.c:592
+
+01.w_Defects/insign_code.c:24
+
+01.w_Defects/invalid_memory_access.c:45
+
+01.w_Defects/invalid_memory_access.c:147
+
+01.w_Defects/invalid_memory_access.c:410
+
+01.w_Defects/invalid_memory_access.c:422
+
+01.w_Defects/invalid_memory_access.c:532
+
+01.w_Defects/littlemem_st.c:36
+
+01.w_Defects/lock_never_unlock.c:228
+
+01.w_Defects/lock_never_unlock.c:325
+
+01.w_Defects/memory_allocation_failure.c:282
+
+01.w_Defects/memory_allocation_failure.c:448
+
+* Rejected vulnerabilities are not taken into account
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+41
+
+itc-benchmarks-test.git
+
+Low-level vulnerabilities
+
+Dead store
+
+C/C++
+
+01.w_Defects/memory_leak.c:212
+
+01.w_Defects/memory_leak.c:228
+
+01.w_Defects/memory_leak.c:245
+
+01.w_Defects/memory_leak.c:276
+
+01.w_Defects/memory_leak.c:308
+
+01.w_Defects/memory_leak.c:372
+
+01.w_Defects/memory_leak.c:382
+
+01.w_Defects/overrun_st.c:44
+
+01.w_Defects/overrun_st.c:320
+
+01.w_Defects/ptr_subtraction.c:35
+
+01.w_Defects/race_condition.c:372
+
+01.w_Defects/race_condition.c:392
+
+01.w_Defects/st_underrun.c:137
+
+01.w_Defects/st_underrun.c:195
+
+01.w_Defects/st_underrun.c:229
+
+01.w_Defects/underrun_st.c:21
+
+01.w_Defects/underrun_st.c:55
+
+01.w_Defects/uninit_memory_access.c:98
+
+01.w_Defects/uninit_memory_access.c:169
+
+01.w_Defects/uninit_memory_access.c:419
+
+01.w_Defects/uninit_pointer.c:30
+
+01.w_Defects/uninit_pointer.c:55
+
+01.w_Defects/uninit_pointer.c:65
+
+* Rejected vulnerabilities are not taken into account
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+42
+
+itc-benchmarks-test.git
+
+Low-level vulnerabilities
+
+Dead store
+
+C/C++
+
+01.w_Defects/uninit_pointer.c:81
+
+01.w_Defects/uninit_pointer.c:90
+
+01.w_Defects/uninit_pointer.c:200
+
+01.w_Defects/uninit_pointer.c:335
+
+01.w_Defects/uninit_var.c:23
+
+01.w_Defects/uninit_var.c:34
+
+01.w_Defects/uninit_var.c:45
+
+01.w_Defects/uninit_var.c:63
+
+01.w_Defects/uninit_var.c:81
+
+01.w_Defects/uninit_var.c:111
+
+01.w_Defects/uninit_var.c:186
+
+01.w_Defects/uninit_var.c:228
+
+01.w_Defects/uninit_var.c:249
+
+01.w_Defects/uninit_var.c:276
+
+01.w_Defects/uninit_var.c:296
+
+01.w_Defects/unused_var.c:24
+
+01.w_Defects/wrong_arguments_func_pointer.c:53
+
+01.w_Defects/wrong_arguments_func_pointer.c:74
+
+01.w_Defects/wrong_arguments_func_pointer.c:94
+
+01.w_Defects/wrong_arguments_func_pointer.c:114
+
+01.w_Defects/wrong_arguments_func_pointer.c:141
+
+01.w_Defects/wrong_arguments_func_pointer.c:161
+
+01.w_Defects/wrong_arguments_func_pointer.c:182
+
+* Rejected vulnerabilities are not taken into account
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+43
+
+Low-level vulnerabilities
+
+Dead store
+
+C/C++
+
+01.w_Defects/wrong_arguments_func_pointer.c:201
+
+01.w_Defects/wrong_arguments_func_pointer.c:225
+
+01.w_Defects/wrong_arguments_func_pointer.c:282
+
+01.w_Defects/wrong_arguments_func_pointer.c:423
+
+01.w_Defects/wrong_arguments_func_pointer.c:491
+
+01.w_Defects/wrong_arguments_func_pointer.c:502
+
+01.w_Defects/wrong_arguments_func_pointer.c:528
+
+01.w_Defects/wrong_arguments_func_pointer.c:539
+
+01.w_Defects/zero_division.c:23
+
+01.w_Defects/zero_division.c:35
+
+01.w_Defects/zero_division.c:47
+
+01.w_Defects/zero_division.c:78
+
+01.w_Defects/zero_division.c:93
+
+01.w_Defects/zero_division.c:118
+
+01.w_Defects/zero_division.c:129
+
+01.w_Defects/zero_division.c:141
+
+01.w_Defects/zero_division.c:154
+
+01.w_Defects/zero_division.c:166
+
+01.w_Defects/zero_division.c:178
+
+01.w_Defects/zero_division.c:195
+
+01.w_Defects/zero_division.c:206
+
+01.w_Defects/zero_division.c:225
+
+01.w_Defects/zero_division.c:252
+
+itc-benchmarks-test.git
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+* Rejected vulnerabilities are not taken into account
+
+44
+
+itc-benchmarks-test.git
+
+Low-level vulnerabilities
+
+Dead store
+
+C/C++
+
+02.wo_Defects/free_nondynamically_allocated_memory.c:60
+
+Not processed
+
+02.wo_Defects/free_null_pointer.c:364
+
+02.wo_Defects/free_null_pointer.c:425
+
+02.wo_Defects/free_null_pointer.c:458
+
+02.wo_Defects/func_pointer.c:341
+
+02.wo_Defects/func_pointer.c:513
+
+02.wo_Defects/func_pointer.c:565
+
+02.wo_Defects/littlemem_st.c:37
+
+02.wo_Defects/lock_never_unlock.c:231
+
+02.wo_Defects/lock_never_unlock.c:327
+
+02.wo_Defects/memory_allocation_failure.c:292
+
+02.wo_Defects/memory_allocation_failure.c:457
+
+02.wo_Defects/memory_leak.c:378
+
+02.wo_Defects/race_condition.c:222
+
+02.wo_Defects/race_condition.c:420
+
+02.wo_Defects/race_condition.c:440
+
+02.wo_Defects/uninit_memory_access.c:100
+
+02.wo_Defects/uninit_memory_access.c:401
+
+02.wo_Defects/wrong_arguments_func_pointer.c:53
+
+02.wo_Defects/wrong_arguments_func_pointer.c:74
+
+02.wo_Defects/wrong_arguments_func_pointer.c:94
+
+02.wo_Defects/wrong_arguments_func_pointer.c:114
+
+02.wo_Defects/wrong_arguments_func_pointer.c:139
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+* Rejected vulnerabilities are not taken into account
+
+45
+
+Low-level vulnerabilities
+
+Dead store
+
+C/C++
+
+02.wo_Defects/wrong_arguments_func_pointer.c:158
+
+02.wo_Defects/wrong_arguments_func_pointer.c:178
+
+02.wo_Defects/wrong_arguments_func_pointer.c:197
+
+02.wo_Defects/wrong_arguments_func_pointer.c:224
+
+02.wo_Defects/wrong_arguments_func_pointer.c:284
+
+02.wo_Defects/wrong_arguments_func_pointer.c:420
+
+02.wo_Defects/wrong_arguments_func_pointer.c:487
+
+02.wo_Defects/wrong_arguments_func_pointer.c:498
+
+02.wo_Defects/wrong_arguments_func_pointer.c:525
+
+02.wo_Defects/wrong_arguments_func_pointer.c:536
+
+02.wo_Defects/zero_division.c:23
+
+02.wo_Defects/zero_division.c:35
+
+02.wo_Defects/zero_division.c:46
+
+02.wo_Defects/zero_division.c:76
+
+02.wo_Defects/zero_division.c:91
+
+02.wo_Defects/zero_division.c:116
+
+02.wo_Defects/zero_division.c:127
+
+02.wo_Defects/zero_division.c:139
+
+02.wo_Defects/zero_division.c:154
+
+02.wo_Defects/zero_division.c:167
+
+02.wo_Defects/zero_division.c:179
+
+02.wo_Defects/zero_division.c:196
+
+02.wo_Defects/zero_division.c:207
+
+itc-benchmarks-test.git
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+* Rejected vulnerabilities are not taken into account
+
+46
+
+itc-benchmarks-test.git
+
+Low-level vulnerabilities
+
+Dead store
+
+C/C++
+
+Garbage memory usage is possible
+
+C/C++
+
+15
+
+02.wo_Defects/zero_division.c:226
+
+02.wo_Defects/zero_division.c:253
+
+03.w_Defects_Cpp/improper_error_handling.cpp:22
+
+03.w_Defects_Cpp/improper_error_handling.cpp:42
+
+03.w_Defects_Cpp/improper_error_handling.cpp:63
+
+03.w_Defects_Cpp/improper_error_handling.cpp:87
+
+04.wo_Defects_Cpp/improper_error_handling.cpp:23
+
+04.wo_Defects_Cpp/improper_error_handling.cpp:44
+
+04.wo_Defects_Cpp/improper_error_handling.cpp:66
+
+04.wo_Defects_Cpp/improper_error_handling.cpp:91
+
+01.w_Defects/littlemem_st.c:93
+
+01.w_Defects/return_local.c:19
+
+01.w_Defects/st_cross_thread_access.c:55
+
+01.w_Defects/st_cross_thread_access.c:143
+
+01.w_Defects/st_cross_thread_access.c:231
+
+01.w_Defects/st_cross_thread_access.c:320
+
+01.w_Defects/st_cross_thread_access.c:399
+
+01.w_Defects/st_cross_thread_access.c:482
+
+02.wo_Defects/littlemem_st.c:94
+
+02.wo_Defects/st_cross_thread_access.c:56
+
+02.wo_Defects/st_cross_thread_access.c:144
+
+02.wo_Defects/st_cross_thread_access.c:233
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+* Rejected vulnerabilities are not taken into account
+
+47
+
+itc-benchmarks-test.git
+
+Low-level vulnerabilities
+
+Garbage memory usage is possible
+
+C/C++
+
+Incorrect function call
+
+C/C++
+
+13
+
+02.wo_Defects/st_cross_thread_access.c:321
+
+02.wo_Defects/st_cross_thread_access.c:400
+
+02.wo_Defects/st_cross_thread_access.c:483
+
+01.w_Defects/func_pointer.c:375
+
+01.w_Defects/memory_allocation_failure.c:514
+
+01.w_Defects/uninit_memory_access.c:27
+
+01.w_Defects/uninit_memory_access.c:54
+
+01.w_Defects/uninit_memory_access.c:127
+
+01.w_Defects/uninit_memory_access.c:319
+
+01.w_Defects/uninit_pointer.c:71
+
+01.w_Defects/uninit_pointer.c:187
+
+01.w_Defects/uninit_pointer.c:358
+
+01.w_Defects/wrong_arguments_func_pointer.c:161
+
+01.w_Defects/wrong_arguments_func_pointer.c:381
+
+01.w_Defects/wrong_arguments_func_pointer.c:423
+
+01.w_Defects/wrong_arguments_func_pointer.c:457
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+1
+
+40
+
+Use of overlapping buffers
+
+Using an insecure method
+
+C/C++
+
+C/C++
+
+01.w_Defects/wrong_arguments_func_pointer.c:213
+
+Not processed
+
+01.w_Defects/deletion_of_data_structure_sentinel.c:41
+
+01.w_Defects/free_null_pointer.c:108
+
+Not processed
+
+Not processed
+
+* Rejected vulnerabilities are not taken into account
+
+48
+
+Low-level vulnerabilities
+
+Using an insecure method
+
+C/C++
+
+01.w_Defects/free_null_pointer.c:240
+
+01.w_Defects/function_return_value_unchecked.c:334
+
+01.w_Defects/func_pointer.c:97
+
+01.w_Defects/func_pointer.c:391
+
+01.w_Defects/invalid_memory_access.c:505
+
+01.w_Defects/main.c:22
+
+01.w_Defects/memory_leak.c:72
+
+01.w_Defects/memory_leak.c:399
+
+01.w_Defects/memory_leak.c:423
+
+01.w_Defects/null_pointer.c:237
+
+01.w_Defects/st_underrun.c:24
+
+01.w_Defects/st_underrun.c:50
+
+01.w_Defects/st_underrun.c:85
+
+01.w_Defects/st_underrun.c:122
+
+01.w_Defects/st_underrun.c:191
+
+01.w_Defects/st_underrun.c:225
+
+02.wo_Defects/buffer_underrun_dynamic.c:647
+
+02.wo_Defects/deletion_of_data_structure_sentinel.c:42
+
+02.wo_Defects/free_null_pointer.c:118
+
+02.wo_Defects/free_null_pointer.c:248
+
+02.wo_Defects/function_return_value_unchecked.c:335
+
+02.wo_Defects/func_pointer.c:104
+
+02.wo_Defects/func_pointer.c:407
+
+* Rejected vulnerabilities are not taken into account
+
+itc-benchmarks-test.git
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+49
+
+Low-level vulnerabilities
+
+Using an insecure method
+
+C/C++
+
+02.wo_Defects/invalid_memory_access.c:510
+
+02.wo_Defects/main.c:22
+
+02.wo_Defects/memory_allocation_failure.c:224
+
+02.wo_Defects/memory_leak.c:75
+
+02.wo_Defects/memory_leak.c:405
+
+02.wo_Defects/memory_leak.c:430
+
+02.wo_Defects/null_pointer.c:258
+
+02.wo_Defects/st_underrun.c:25
+
+02.wo_Defects/st_underrun.c:51
+
+02.wo_Defects/st_underrun.c:86
+
+02.wo_Defects/st_underrun.c:123
+
+02.wo_Defects/st_underrun.c:234
+
+03.w_Defects_Cpp/main.cpp:24
+
+04.wo_Defects_Cpp/main.cpp:23
+
+02.wo_Defects/wrong_arguments_func_pointer.c:380
+
+itc-benchmarks-test.git
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+Not processed
+
+* Rejected vulnerabilities are not taken into account
+
+50
+
+itc-benchmarks-test.git
+
+The program contains a possible buffer overflow. An attacker is able to overrun the buffer's
+boundary and execute an arbitrary code or perform a DoS attack on the system.
+
+Detailed Results
+Buffer overflow (C/C++)
+
+Description
+
+Example
+
+The following example shows a potential buffer overflow.
+    int main(int argc, char **argv) {
+        char buf[256];
+        strcpy(buf, argv[0]);
+        printf("%s\n", buf);
+        return 0;
+    }
+
+A safe alternative.
+    int main(int argc, char **argv) {
+        char buf[256];
+        strncpy(buf, argv[0], 256);
+        printf("%s\n", buf);
+        return 0;
+    }
+
+Recommendations
+
+    •  Check buffer boundaries before read and write operations on buffer.
+
+Links
+
+    1.  Buffer Overflow Exploit — Dhaval Kapil
+
+Vulnerability Entries
+
+51
+
+

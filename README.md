@@ -115,4 +115,14 @@ All these will generate some latex tables in the `latex` directory which can be 
   | FramaC | `framac` |
   | Flint++ | `flintpp` |
 
+For the following commercial tools there are routines to parse scanning exports and generate the statistics:
 
+  | Static analysis tool | Alias to be used by our tools |
+  |----------------------|-------------------------------|
+  | Coverity Static Analysis | `coverity` |
+  | Parasoft (All Scans) | `parasoft_all` |
+  | Parasoft (Standard Configuration) | `parasoft_example` |
+  | DeepCode | `deepcode` |
+  | SonarCloud | `sonarcloud` |
+  | SmartDec Scanner | `smartdecscan` | 
+  | Checkmarx | `checkmarx` |

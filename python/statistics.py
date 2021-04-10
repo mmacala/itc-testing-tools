@@ -4,18 +4,19 @@ from collections import defaultdict
 from math import sqrt
 
 # input files
-merged_csv_filename=sys.argv[1]
-tool_filename_w_defects=sys.argv[2]
-tool_filename_wo_defects=sys.argv[3]
-tool_out_subdefects=sys.argv[4]
-tool_out_defects=sys.argv[5]
-tool_out_total=sys.argv[6]
+merged_csv_filename = sys.argv[1]
+tool_filename_w_defects = sys.argv[2]
+tool_filename_wo_defects = sys.argv[3]
+tool_out_subdefects = sys.argv[4]
+tool_out_defects = sys.argv[5]
+tool_out_total = sys.argv[6]
 
 # handle list of tools to detect unique bugs
 tools = []
 if len(sys.argv) > 7:
     tools = sys.argv[7].split(",")
-    
+
+
 # print(merged_csv_filename)
 # print(tool_filename_w_defects)
 # print(tool_filename_wo_defects)
@@ -29,26 +30,37 @@ def get_defects_reported_by_tool(tool_filename_w_defects, tool_filename_wo_defec
     wo_defects_found = defaultdict(lambda: [])
 
     firstLine = True
+    findings_as_range = False
     with open(tool_filename_w_defects, "r") as merged_file:
         for line in merged_file:
             if (firstLine):
+                if (line.find("LineStart") > -1):
+                    findings_as_range = True
                 firstLine = False
                 continue
             a = line.split(",")
             filename = a[0].strip()
-            line = int(a[1].strip())
-            w_defects_found[filename].append(line)
+            lineStart = int(a[1].strip())
+            lineEnd = int(a[1].strip())
+            if (findings_as_range):
+                lineEnd = int(a[2].strip())
+            w_defects_found[filename].append((lineStart, lineEnd))
 
     firstLine = True
     with open(tool_filename_wo_defects, "r") as merged_file:
         for line in merged_file:
             if (firstLine):
                 firstLine = False
+                if (line.find("LineStart") > -1):
+                    findings_as_range = True
                 continue
             a = line.split(",")
             filename = a[0].strip()
-            line = int(a[1].strip())
-            wo_defects_found[filename].append(line)
+            lineStart = int(a[1].strip())
+            lineEnd = int(a[1].strip())
+            if (findings_as_range):
+                lineEnd = int(a[2].strip())
+            wo_defects_found[filename].append((lineStart, lineEnd))
 
     return (w_defects_found, wo_defects_found)
 
@@ -58,12 +70,13 @@ def get_filename_w_defects(tool):
     csv = os.path.join(os.path.dirname(os.path.realpath(tool_filename_w_defects)), "..", "..", tool, "temp", csv_file)
     return csv
 
+
 def get_filename_wo_defects(tool):
     csv_file = os.path.basename(os.path.realpath(tool_filename_wo_defects))
     csv = os.path.join(os.path.dirname(os.path.realpath(tool_filename_wo_defects)), "..", "..", tool, "temp", csv_file)
     return csv
 
-    
+
 # get defects for current tool
 (w_defects_found, wo_defects_found) = get_defects_reported_by_tool(tool_filename_w_defects, tool_filename_wo_defects)
 
@@ -108,18 +121,24 @@ with open(merged_csv_filename, "r") as merged_file:
         line_dict[filename].append(line_w_def)
         line_wo_dict[filename].append(line_wo_def)
 
-        x = line_w_def in w_defects_found[filename]
-        y = line_wo_def in wo_defects_found[filename]            
+        # x = line_w_def in w_defects_found[filename]
+        x = any([True for line_range in w_defects_found[filename] if line_range[0] <= line_w_def <= line_range[1]])
+        # y = line_wo_def in wo_defects_found[filename]
+        y = any([True for line_range in wo_defects_found[filename] if line_range[0] <= line_wo_def <= line_range[1]])
 
         detected_by_w = set()
         detected_by_wo = set()
         for tool in tools:
-            (tool_w_defects_found,tool_wo_defects_found) = defects_by_tool[tool]
-            if line_w_def in tool_w_defects_found[filename]:
+            (tool_w_defects_found, tool_wo_defects_found) = defects_by_tool[tool]
+            # if line_w_def in tool_w_defects_found[filename]:
+            if any([True for line_range in tool_w_defects_found[filename] if
+                    line_range[0] <= line_w_def <= line_range[1]]):
                 detected_by_w.add(tool)
-            if line_wo_def in tool_wo_defects_found[filename]:
+            # if line_wo_def in tool_wo_defects_found[filename]:
+            if any([True for line_range in tool_wo_defects_found[filename] if
+                    line_range[0] <= line_wo_def <= line_range[1]]):
                 detected_by_wo.add(tool)
-        
+
         tup = (filename, line_w_def, line_wo_def, x, y, detected_by_w, detected_by_wo)
         variations.append(tup)
         variations_by_filename[filename].append(tup)
@@ -131,7 +150,7 @@ with open(merged_csv_filename, "r") as merged_file:
 #     print(line_dict[filename])
 #     print(line_wo_dict[filename])
 #     print()
-    
+
 # print("=============")
 
 sys.stdout = open("temp.txt", "a")
@@ -139,16 +158,18 @@ for variation in variations:
     print(variation)
 sys.stdout = sys.__stdout__
 
-
 # Sub-defects stats
 sys.stdout = open(tool_out_subdefects, 'w')
-print("Filename, Defect, Subdefect, TP, FP, Variations, Detection rate, False pos rate, Productivity, Robust detection count, Robust detection rate", ",", "Unique")
+print(
+    "Filename, Defect, Subdefect, TP, FP, Variations, Detection rate, False pos rate, Productivity, Robust detection count, Robust detection rate,Warning count, Noise rate",
+    ",", "Unique")
 for filename in defect_dict.keys():
     count_tp = 0
     count_fp = 0
     robust_counter = 0
     count_total = len(variations_by_filename[filename])
     unique = 0
+    count_entries = 0
     for variation in variations_by_filename[filename]:
         if (variation[3]):
             count_tp = count_tp + 1
@@ -163,20 +184,29 @@ for filename in defect_dict.keys():
     fpr = (count_fp * 100) / count_total
     prod = sqrt(dr * (100 - fpr))
     robustness = (robust_counter * 100) / count_total
-    print(filename,",", defect_dict[filename],",", subdefect_dict[filename],",", count_tp,",", count_fp,",", count_total, ",", round(dr,2), ",", round(fpr,2), ",", round(prod,2), ",", robust_counter , ",", round(robustness,2), ",", unique)
-    
+    count_entries = len(w_defects_found[filename]) + len(wo_defects_found[filename])
+    if (count_entries == 0):
+        noise = -1
+    else:
+        noise = (1 - (count_tp / count_entries)) * 100
+    print(filename, ",", defect_dict[filename], ",", subdefect_dict[filename], ",", count_tp, ",", count_fp, ",",
+          count_total, ",", round(dr, 2), ",", round(fpr, 2), ",", round(prod, 2), ",", robust_counter, ",",
+          round(robustness, 2), ",", count_entries, ",", round(noise, 2), ",", unique)
 
 # Defects stats
 sys.stdout = open(tool_out_defects, 'w')
-print("Defect, TP, FP, Variations, Detection rate, False pos rate, Productivity, Robust detection count, Robust detection rate, Unique")
+print(
+    "Defect, TP, FP, Variations, Detection rate, False pos rate, Productivity, Robust detection count, Robust detection rate, Warning count, Noise rate, Unique")
 for defect in filenames_by_defect.keys():
     count_tp = 0
     count_fp = 0
-    count_total = 0 
+    count_total = 0
     robust_counter = 0
     unique = 0
+    count_entries = 0
     for filename in filenames_by_defect[defect]:
         count_total = count_total + len(variations_by_filename[filename])
+        count_entries = count_entries + len(w_defects_found[filename]) + len(wo_defects_found[filename])
         for variation in variations_by_filename[filename]:
             if (variation[3]):
                 count_tp = count_tp + 1
@@ -191,31 +221,44 @@ for defect in filenames_by_defect.keys():
     fpr = (count_fp * 100) / count_total
     prod = sqrt(dr * (100 - fpr))
     robustness = (robust_counter * 100) / count_total
-    print(defect,",", count_tp,",", count_fp,",", count_total, ",", round(dr,2), ",", round(fpr,2), ",", round(prod,2), ",", robust_counter, ",", round(robustness,2), ",", unique)
+    if (count_entries == 0):
+        noise = -1
+    else:
+        noise = (1 - (count_tp / count_entries)) * 100
+    print(defect, ",", count_tp, ",", count_fp, ",", count_total, ",", round(dr, 2), ",", round(fpr, 2), ",",
+          round(prod, 2), ",", robust_counter, ",", round(robustness, 2), ",", count_entries, ",", round(noise, 2), ",",
+          unique)
 
-    
 # Total stats
 sys.stdout = open(tool_out_total, 'w')
 count_tp = 0
 count_fp = 0
-count_total = 0 
+count_total = 0
 robust_counter = 0
 unique = 0
-print("TP, FP, Variations, Detection rate, False pos rate, Productivity, Robust detection count, Robust detection rate, Unique")
+count_entries = 0
+print(
+    "TP, FP, Variations, Detection rate, False pos rate, Productivity, Robust detection count, Robust detection rate,Warning count, Noise rate, Unique")
 for filename in defect_dict.keys():
     count_total = count_total + len(variations_by_filename[filename])
+    count_entries = count_entries + len(w_defects_found[filename]) + len(wo_defects_found[filename])
     for variation in variations_by_filename[filename]:
-            if (variation[3]):
-                count_tp = count_tp + 1
-            if (variation[4]):
-                count_fp = count_fp + 1
-            if (variation[3] and not variation[4]):
-                robust_counter = robust_counter + 1
-            diff = variation[5] - variation[6]
-            if (variation[3] and (not variation[4]) and len(diff) == 0):
-                unique = unique + 1
+        if (variation[3]):
+            count_tp = count_tp + 1
+        if (variation[4]):
+            count_fp = count_fp + 1
+        if (variation[3] and not variation[4]):
+            robust_counter = robust_counter + 1
+        diff = variation[5] - variation[6]
+        if (variation[3] and (not variation[4]) and len(diff) == 0):
+            unique = unique + 1
 dr = (count_tp * 100) / count_total
 fpr = (count_fp * 100) / count_total
 prod = sqrt(dr * (100 - fpr))
 robustness = (robust_counter * 100) / count_total
-print(count_tp,",", count_fp,",", count_total, ",", round(dr,2), ",", round(fpr,2), ",", round(prod,2), ",", robust_counter, ",", round(robustness,2), ",", unique)
+if (count_entries == 0):
+    noise = -1
+else:
+    noise = (1 - (count_tp / count_entries)) * 100
+print(count_tp, ",", count_fp, ",", count_total, ",", round(dr, 2), ",", round(fpr, 2), ",", round(prod, 2), ",",
+      robust_counter, ",", round(robustness, 2), ",", count_entries, ",", round(noise, 2), ",", unique)

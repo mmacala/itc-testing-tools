@@ -1,0 +1,156 @@
+File,LineStart,LineEnd,Error
+st_underrun.c,238,238,Negative array index read
+wrong_arguments_func_pointer.c,219,219,Resource leak
+uninit_pointer.c,131,131,Resource leak
+wrong_arguments_func_pointer.c,219,219,Resource leak
+invalid_memory_access.c,482,482,Uninitialized scalar variable
+unlock_without_lock.c,274,274,Data race condition
+free_nondynamically_allocated_memory.c,127,127,Logically dead code
+st_cross_thread_access.c,64,64,Data race condition
+invalid_memory_access.c,538,538,Resource leak
+free_nondynamically_allocated_memory.c,140,140,Logically dead code
+st_cross_thread_access.c,223,223,Data race condition
+free_null_pointer.c,Various,Various,Logically dead code
+uninit_memory_access.c,Various,Various,Logically dead code
+invalid_memory_access.c,113,113,Use after free
+free_nondynamically_allocated_memory.c,187,187,Logically dead code
+redundant_cond.c,175,175,Infinite loop
+double_free.c,152,152,Logically dead code
+free_null_pointer.c,363,363,Calling risky function
+double_free.c,117,117,Logically dead code
+livelock.c,32,32,Double unlock
+free_nondynamically_allocated_memory.c,169,169,Logically dead code
+redundant_cond.c,255,255,Infinite loop
+livelock.c,51,51,Double unlock
+invalid_memory_access.c,37,37,Unused value
+st_underrun.c,53,53,Negative array index read
+unlock_without_lock.c,253,253,Data race condition
+double_free.c,38,38,Logically dead code
+race_condition.c,34,34,Data race condition
+free_nondynamically_allocated_memory.c,35,35,Logically dead code
+redundant_cond.c,Various,Various,Calling risky function
+func_pointer.c,Various,Various,Structurally dead code
+memory_allocation_failure.c,Various,Various,Resource leak
+data_lost.c,Various,Various,Calling risky function
+sign_conv.c,Various,Various,Calling risky function
+st_underrun.c,Various,Various,Uninitialized scalar variable
+conflicting_cond.c,Various,Various,Calling risky function
+memory_allocation_failure.c,Various,Various,Pointer to local outside scope
+memory_allocation_failure.c,Various,Various,Dereference after null check
+st_overflow.c,Various,Various,Uninitialized scalar variable
+free_nondynamically_allocated_memory.c,Various,Various,Infinite loop
+uninit_pointer.c,Various,Various,Resource leak
+st_overflow.c,Various,Various,Big parameter passed by value
+st_cross_thread_access.c,Various,Various,Data race condition
+st_cross_thread_access.c,Various,Various,Data race condition
+st_cross_thread_access.c,Various,Various,Data race condition
+overrun_st.c,Various,Various,Calling risky function
+lock_never_unlock.c,Various,Various,'Constant' variable guards dead code
+st_underrun.c,Various,Various,Logically dead code
+uninit_pointer.c,Various,Various,Resource leak
+redundant_cond.c,Various,Various,Calling risky function
+conflicting_cond.c,Various,Various,Calling risky function
+redundant_cond.c,Various,Various,Calling risky function
+buffer_overrun_dynamic.c,Various,Various,Dereference before null check
+memory_allocation_failure.c,Various,Various,Logically dead code
+function_return_value_unchecked.c,Various,Various,Logically dead code
+redundant_cond.c,Various,Various,Calling risky function
+redundant_cond.c,Various,Various,Calling risky function
+st_overflow.c,Various,Various,Uninitialized scalar variable
+null_pointer.c,Various,Various,Structurally dead code
+st_overflow.c,Various,Various,Big parameter passed by value
+function_return_value_unchecked.c,Various,Various,Logically dead code
+memory_leak.c,Various,Various,Calling risky function
+not_return.c,Various,Various,Calling risky function
+st_overflow.c,Various,Various,Big parameter passed by value
+double_release.c,Various,Various,Calling risky function
+free_null_pointer.c,Various,Various,Logically dead code
+conflicting_cond.c,Various,Various,Calling risky function
+zero_division.c,Various,Various,Calling risky function
+st_overflow.c,Various,Various,Logically dead code
+memory_allocation_failure.c,Various,Various,Uninitialized scalar variable
+st_underrun.c,Various,Various,Uninitialized scalar variable
+bit_shift.c,Various,Various,Calling risky function
+dead_code.c,Various,Various,Structurally dead code
+free_null_pointer.c,Various,Various,Infinite loop
+lock_never_unlock.c,Various,Various,Data race condition
+st_underrun.c,Various,Various,Out-of-bounds write
+redundant_cond.c,Various,Various,Calling risky function
+double_release.c,Various,Various,Calling risky function
+st_underrun.c,Various,Various,Destination buffer too small
+free_null_pointer.c,Various,Various,Structurally dead code
+st_overflow.c,Various,Various,Big parameter passed by value
+double_release.c,Various,Various,Calling risky function
+st_overflow.c,Various,Various,Big parameter passed by value
+wrong_arguments_func_pointer.c,Various,Various,Copy into fixed size buffer
+uninit_var.c,Various,Various,Logically dead code
+insign_code.c,Various,Various,Calling risky function
+double_release.c,Various,Various,Calling risky function
+null_pointer.c,Various,Various,Dereference before null check
+conflicting_cond.c,Various,Various,Calling risky function
+unlock_without_lock.c,Various,Various,Data race condition
+free_nondynamically_allocated_memory.c,Various,Various,Infinite loop
+conflicting_cond.c,Various,Various,Calling risky function
+lock_never_unlock.c,Various,Various,Missing unlock
+lock_never_unlock.c,Various,Various,Missing unlock
+st_overflow.c,Various,Various,Big parameter passed by value
+st_overflow.c,Various,Various,Uninitialized scalar variable
+invalid_memory_access.c,Various,Various,Logically dead code
+redundant_cond.c,Various,Various,Calling risky function
+uninit_pointer.c,Various,Various,Sizeof not portable
+overrun_st.c,Various,Various,Calling risky function
+conflicting_cond.c,Various,Various,Calling risky function
+memory_allocation_failure.c,Various,Various,Resource leak
+st_cross_thread_access.c,Various,Various,Data race condition
+function_return_value_unchecked.c,Various,Various,Logically dead code
+not_return.c,Various,Various,Calling risky function
+memory_allocation_failure.c,Various,Various,Array compared against 0
+memory_leak.c,Various,Various,Structurally dead code
+lock_never_unlock.c,Various,Various,'Constant' variable guards dead code
+redundant_cond.c,Various,Various,Calling risky function
+st_overflow.c,Various,Various,Uninitialized scalar variable
+uninit_pointer.c,Various,Various,Resource leak
+uninit_pointer.c,Various,Various,Pointer to local outside scope
+st_overflow.c,Various,Various,Big parameter passed by value
+invalid_memory_access.c,Various,Various,Copy into fixed size buffer
+memory_allocation_failure.c,Various,Various,Resource leak
+wrong_arguments_func_pointer.c,Various,Various,Structurally dead code
+double_release.c,Various,Various,Calling risky function
+invalid_memory_access.c,Various,Various,Copy into fixed size buffer
+double_release.c,Various,Various,Calling risky function
+conflicting_cond.c,Various,Various,Calling risky function
+redundant_cond.c,Various,Various,Calling risky function
+redundant_cond.c,Various,Various,Calling risky function
+lock_never_unlock.c,Various,Various,Data race condition
+func_pointer.c,Various,Various,Calling risky function
+st_cross_thread_access.c,Various,Various,Data race condition
+memory_leak.c,Various,Various,Dereference after null check
+unlock_without_lock.c,Various,Various,Useless call
+free_null_pointer.c,Various,Various,Logically dead code
+invalid_memory_access.c,Various,Various,Explicit null dereferenced
+st_cross_thread_access.c,Various,Various,Data race condition
+not_return.c,Various,Various,Calling risky function
+redundant_cond.c,Various,Various,Calling risky function
+uninit_pointer.c,Various,Various,Resource leak
+data_overflow.c,Various,Various,Calling risky function
+conflicting_cond.c,Various,Various,Calling risky function
+unlock_without_lock.c,Various,Various,'Constant' variable guards dead code
+uninit_memory_access.c,Various,Various,Resource leak
+redundant_cond.c,Various,Various,Calling risky function
+redundant_cond.c,Various,Various,Calling risky function
+st_cross_thread_access.c,Various,Various,'Constant' variable guards dead code
+not_return.c,Various,Various,Calling risky function
+uninit_pointer.c,Various,Various,Resource leak
+conflicting_cond.c,Various,Various,Calling risky function
+unlock_without_lock.c,Various,Various,Data race condition
+uninit_memory_access.c,Various,Various,Calling risky function
+function_return_value_unchecked.c,Various,Various,Logically dead code
+st_overflow.c,Various,Various,Big parameter passed by value
+memory_allocation_failure.c,Various,Various,Structurally dead code
+uninit_pointer.c,Various,Various,Resource leak
+st_overflow.c,Various,Various,Parse warning
+st_overflow.c,Various,Various,Parse warning
+st_overflow.c,Various,Various,Parse warning
+st_overflow.c,Various,Various,Parse warning
+memory_allocation_failure.c,Various,Various,Parse warning
+st_overflow.c,Various,Various,Parse warning

@@ -20,6 +20,18 @@ def nice(toolname):
         return "System"
     if toolname == "flintpp":
         return "Flint++"
+    if toolname == "coverity":
+        return "Coverity Static Analysis"
+    if toolname == "parasoft_all":
+        return "Parasoft Full Scan"
+    if toolname == "parasoft_example":
+        return "Parasoft Example Configuration"
+    if toolname == "deepcode":
+        return "DeepCode"
+    if toolname == "sonarcloud":
+        return "SonarCloud"
+    if toolname == "smartdecscan":
+        return "SmartDec Scanner"
     return toolname.capitalize()
     
 def total(tex_file_name, rep_directory, latex_dir, tool_list):
@@ -33,7 +45,8 @@ def total(tex_file_name, rep_directory, latex_dir, tool_list):
         fp  = int(items[1].strip())
         var = int(items[2].strip())
         rdc = int(items[6].strip())
-        uni = int(items[8].strip())
+        wc = int(items[8].strip())
+        uni = int(items[10].strip())
 
         cpp_total_path = os.path.join(rep_directory, tool, 'cpp_total.csv')
         items = lines(cpp_total_path)[1].split(",");
@@ -41,27 +54,33 @@ def total(tex_file_name, rep_directory, latex_dir, tool_list):
         fp  = fp  + int(items[1].strip())
         var = var + int(items[2].strip())
         rdc = rdc + int(items[6].strip())
-        uni = uni + int(items[8].strip())
+        wc = wc + int(items[8].strip())
+        uni = uni + int(items[10].strip())
         
         dr  = round((tp * 100.0) / var, 2)
         fpr = round((fp * 100.0) / var, 2)
         pr  = round(sqrt(dr * (100 - fpr)), 2)
         rdr = round((rdc * 100.0) / var, 2)
-
+        if(wc==0):
+            noir = -1
+        else:
+            noir = round((1-(tp/wc))*100,2)
         timing_path = os.path.join(rep_directory, tool, 'timing.csv')
         timing = lines(timing_path)[0].split(",")
         runtime = round(float(timing[1].strip()) + float(timing[2].strip()), 2)
 
         # put everything in a tuple
-        l.append((tool, dr, fpr, pr, rdr, uni, runtime))
+        l.append((tool, dr, fpr, pr, rdr,noir, uni, runtime))
 
     srt = sorted(l, key = lambda x : x[3])
     srt.reverse()
 
     sys.stdout = open(tex_file_path, "w")
-    print("\\begin{tabular}{|l|r|r|r|r|r|r|}")
+    print("\\begin{tabular}{|l|r|r|r|r|r|r|r|}")
     print("\\hline")
-    print("\multicolumn{1}{|c|}{Tool} & \multicolumn{1}{|c|}{DR} & \multicolumn{1}{|c|}{FPR} & \multicolumn{1}{|c|}{PR} & \multicolumn{1}{|c|}{RDR} & \multicolumn{1}{|c|}{U} & \multicolumn{1}{|c|}{Time} \\\\ ")
+    print("\multicolumn{1}{|c|}{Tool} & \multicolumn{1}{|c|}{DR} & \multicolumn{1}{|c|}{FPR} & \multicolumn{1}{|c|}{"
+          "PR} & \multicolumn{1}{|c|}{RDR} & \multicolumn{1}{|c|}{NR} &\multicolumn{1}{|c|}{U} & \multicolumn{1}{"
+          "|c|}{Time} \\\\ ")
     print("\\hline")
     for t in srt:
         t_as_list = list(map(lambda x : "{:4.2f}".format(x) if isinstance(x, float) else str(x), list(t)))
@@ -71,7 +90,7 @@ def total(tex_file_name, rep_directory, latex_dir, tool_list):
     print("\\hline")
     print("\\end{tabular}")
     sys.stdout = sys.__stdout__
-    
+
 
 # Detection rate by defects
 def defects_dr(tex_file_name, rep_directory, latex_dir, tool_list):
@@ -92,8 +111,8 @@ def defects_dr(tex_file_name, rep_directory, latex_dir, tool_list):
             defects.add(name)
             if (not name in def_map.keys()):
                 def_map[name] = (0, 0)
-            
-            tp  = int(items[1].strip())
+
+            tp = int(items[1].strip())
             var = int(items[3].strip())
             def_map[name] = (def_map[name][0] + tp, def_map[name][1] + var)
         t_map[tool] = def_map
@@ -110,14 +129,65 @@ def defects_dr(tex_file_name, rep_directory, latex_dir, tool_list):
         print(nice(tool), end="")
         def_map = t_map[tool]
         for defect in sorted(defects):
-            tp  = def_map[defect][0]
+            tp = def_map[defect][0]
             var = def_map[defect][1]
-            dr  = int(round((tp * 100) / var, 0))
+            dr = int(round((tp * 100) / var, 0))
             print(" & ", dr, end="")
         print("\\\\")
     print("\\hline")
     print("\\end{tabular}")
     sys.stdout = sys.__stdout__
+
+
+# Noise rate by defects
+def defects_noir(tex_file_name, rep_directory, latex_dir, tool_list):
+    tex_file_path = os.path.join(latex_dir, tex_file_name)
+
+    t_map = {}
+    defects = set()
+    for tool in tool_list:
+        c_total_path = os.path.join(rep_directory, tool, 'c_defects.csv')
+        head, *tail = lines(c_total_path)
+        cpp_total_path = os.path.join(rep_directory, tool, 'cpp_defects.csv')
+        h, *t = lines(cpp_total_path)
+
+        def_map = {}
+        for line in tail + t:
+            items = line.split(",")
+            name = items[0]
+            defects.add(name)
+            if (not name in def_map.keys()):
+                def_map[name] = (0, 0)
+
+            tp = int(items[1].strip())
+            wc = int(items[9].strip())
+            def_map[name] = (def_map[name][0] + tp, def_map[name][1] + wc)
+        t_map[tool] = def_map
+
+    sys.stdout = open(tex_file_path, "w")
+    print("\\begin{tabular}{|l|r|r|r|r|r|r|r|r|r|r|}")
+    print("%\\hline")
+    print("% Noise rate per defects \\\\ ")
+    print("\\hline")
+    print("Tool & D1 & D2 & D3 & D4 & D5 & D6 & D7 & D8 & D9", "\\\\")
+    print("%% ", "Tool &", " & ".join(sorted(defects)), "\\\\")
+    print("\\hline")
+    for tool in sorted(t_map.keys()):
+        print(nice(tool), end="")
+        def_map = t_map[tool]
+        for defect in sorted(defects):
+            tp = def_map[defect][0]
+            wc = def_map[defect][1]
+            if(wc==0):
+                noir=-1
+            else:
+                noir = round((1-(tp/wc))*100,2)
+            print(" & ", noir, end="")
+        print("\\\\")
+    print("\\hline")
+    print("\\end{tabular}")
+    sys.stdout = sys.__stdout__
+
 
 # false positives rate
 def defects_fpr(tex_file_name, rep_directory, latex_dir, tool_list):
@@ -280,7 +350,7 @@ def defects_unique(tex_file_name, rep_directory, latex_dir, tool_list):
             if (not name in def_map.keys()):
                 def_map[name] = 0
 
-            rdc  = int(items[9].strip())
+            rdc  = int(items[11].strip())
             def_map[name] = def_map[name] + rdc
         t_map[tool] = def_map
 
@@ -410,6 +480,58 @@ def subdefects_rdr(tex_file_name, rep_directory, latex_dir, tool_list):
     print("\\end{tabular}")
     sys.stdout = sys.__stdout__
 
+
+# Noise rate by subdefects
+def subdefects_noir(tex_file_name, rep_directory, latex_dir, tool_list):
+    tex_file_path = os.path.join(latex_dir, tex_file_name)
+
+    t_map = {}
+    subdefects = set()
+    subdef_map = {}  # subdef |-> [(tool, rdr)]
+    for tool in tool_list:
+        c_total_path = os.path.join(rep_directory, tool, 'c_subdefects.csv')
+        head, *tail = lines(c_total_path)
+        cpp_total_path = os.path.join(rep_directory, tool, 'cpp_subdefects.csv')
+        h, *t = lines(cpp_total_path)
+
+        for line in tail + t:
+            items = line.split(",")
+            name = items[2]
+            subdefects.add(name)
+            if (not name in subdef_map.keys()):
+                subdef_map[name] = []
+
+            tp = int(items[3].strip())
+            wc = int(items[11].strip())
+            if(wc==0):
+                noir = -1
+            else:
+                noir = round((1-(tp/wc))*100,2)
+            subdef_map[name] = subdef_map[name] + [(tool, noir)]
+
+    for subdef in subdef_map.keys():
+        # print(subdef,":")
+        # print(subdef_map[subdef])
+        srt = sorted(subdef_map[subdef], key=lambda x: x[1])
+        srt.reverse()
+        subdef_map[subdef] = srt[0]
+        # print(subdef_map[subdef])
+        # print("\n\n")
+
+    sys.stdout = open(tex_file_path, "w")
+    print("\\begin{tabular}{|l|c|r|}")
+    print("%\\hline")
+    print("% Noise rate per subdefects \\\\ ")
+    print("\\hline")
+    print("\multicolumn{1}{|c|}{Defect subtype} & \multicolumn{1}{|c|}{Tool} & \multicolumn{1}{|c|}{RDR}", "\\\\")
+    print("\\hline")
+    for subdefect in sorted(subdef_map.keys()):
+        sub = subdefect if len(subdefect) <= 20 else subdefect[0:27] + '...'
+        toool = nice(subdef_map[subdefect][0]) if subdef_map[subdefect][1] > 0 else "-"
+        print(sub, " & ", toool, " & ", "{:4.2f}".format(subdef_map[subdefect][1]), "\\\\")
+    print("\\hline")
+    print("\\end{tabular}")
+    sys.stdout = sys.__stdout__
     
 # Unique by subdefects
 def subdefects_unique(tex_file_name, rep_directory, latex_dir, tool_list):
@@ -431,7 +553,7 @@ def subdefects_unique(tex_file_name, rep_directory, latex_dir, tool_list):
             if (not name in subdef_map.keys()):
                 subdef_map[name] = []
             
-            rdc = int(items[11].strip())
+            rdc = int(items[13].strip())
             subdef_map[name] = subdef_map[name] + [(tool, rdc)]
 
     for subdef in subdef_map.keys():
@@ -482,7 +604,7 @@ def subdefects_all(tex_file_name, rep_directory, latex_dir, tool_list):
                 subdef_map[name] = []
                 subdef_files[name] = []
             
-            rdc = int(items[11].strip())
+            rdc = int(items[13].strip())
             tp = int(items[3].strip())
             filename = items[0].strip()
             subdef_map[name] = subdef_map[name] + [(tool, tp)]

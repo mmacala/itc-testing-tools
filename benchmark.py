@@ -333,6 +333,124 @@ FRAMAC_TEMP_C_WO = rep_directory + "/framac/temp/c_wo_temp.txt"
 FRAMAC_TEMP_CPP_W = rep_directory + "/framac/temp/cpp_w_temp.txt"
 FRAMAC_TEMP_CPP_WO = rep_directory + "/framac/temp/cpp_wo_temp.txt"
 
+# ## checkmarx
+CHECKMARX_OUTPUT_C_W = rep_directory + "/checkmarx/temp/c_w_errors_per_line.csv"
+CHECKMARX_OUTPUT_C_WO = rep_directory + "/checkmarx/temp/c_wo_errors_per_line.csv"
+CHECKMARX_OUTPUT_CPP_W = rep_directory + "/checkmarx/temp/cpp_w_errors_per_line.csv"
+CHECKMARX_OUTPUT_CPP_WO = rep_directory + "/checkmarx/temp/cpp_wo_errors_per_line.csv"
+CHECKMARX_OPTS = ""
+CHECKMARX_OUT_SUBDEFECTS = rep_directory + "/checkmarx/c_subdefects.csv"
+CHECKMARX_OUT_DEFECTS = rep_directory + "/checkmarx/c_defects.csv"
+CHECKMARX_OUT_TOTAL = rep_directory + "/checkmarx/c_total.csv"
+CHECKMARX_OUT_CPP_SUBDEFECTS = rep_directory + "/checkmarx/cpp_subdefects.csv"
+CHECKMARX_OUT_CPP_DEFECTS = rep_directory + "/checkmarx/cpp_defects.csv"
+CHECKMARX_OUT_CPP_TOTAL = rep_directory + "/checkmarx/cpp_total.csv"
+CHECKMARX_TEMP_C_W = rep_directory + "/checkmarx/temp/c_w_temp.txt"
+CHECKMARX_TEMP_C_WO = rep_directory + "/checkmarx/temp/c_wo_temp.txt"
+CHECKMARX_TEMP_CPP_W = rep_directory + "/checkmarx/temp/cpp_w_temp.txt"
+CHECKMARX_TEMP_CPP_WO = rep_directory + "/checkmarx/temp/cpp_wo_temp.txt"
+
+# ## coverity
+COVERITY_OUTPUT_C_W = rep_directory + "/coverity/temp/c_w_errors_per_line.csv"
+COVERITY_OUTPUT_C_WO = rep_directory + "/coverity/temp/c_wo_errors_per_line.csv"
+COVERITY_OUTPUT_CPP_W = rep_directory + "/coverity/temp/cpp_w_errors_per_line.csv"
+COVERITY_OUTPUT_CPP_WO = rep_directory + "/coverity/temp/cpp_wo_errors_per_line.csv"
+COVERITY_OPTS = ""
+COVERITY_OUT_SUBDEFECTS = rep_directory + "/coverity/c_subdefects.csv"
+COVERITY_OUT_DEFECTS = rep_directory + "/coverity/c_defects.csv"
+COVERITY_OUT_TOTAL = rep_directory + "/coverity/c_total.csv"
+COVERITY_OUT_CPP_SUBDEFECTS = rep_directory + "/coverity/cpp_subdefects.csv"
+COVERITY_OUT_CPP_DEFECTS = rep_directory + "/coverity/cpp_defects.csv"
+COVERITY_OUT_CPP_TOTAL = rep_directory + "/coverity/cpp_total.csv"
+COVERITY_TEMP_C_W = rep_directory + "/coverity/temp/c_w_temp.txt"
+COVERITY_TEMP_C_WO = rep_directory + "/coverity/temp/c_wo_temp.txt"
+COVERITY_TEMP_CPP_W = rep_directory + "/coverity/temp/cpp_w_temp.txt"
+COVERITY_TEMP_CPP_WO = rep_directory + "/coverity/temp/cpp_wo_temp.txt"
+
+# ##deepcode
+DEEPCODE_OUTPUT_C_W = rep_directory + "/deepcode/temp/c_w_errors_per_line.csv"
+DEEPCODE_OUTPUT_C_WO = rep_directory + "/deepcode/temp/c_wo_errors_per_line.csv"
+DEEPCODE_OUTPUT_CPP_W = rep_directory + "/deepcode/temp/cpp_w_errors_per_line.csv"
+DEEPCODE_OUTPUT_CPP_WO = rep_directory + "/deepcode/temp/cpp_wo_errors_per_line.csv"
+DEEPCODE_OPTS = ""
+DEEPCODE_OUT_SUBDEFECTS = rep_directory + "/deepcode/c_subdefects.csv"
+DEEPCODE_OUT_DEFECTS = rep_directory + "/deepcode/c_defects.csv"
+DEEPCODE_OUT_TOTAL = rep_directory + "/deepcode/c_total.csv"
+DEEPCODE_OUT_CPP_SUBDEFECTS = rep_directory + "/deepcode/cpp_subdefects.csv"
+DEEPCODE_OUT_CPP_DEFECTS = rep_directory + "/deepcode/cpp_defects.csv"
+DEEPCODE_OUT_CPP_TOTAL = rep_directory + "/deepcode/cpp_total.csv"
+DEEPCODE_TEMP_C_W = rep_directory + "/deepcode/temp/c_w_temp.txt"
+DEEPCODE_TEMP_C_WO = rep_directory + "/deepcode/temp/c_wo_temp.txt"
+DEEPCODE_TEMP_CPP_W = rep_directory + "/deepcode/temp/cpp_w_temp.txt"
+DEEPCODE_TEMP_CPP_WO = rep_directory + "/deepcode/temp/cpp_wo_temp.txt"
+
+# ##parasoft example
+PARASOFT_EXAMPLE_OUTPUT_C_W = rep_directory + "/parasoft_example/temp/c_w_errors_per_line.csv"
+PARASOFT_EXAMPLE_OUTPUT_C_WO = rep_directory + "/parasoft_example/temp/c_wo_errors_per_line.csv"
+PARASOFT_EXAMPLE_OUTPUT_CPP_W = rep_directory + "/parasoft_example/temp/cpp_w_errors_per_line.csv"
+PARASOFT_EXAMPLE_OUTPUT_CPP_WO = rep_directory + "/parasoft_example/temp/cpp_wo_errors_per_line.csv"
+PARASOFT_EXAMPLE_OPTS = ""
+PARASOFT_EXAMPLE_OUT_SUBDEFECTS = rep_directory + "/parasoft_example/c_subdefects.csv"
+PARASOFT_EXAMPLE_OUT_DEFECTS = rep_directory + "/parasoft_example/c_defects.csv"
+PARASOFT_EXAMPLE_OUT_TOTAL = rep_directory + "/parasoft_example/c_total.csv"
+PARASOFT_EXAMPLE_OUT_CPP_SUBDEFECTS = rep_directory + "/parasoft_example/cpp_subdefects.csv"
+PARASOFT_EXAMPLE_OUT_CPP_DEFECTS = rep_directory + "/parasoft_example/cpp_defects.csv"
+PARASOFT_EXAMPLE_OUT_CPP_TOTAL = rep_directory + "/parasoft_example/cpp_total.csv"
+PARASOFT_EXAMPLE_TEMP_C_W = rep_directory + "/parasoft_example/temp/c_w_temp.txt"
+PARASOFT_EXAMPLE_TEMP_C_WO = rep_directory + "/parasoft_example/temp/c_wo_temp.txt"
+PARASOFT_EXAMPLE_TEMP_CPP_W = rep_directory + "/parasoft_example/temp/cpp_w_temp.txt"
+PARASOFT_EXAMPLE_TEMP_CPP_WO = rep_directory + "/parasoft_example/temp/cpp_wo_temp.txt"
+
+# ##parasoft all
+PARASOFT_ALL_OUTPUT_C_W = rep_directory + "/parasoft_all/temp/c_w_errors_per_line.csv"
+PARASOFT_ALL_OUTPUT_C_WO = rep_directory + "/parasoft_all/temp/c_wo_errors_per_line.csv"
+PARASOFT_ALL_OUTPUT_CPP_W = rep_directory + "/parasoft_all/temp/cpp_w_errors_per_line.csv"
+PARASOFT_ALL_OUTPUT_CPP_WO = rep_directory + "/parasoft_all/temp/cpp_wo_errors_per_line.csv"
+PARASOFT_ALL_OPTS = ""
+PARASOFT_ALL_OUT_SUBDEFECTS = rep_directory + "/parasoft_all/c_subdefects.csv"
+PARASOFT_ALL_OUT_DEFECTS = rep_directory + "/parasoft_all/c_defects.csv"
+PARASOFT_ALL_OUT_TOTAL = rep_directory + "/parasoft_all/c_total.csv"
+PARASOFT_ALL_OUT_CPP_SUBDEFECTS = rep_directory + "/parasoft_all/cpp_subdefects.csv"
+PARASOFT_ALL_OUT_CPP_DEFECTS = rep_directory + "/parasoft_all/cpp_defects.csv"
+PARASOFT_ALL_OUT_CPP_TOTAL = rep_directory + "/parasoft_all/cpp_total.csv"
+PARASOFT_ALL_TEMP_C_W = rep_directory + "/parasoft_all/temp/c_w_temp.txt"
+PARASOFT_ALL_TEMP_C_WO = rep_directory + "/parasoft_all/temp/c_wo_temp.txt"
+PARASOFT_ALL_TEMP_CPP_W = rep_directory + "/parasoft_all/temp/cpp_w_temp.txt"
+PARASOFT_ALL_TEMP_CPP_WO = rep_directory + "/parasoft_all/temp/cpp_wo_temp.txt"
+
+# ##SmartDecScan
+SMARTDECSCAN_OUTPUT_C_W = rep_directory + "/smartdecscan/temp/c_w_errors_per_line.csv"
+SMARTDECSCAN_OUTPUT_C_WO = rep_directory + "/smartdecscan/temp/c_wo_errors_per_line.csv"
+SMARTDECSCAN_OUTPUT_CPP_W = rep_directory + "/smartdecscan/temp/cpp_w_errors_per_line.csv"
+SMARTDECSCAN_OUTPUT_CPP_WO = rep_directory + "/smartdecscan/temp/cpp_wo_errors_per_line.csv"
+SMARTDECSCAN_OPTS = ""
+SMARTDECSCAN_OUT_SUBDEFECTS = rep_directory + "/smartdecscan/c_subdefects.csv"
+SMARTDECSCAN_OUT_DEFECTS = rep_directory + "/smartdecscan/c_defects.csv"
+SMARTDECSCAN_OUT_TOTAL = rep_directory + "/smartdecscan/c_total.csv"
+SMARTDECSCAN_OUT_CPP_SUBDEFECTS = rep_directory + "/smartdecscan/cpp_subdefects.csv"
+SMARTDECSCAN_OUT_CPP_DEFECTS = rep_directory + "/smartdecscan/cpp_defects.csv"
+SMARTDECSCAN_OUT_CPP_TOTAL = rep_directory + "/smartdecscan/cpp_total.csv"
+SMARTDECSCAN_TEMP_C_W = rep_directory + "/smartdecscan/temp/c_w_temp.txt"
+SMARTDECSCAN_TEMP_C_WO = rep_directory + "/smartdecscan/temp/c_wo_temp.txt"
+SMARTDECSCAN_TEMP_CPP_W = rep_directory + "/smartdecscan/temp/cpp_w_temp.txt"
+SMARTDECSCAN_TEMP_CPP_WO = rep_directory + "/smartdecscan/temp/cpp_wo_temp.txt"
+
+# ##Sonarcloud
+SONARCLOUD_OUTPUT_C_W = rep_directory + "/sonarcloud/temp/c_w_errors_per_line.csv"
+SONARCLOUD_OUTPUT_C_WO = rep_directory + "/sonarcloud/temp/c_wo_errors_per_line.csv"
+SONARCLOUD_OUTPUT_CPP_W = rep_directory + "/sonarcloud/temp/cpp_w_errors_per_line.csv"
+SONARCLOUD_OUTPUT_CPP_WO = rep_directory + "/sonarcloud/temp/cpp_wo_errors_per_line.csv"
+SONARCLOUD_OPTS = ""
+SONARCLOUD_OUT_SUBDEFECTS = rep_directory + "/sonarcloud/c_subdefects.csv"
+SONARCLOUD_OUT_DEFECTS = rep_directory + "/sonarcloud/c_defects.csv"
+SONARCLOUD_OUT_TOTAL = rep_directory + "/sonarcloud/c_total.csv"
+SONARCLOUD_OUT_CPP_SUBDEFECTS = rep_directory + "/sonarcloud/cpp_subdefects.csv"
+SONARCLOUD_OUT_CPP_DEFECTS = rep_directory + "/sonarcloud/cpp_defects.csv"
+SONARCLOUD_OUT_CPP_TOTAL = rep_directory + "/sonarcloud/cpp_total.csv"
+SONARCLOUD_TEMP_C_W = rep_directory + "/sonarcloud/temp/c_w_temp.txt"
+SONARCLOUD_TEMP_C_WO = rep_directory + "/sonarcloud/temp/c_wo_temp.txt"
+SONARCLOUD_TEMP_CPP_W = rep_directory + "/sonarcloud/temp/cpp_w_temp.txt"
+SONARCLOUD_TEMP_CPP_WO = rep_directory + "/sonarcloud/temp/cpp_wo_temp.txt"
 
 def make_dirs_forgive(path):
     try:
@@ -581,6 +699,80 @@ def run_infer_stats(tools):
     call_python([STATISTICS, C_MERGE_FILE, INFER_OUTPUT_C_W, INFER_OUTPUT_C_WO, INFER_OUT_SUBDEFECTS, INFER_OUT_DEFECTS, INFER_OUT_TOTAL, tools])
     call_python([STATISTICS, CPP_MERGE_FILE, INFER_OUTPUT_CPP_W, INFER_OUTPUT_CPP_WO, INFER_OUT_CPP_SUBDEFECTS, INFER_OUT_CPP_DEFECTS, INFER_OUT_CPP_TOTAL, tools])
 
+def run_smartDecScanner():
+    #Dummy entry to create empty timing.csv
+    sys.stdout=open(os.path.join(rep_directory, "smartdecscan" ,"timing.csv"), "w")
+    print("smartdecscan", ", " , 0 , ", ", 0)
+    sys.stdout=sys.__stdout__
+
+def run_smartDecScanner_stats(tools):
+    print("Running SmartDecScanner stats")
+    call_python([STATISTICS, C_MERGE_FILE, SMARTDECSCAN_OUTPUT_C_W, SMARTDECSCAN_OUTPUT_C_WO, SMARTDECSCAN_OUT_SUBDEFECTS, SMARTDECSCAN_OUT_DEFECTS,SMARTDECSCAN_OUT_TOTAL, tools])
+    call_python([STATISTICS, CPP_MERGE_FILE, SMARTDECSCAN_OUTPUT_CPP_W, SMARTDECSCAN_OUTPUT_CPP_WO, SMARTDECSCAN_OUT_CPP_SUBDEFECTS, SMARTDECSCAN_OUT_CPP_DEFECTS, SMARTDECSCAN_OUT_CPP_TOTAL, tools])
+
+def run_deepcode():
+    #Dummy entry to create empty timing.csv
+    sys.stdout=open(os.path.join(rep_directory, "deepcode" ,"timing.csv"), "w")
+    print("deepcode", ", " , 0 , ", ", 0)
+
+def run_deepcode_stats(tools):
+    print("Running Deepcode stats")
+    call_python([STATISTICS, C_MERGE_FILE, DEEPCODE_OUTPUT_C_W, DEEPCODE_OUTPUT_C_WO, DEEPCODE_OUT_SUBDEFECTS, DEEPCODE_OUT_DEFECTS,DEEPCODE_OUT_TOTAL, tools])
+    call_python([STATISTICS, CPP_MERGE_FILE, DEEPCODE_OUTPUT_CPP_W, DEEPCODE_OUTPUT_CPP_WO, DEEPCODE_OUT_CPP_SUBDEFECTS, DEEPCODE_OUT_CPP_DEFECTS, DEEPCODE_OUT_CPP_TOTAL, tools])
+
+def run_sonarcloud():
+    #Dummy entry to create empty timing.csv
+    sys.stdout=open(os.path.join(rep_directory, "sonarcloud" ,"timing.csv"), "w")
+    print("sonarcloud", ", " , 0 , ", ", 0)
+
+def run_sonarcloud_stats(tools):
+    print("Running SonarCloud stats")
+    call_python([STATISTICS, C_MERGE_FILE, SONARCLOUD_OUTPUT_C_W, SONARCLOUD_OUTPUT_C_WO, SONARCLOUD_OUT_SUBDEFECTS, SONARCLOUD_OUT_DEFECTS,SONARCLOUD_OUT_TOTAL, tools])
+    call_python([STATISTICS, CPP_MERGE_FILE, SONARCLOUD_OUTPUT_CPP_W, SONARCLOUD_OUTPUT_CPP_WO, SONARCLOUD_OUT_CPP_SUBDEFECTS, SONARCLOUD_OUT_CPP_DEFECTS, SONARCLOUD_OUT_CPP_TOTAL, tools])
+
+def run_parasoft_all():
+    #Dummy entry to create empty timing.csv
+    sys.stdout=open(os.path.join(rep_directory, "parasoft_all" ,"timing.csv"), "w")
+    print("parasoft_all", ", " , 0 , ", ", 0)
+
+def run_parasoft_all_stats(tools):
+    print("Running Parasoft ALL Testcases stats")
+    call_python([STATISTICS, C_MERGE_FILE, PARASOFT_ALL_OUTPUT_C_W, PARASOFT_ALL_OUTPUT_C_WO, PARASOFT_ALL_OUT_SUBDEFECTS, PARASOFT_ALL_OUT_DEFECTS,PARASOFT_ALL_OUT_TOTAL, tools])
+    call_python([STATISTICS, CPP_MERGE_FILE, PARASOFT_ALL_OUTPUT_CPP_W, PARASOFT_ALL_OUTPUT_CPP_WO, PARASOFT_ALL_OUT_CPP_SUBDEFECTS, PARASOFT_ALL_OUT_CPP_DEFECTS, PARASOFT_ALL_OUT_CPP_TOTAL, tools])
+
+def run_parasoft_example():
+    #Dummy entry to create empty timing.csv
+    sys.stdout=open(os.path.join(rep_directory, "parasoft_example" ,"timing.csv"), "w")
+    print("parasoft_example", ", " , 0 , ", ", 0)
+
+def run_parasoft_example_stats(tools):
+    print("Running Parasoft Example Testcases stats")
+    call_python([STATISTICS, C_MERGE_FILE, PARASOFT_EXAMPLE_OUTPUT_C_W, PARASOFT_EXAMPLE_OUTPUT_C_WO, PARASOFT_EXAMPLE_OUT_SUBDEFECTS, PARASOFT_EXAMPLE_OUT_DEFECTS,PARASOFT_EXAMPLE_OUT_TOTAL, tools])
+    call_python([STATISTICS, CPP_MERGE_FILE, PARASOFT_EXAMPLE_OUTPUT_CPP_W, PARASOFT_EXAMPLE_OUTPUT_CPP_WO, PARASOFT_EXAMPLE_OUT_CPP_SUBDEFECTS, PARASOFT_EXAMPLE_OUT_CPP_DEFECTS, PARASOFT_EXAMPLE_OUT_CPP_TOTAL, tools])
+
+def run_checkmarx():
+    #Dummy entry to create empty timing.csv
+    sys.stdout=open(os.path.join(rep_directory, "checkmarx" ,"timing.csv"), "w")
+    print("checkmarx", ", " , 0 , ", ", 0)
+
+def run_checkmarx_stats(tools):
+    print("Running Checkmarx stats")
+    call_python([STATISTICS, C_MERGE_FILE, CHECKMARX_OUTPUT_C_W, CHECKMARX_OUTPUT_C_WO, CHECKMARX_OUT_SUBDEFECTS, CHECKMARX_OUT_DEFECTS,CHECKMARX_OUT_TOTAL, tools])
+    call_python([STATISTICS, CPP_MERGE_FILE, CHECKMARX_OUTPUT_CPP_W, CHECKMARX_OUTPUT_CPP_WO, CHECKMARX_OUT_CPP_SUBDEFECTS, CHECKMARX_OUT_CPP_DEFECTS, CHECKMARX_OUT_CPP_TOTAL, tools])
+
+def run_coverity():
+    #Dummy entry to create empty timing.csv
+    sys.stdout=open(os.path.join(rep_directory, "coverity" ,"timing.csv"), "w")
+    print("coverity", ", " , 0 , ", ", 0)
+
+def run_coverity_stats(tools):
+    print("Running Checkmarx stats")
+    call_python([STATISTICS, C_MERGE_FILE, COVERITY_OUTPUT_C_W, COVERITY_OUTPUT_C_WO, COVERITY_OUT_SUBDEFECTS,
+                 COVERITY_OUT_DEFECTS,COVERITY_OUT_TOTAL, tools])
+    call_python([STATISTICS, CPP_MERGE_FILE, COVERITY_OUTPUT_CPP_W, COVERITY_OUTPUT_CPP_WO,
+                 COVERITY_OUT_CPP_SUBDEFECTS, COVERITY_OUT_CPP_DEFECTS, COVERITY_OUT_CPP_TOTAL, tools])
+
+
 def run_clanalyze():
     print("Running cl /analyze")
     t1 = python.clanalyze.clanalyze(W_C_DEFECTS_DIR, CLANALYZE_TEMP_C_W, CLANALYZE_OUTPUT_C_W, CLANALYZE_EXE, CLANALYZE_OPTS)
@@ -613,7 +805,9 @@ def generate_main_itc_csvs():
 
 def all_tools():
 #    return ['cppcheck', 'sparse', 'uno', 'infer', 'splint', 'flawfinder', 'clangcore', 'clangalpha', 'framac', 'oclint', 'flintpp', 'clanalyze']
-    return ['cppcheck', 'sparse', 'uno', 'infer', 'splint', 'flawfinder', 'clangcorealpha', 'framac', 'oclint', 'flintpp', 'clanalyze']
+    return ['cppcheck', 'sparse', 'uno', 'infer', 'splint', 'flawfinder', 'clangcorealpha', 'framac', 'oclint',
+            'flintpp', 'clanalyze', 'checkmarx', 'deepcode', 'parasoft_example', 'smartdecscan',
+            'sonarcloud', 'coverity']
 #    return ['cppcheck', 'infer', 'flawfinder', 'clangcorealpha', 'oclint', 'flintpp']
 
 import glob
@@ -654,6 +848,20 @@ def run_stats(tools):
         run_oclint_stats(tools)
     elif tool == 'flintpp':
         run_flintpp_stats(tools)
+    elif tool == 'smartdecscan':
+        run_smartDecScanner_stats(tools)
+    elif tool == 'deepcode':
+        run_deepcode_stats(tools)
+    elif tool == 'sonarcloud':
+        run_sonarcloud_stats(tools)
+    elif tool == 'parasoft_all':
+        run_parasoft_all_stats(tools)
+    elif tool == 'parasoft_example':
+        run_parasoft_example_stats(tools)
+    elif tool == 'checkmarx':
+        run_checkmarx_stats(tools)
+    elif tool == 'coverity':
+        run_coverity_stats(tools)
     else:
         print("Unknown tool", tool)
             
@@ -698,6 +906,20 @@ elif action == 'run':
         run_oclint()
     elif tool == 'flintpp':
         run_flintpp()
+    elif tool == 'checkmarx':
+        run_checkmarx()
+    elif tool == 'deepcode':
+        run_deepcode()
+    elif tool == 'parasoft_all':
+        run_parasoft_all()
+    elif tool == 'parasoft_example':
+        run_parasoft_example()
+    elif tool == 'smartdecscan':
+        run_smartDecScanner()
+    elif tool == 'sonarcloud':
+        run_sonarcloud()
+    elif tool == 'coverity':
+        run_coverity()
     else:
         print("Unknown tool", tool)
 elif action == 'stat':
@@ -725,6 +947,7 @@ elif action == 'defects':
     python.latex.defects_pr("defects_pr.tex", rep_directory, latex_dir, all_tools())
     python.latex.defects_rdr("defects_rdr.tex", rep_directory, latex_dir, all_tools())
     python.latex.defects_unique("defects_unique.tex", rep_directory, latex_dir, all_tools())
+    python.latex.defects_noir("defects_noir.tex", rep_directory, latex_dir, all_tools())
 elif action == 'subdefects':
     tool_list = all_tools()
     for tool in tool_list:
@@ -733,6 +956,7 @@ elif action == 'subdefects':
     latex_dir = os.path.join(os.path.dirname(rep_directory), "latex")
     python.latex.subdefects_pr("subdefects_pr.tex", rep_directory, latex_dir, all_tools())
     python.latex.subdefects_rdr("subdefects_rdr.tex", rep_directory, latex_dir, all_tools())
+    python.latex.subdefects_noir("subdefects_noir.tex", rep_directory, latex_dir, all_tools())
     python.latex.subdefects_unique("subdefects_unique.tex", rep_directory, latex_dir, all_tools())
     python.latex.subdefects_all("subdefects_detected_by.tex", rep_directory, latex_dir, all_tools())
 else:

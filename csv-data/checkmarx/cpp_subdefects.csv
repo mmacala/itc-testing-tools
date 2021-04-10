@@ -1,0 +1,2 @@
+Filename, Defect, Subdefect, TP, FP, Variations, Detection rate, False pos rate, Productivity, Robust detection count, Robust detection rate,Warning count, Noise rate , Unique
+improper_error_handling.cpp , Inappropriate code , Improper error handling , 0 , 0 , 4 , 0.0 , 0.0 , 0.0 , 0 , 0.0 , 16 , 100.0 , 0

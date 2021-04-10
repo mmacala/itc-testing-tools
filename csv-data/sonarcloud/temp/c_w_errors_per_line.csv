@@ -1,0 +1,375 @@
+File,LineStart,LineEnd,Error
+data_overflow.c,319,319,overflow in expression; result is -2147483648 with type 'int'
+data_underflow.c,82,82,overflow in expression; result is 2147483647 with type 'int'
+dead_code.c,24,24,code will never be executed
+dead_code.c,132,132,loop will run at most once (loop increment never executed)
+dead_code.c,132,132,Change this loop body so that it can be executed more than once.
+dead_code.c,149,149,Change this loop body so that it can be executed more than once.
+dead_code.c,151,151,code will never be executed
+dead_code.c,167,167,Change this loop body so that it can be executed more than once.
+dead_code.c,189,189,Change this loop body so that it can be executed more than once.
+dead_code.c,206,206,Change this loop body so that it can be executed more than once.
+dead_code.c,229,229,Change this loop body so that it can be executed more than once.
+dead_code.c,247,247,Change this loop body so that it can be executed more than once.
+double_free.c,22,22,Attempt to free released memory
+double_free.c,101,101,Attempt to free released memory
+double_free.c,115,115,Attempt to free released memory
+double_free.c,131,131,Attempt to free released memory
+double_free.c,149,149,Attempt to free released memory
+double_free.c,168,168,Attempt to free released memory
+double_free.c,187,187,Attempt to free released memory
+double_free.c,204,204,Attempt to free released memory
+double_free.c,222,222,Attempt to free released memory
+double_lock.c,42,42,This lock has already been acquired
+double_lock.c,93,93,This lock has already been acquired
+double_lock.c,140,140,This lock has already been acquired
+double_release.c,35,35,This lock has already been unlocked
+double_release.c,133,133,This lock has already been unlocked
+double_release.c,178,178,This lock has already been unlocked
+double_release.c,226,226,This lock has already been unlocked
+double_release.c,283,283,This lock has already been unlocked
+endless_loop.c,22,22,"Variable ""i"" modified in the update is not referenced in the condition."
+endless_loop.c,22,22,"Variable ""i"" modified in the initializer is not referenced in the condition."
+endless_loop.c,26,26,code will never be executed
+endless_loop.c,39,39,"Variable ""i"" referenced in the condition is not modified in the update."
+endless_loop.c,59,59,code will never be executed
+endless_loop.c,169,169,code will never be executed
+free_nondynamically_allocated_memory.c,22,22,"Argument to free() is the address of a global variable, which is not memory allocated by malloc()"
+free_nondynamically_allocated_memory.c,36,36,"Argument to free() is the address of a global variable, which is not memory allocated by malloc()"
+free_nondynamically_allocated_memory.c,48,48,"Argument to free() is the address of a global variable, which is not memory allocated by malloc()"
+free_nondynamically_allocated_memory.c,62,62,"Argument to free() is the address of the local variable 'ptr1', which is not memory allocated by malloc()"
+free_nondynamically_allocated_memory.c,82,82,Dereference of null pointer
+free_nondynamically_allocated_memory.c,86,86,"Argument to free() is the address of the local variable 'pbuf', which is not memory allocated by malloc()"
+free_nondynamically_allocated_memory.c,103,103,"Argument to free() is the address of the local variable 'd', which is not memory allocated by malloc()"
+free_nondynamically_allocated_memory.c,115,115,"Argument to free() is the address of a global variable, which is not memory allocated by malloc()"
+free_nondynamically_allocated_memory.c,128,128,"Argument to free() is the address of a global variable, which is not memory allocated by malloc()"
+free_nondynamically_allocated_memory.c,141,141,"Argument to free() is the address of a global variable, which is not memory allocated by malloc()"
+free_nondynamically_allocated_memory.c,155,155,"Argument to free() is the address of a global variable, which is not memory allocated by malloc()"
+free_nondynamically_allocated_memory.c,170,170,"Argument to free() is the address of a global variable, which is not memory allocated by malloc()"
+free_nondynamically_allocated_memory.c,187,187,"Argument to free() is the address of a global variable, which is not memory allocated by malloc()"
+free_nondynamically_allocated_memory.c,209,209,"Argument to free() is the address of the local variable 'str', which is not memory allocated by malloc()"
+free_nondynamically_allocated_memory.c,229,229,"Argument to free() is the address of the local variable 'free_nondynamic_allocated_memory_st', which is not memory allocated by malloc()"
+free_nondynamically_allocated_memory.c,239,239,"Argument to free() is the address of a global variable, which is not memory allocated by malloc()"
+free_nondynamically_allocated_memory.c,262,262,"Argument to free() is the address of a global variable, which is not memory allocated by malloc()"
+free_null_pointer.c,49,49,"Variable ""i"" modified in the initializer is not referenced in the condition."
+free_null_pointer.c,49,49,"Variable ""i"" modified in the update is not referenced in the condition."
+free_null_pointer.c,109,109,"Remove the use of this insecure ""strcpy"" function."
+free_null_pointer.c,109,109,Null pointer passed as an argument to a 'nonnull' parameter
+free_null_pointer.c,146,146,"Remove the use of this insecure ""strcpy"" function."
+free_null_pointer.c,195,195,code will never be executed
+free_null_pointer.c,241,241,"Remove the use of this insecure ""strcpy"" function."
+free_null_pointer.c,241,241,Null pointer passed as an argument to a 'nonnull' parameter
+free_null_pointer.c,257,257,Change this loop body so that it can be executed more than once.
+free_null_pointer.c,259,259,code will never be executed
+free_null_pointer.c,275,275,"Remove the use of this insecure ""strcpy"" function."
+free_null_pointer.c,275,275,Array access (from variable 'free_null_pointer_009dst') results in a null pointer dereference
+free_null_pointer.c,277,277,Change this loop body so that it can be executed more than once.
+free_null_pointer.c,286,286,Change this loop body so that it can be executed more than once.
+free_null_pointer.c,304,304,Change this loop body so that it can be executed more than once.
+free_null_pointer.c,306,306,code will never be executed
+free_null_pointer.c,320,320,"Remove the use of this insecure ""strcpy"" function."
+free_null_pointer.c,326,326,Change this loop body so that it can be executed more than once.
+free_null_pointer.c,328,328,code will never be executed
+free_null_pointer.c,335,335,Change this loop body so that it can be executed more than once.
+free_null_pointer.c,335,335,"Identical sub-expressions on both sides of operator ""==""."
+free_null_pointer.c,443,443,"Identical sub-expressions on both sides of operator ""==""."
+free_null_pointer.c,449,449,"Identical sub-expressions on both sides of operator ""==""."
+free_null_pointer.c,452,452,Dereference of null pointer
+free_null_pointer.c,455,455,"Identical sub-expressions on both sides of operator ""==""."
+free_null_pointer.c,483,483,Dereference of null pointer
+func_pointer.c,117,117,Potential leak of memory pointed to by 'str'
+func_pointer.c,177,177,Array access (from variable 'doubleptr') results in a null pointer dereference
+func_pointer.c,352,352,Dereference of null pointer (loaded from variable 'p')
+func_pointer.c,413,413,"Identical sub-expressions on both sides of operator ""==""."
+func_pointer.c,531,531,code will never be executed
+function_return_value_unchecked.c,108,108,"Remove the use of this insecure ""strcpy"" function."
+function_return_value_unchecked.c,344,344,Change this loop body so that it can be executed more than once.
+invalid_memory_access.c,45,45,Dereference of null pointer
+invalid_memory_access.c,45,45,Use of memory after it is freed
+invalid_memory_access.c,84,84,Use of memory after it is freed
+invalid_memory_access.c,102,102,"Remove the use of this insecure ""strcpy"" function."
+invalid_memory_access.c,133,133,Use of memory after it is freed
+invalid_memory_access.c,147,147,Dereference of undefined pointer value
+invalid_memory_access.c,181,181,Dereference of null pointer
+invalid_memory_access.c,205,205,"Remove the use of this insecure ""strcpy"" function."
+invalid_memory_access.c,210,210,"Remove the use of this insecure ""strcpy"" function."
+invalid_memory_access.c,224,224,Use of memory after it is freed
+invalid_memory_access.c,265,265,Access to field 'a' results in a dereference of a null pointer (loaded from field 's1')
+invalid_memory_access.c,270,270,Use of memory after it is freed
+invalid_memory_access.c,305,305,"Variable ""j"" modified in the initializer is not referenced in the condition."
+invalid_memory_access.c,305,305,"Variable ""j"" modified in the update is not referenced in the condition."
+invalid_memory_access.c,371,371,Access to field 'a' results in a dereference of a null pointer (loaded from variable 's')
+invalid_memory_access.c,371,371,Use of memory after it is freed
+invalid_memory_access.c,432,432,Access to field 'a' results in a dereference of a null pointer (loaded from variable 'invalid_memory_access_013_s_001_s_gbl')
+invalid_memory_access.c,432,432,Use of memory after it is freed
+invalid_memory_access.c,476,476,code will never be executed
+invalid_memory_access.c,516,516,Use of memory after it is freed
+invalid_memory_access.c,560,560,"Remove the use of this insecure ""strcpy"" function."
+invalid_memory_access.c,568,568,"Remove the use of this insecure ""strcpy"" function."
+invalid_memory_access.c,568,568,Array access (from variable 'invalid_memory_access_016_doubleptr_gbl') results in a null pointer dereference
+invalid_memory_access.c,611,611,"Remove the use of this insecure ""strcpy"" function."
+invalid_memory_access.c,622,622,"Remove the use of this insecure ""strcpy"" function."
+invalid_memory_access.c,622,622,Use of memory after it is freed
+littlemem_st.c,93,93,Address of stack memory associated with local variable 'buf' is still referred to by the global variable 'littlemem_st_004_s_001_gbl_str' upon returning to the caller.  This will be a dangling reference
+livelock.c,32,32,This lock has already been acquired
+livelock.c,49,49,This lock has already been acquired
+lock_never_unlock.c,93,93,This lock has already been acquired
+lock_never_unlock.c,147,147,This lock has already been acquired
+lock_never_unlock.c,398,398,This lock has already been acquired
+lock_never_unlock.c,551,551,This lock has already been acquired
+null_pointer.c,23,23,Dereference of null pointer (loaded from variable 'p')
+null_pointer.c,34,34,Dereference of null pointer (loaded from variable 'p')
+null_pointer.c,47,47,Dereference of null pointer
+null_pointer.c,63,63,Access to field 'a' results in a dereference of a null pointer (loaded from variable 'p')
+null_pointer.c,94,94,Dereference of null pointer
+null_pointer.c,117,117,Dereference of null pointer (loaded from variable 'p')
+null_pointer.c,142,142,Dereference of null pointer (loaded from variable 'p')
+null_pointer.c,159,159,Dereference of null pointer (loaded from variable 'p1')
+null_pointer.c,173,173,Dereference of null pointer (loaded from variable 'p2')
+null_pointer.c,180,180,Array access (from variable 'p') results in a null pointer dereference
+null_pointer.c,238,238,Null pointer passed as an argument to a 'nonnull' parameter
+null_pointer.c,282,282,code will never be executed
+null_pointer.c,334,334,Array access (from variable 'null_pointer_017dst') results in a null pointer dereference
+overrun_st.c,21,21,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,32,32,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,44,44,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,55,55,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,66,66,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,77,77,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,88,88,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,99,99,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,110,110,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,126,126,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,158,158,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,169,169,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,194,194,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,206,206,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,222,222,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,233,233,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,250,250,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,264,264,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,280,280,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,293,293,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,306,306,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,320,320,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,333,333,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,346,346,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,359,359,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,372,372,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,387,387,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,402,402,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,415,415,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,428,428,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,457,457,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,471,471,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,489,489,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,502,502,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,522,522,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,538,538,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,556,556,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,642,642,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,658,658,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,674,674,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,689,689,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,706,706,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,724,724,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,739,739,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,749,749,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,761,761,Out of bound memory access (access exceeds upper limit of memory block)
+overrun_st.c,773,773,Out of bound memory access (access exceeds upper limit of memory block)
+ow_memcpy.c,41,41,Assigned value is garbage or undefined
+ptr_subtraction.c,22,22,Subtraction operator should not be used with pointers to different arrays.
+race_condition.c,54,54,Change this loop body so that it can be executed more than once.
+return_local.c,19,19,Address of stack memory associated with local variable 'buf' returned to caller
+st_cross_thread_access.c,55,55,Address of stack memory associated with local variable 'arr' is still referred to by the global variable 'st_cross_thread_access_001_glb_ptr' upon returning to the caller.  This will be a dangling reference
+st_cross_thread_access.c,143,143,Address of stack memory associated with local variable 'arr' is still referred to by the global variable 'st_cross_thread_access_002_glb_ptr' upon returning to the caller.  This will be a dangling reference
+st_cross_thread_access.c,231,231,Address of stack memory associated with local variable 'fptr' is still referred to by the global variable 'st_cross_thread_access_003_glb_ptr' upon returning to the caller.  This will be a dangling reference
+st_cross_thread_access.c,335,335,"Remove the use of this insecure ""strcpy"" function."
+st_cross_thread_access.c,399,399,Address of stack memory associated with local variable 'arr1' is still referred to by the global variable 'p' upon returning to the caller.  This will be a dangling reference
+st_underrun.c,23,23,"Remove the use of this insecure ""strcpy"" function."
+st_underrun.c,61,61,"Remove the use of this insecure ""strcpy"" function."
+st_underrun.c,80,80,"Remove the use of this insecure ""strcpy"" function."
+st_underrun.c,115,115,"Remove the use of this insecure ""strcpy"" function."
+st_underrun.c,160,160,Out of bound memory access (accessed memory precedes memory block)
+st_underrun.c,169,169,"Remove the use of this insecure ""strcpy"" function."
+st_underrun.c,204,204,"Remove the use of this insecure ""strcpy"" function."
+st_underrun.c,204,204,String copy function overflows destination buffer
+underrun_st.c,21,21,Out of bound memory access (accessed memory precedes memory block)
+underrun_st.c,31,31,Out of bound memory access (accessed memory precedes memory block)
+underrun_st.c,42,42,Out of bound memory access (accessed memory precedes memory block)
+underrun_st.c,55,55,Out of bound memory access (accessed memory precedes memory block)
+underrun_st.c,67,67,Out of bound memory access (accessed memory precedes memory block)
+underrun_st.c,80,80,Out of bound memory access (accessed memory precedes memory block)
+uninit_memory_access.c,27,27,2nd function call argument is an uninitialized value
+uninit_memory_access.c,54,54,"Remove the use of this insecure ""strcpy"" function."
+uninit_memory_access.c,54,54,2nd function call argument is an uninitialized value
+uninit_memory_access.c,74,74,Dereference of null pointer
+uninit_memory_access.c,98,98,Assigned value is garbage or undefined
+uninit_memory_access.c,127,127,2nd function call argument is an uninitialized value
+uninit_memory_access.c,200,200,Assigned value is garbage or undefined
+uninit_memory_access.c,298,298,The expression is an uninitialized value. The computed value will also be garbage
+uninit_memory_access.c,319,319,1st function call argument is an uninitialized value
+uninit_memory_access.c,420,420,"Argument to free() is a constant address (18446744073709551615), which is not memory allocated by malloc()"
+uninit_pointer.c,30,30,Dereference of undefined pointer value
+uninit_pointer.c,41,41,Dereference of undefined pointer value
+uninit_pointer.c,55,55,Dereference of undefined pointer value
+uninit_pointer.c,71,71,1st function call argument is an uninitialized value
+uninit_pointer.c,90,90,Dereference of undefined pointer value
+uninit_pointer.c,104,104,Dereference of undefined pointer value
+uninit_pointer.c,125,125,Potential leak of memory pointed to by 'buf1'
+uninit_pointer.c,125,125,Potential leak of memory pointed to by 'buf3'
+uninit_pointer.c,125,125,Potential leak of memory pointed to by 'buf4'
+uninit_pointer.c,125,125,Potential leak of memory pointed to by 'buf5'
+uninit_pointer.c,131,131,The left operand of '+' is a garbage value
+uninit_pointer.c,152,152,Assigned value is garbage or undefined
+uninit_pointer.c,187,187,"Remove the use of this insecure ""strcpy"" function."
+uninit_pointer.c,187,187,2nd function call argument is an uninitialized value
+uninit_pointer.c,200,200,Assigned value is garbage or undefined
+uninit_pointer.c,219,219,Change this loop body so that it can be executed more than once.
+uninit_pointer.c,227,227,Change this loop body so that it can be executed more than once.
+uninit_pointer.c,358,358,1st function call argument is an uninitialized value
+uninit_pointer.c,385,385,"Remove the use of this insecure ""strcpy"" function."
+uninit_pointer.c,406,406,"Remove the use of this insecure ""strcpy"" function."
+uninit_pointer.c,413,413,Potential leak of memory pointed to by 's'
+uninit_var.c,23,23,Assigned value is garbage or undefined
+uninit_var.c,34,34,Assigned value is garbage or undefined
+uninit_var.c,45,45,Assigned value is garbage or undefined
+uninit_var.c,63,63,Assigned value is garbage or undefined
+uninit_var.c,74,74,code will never be executed
+uninit_var.c,75,75,Undefined or garbage value returned to caller
+uninit_var.c,92,92,Assigned value is garbage or undefined
+uninit_var.c,111,111,Assigned value is garbage or undefined
+uninit_var.c,142,142,"Remove the use of this insecure ""strcpy"" function."
+uninit_var.c,161,161,Assigned value is garbage or undefined
+uninit_var.c,177,177,The left operand of '>' is a garbage value
+uninit_var.c,243,243,Undefined or garbage value returned to caller
+uninit_var.c,296,296,Assigned value is garbage or undefined
+unlock_without_lock.c,110,110,This lock has already been unlocked
+unlock_without_lock.c,202,202,This lock has already been unlocked
+unlock_without_lock.c,374,374,This lock has already been unlocked
+unlock_without_lock.c,394,394,"Remove the use of this insecure ""strcpy"" function."
+unlock_without_lock.c,544,544,This lock has already been unlocked
+wrong_arguments_func_pointer.c,213,213,"Remove the use of this insecure ""strcat"" function."
+wrong_arguments_func_pointer.c,214,214,"Remove the use of this insecure ""strcpy"" function."
+wrong_arguments_func_pointer.c,382,382,"Remove the use of this insecure ""strcpy"" function."
+wrong_arguments_func_pointer.c,439,439,"Remove the use of this insecure ""strcpy"" function."
+wrong_arguments_func_pointer.c,453,453,Change this loop body so that it can be executed more than once.
+wrong_arguments_func_pointer.c,478,478,"Remove the use of this insecure ""strcpy"" function."
+wrong_arguments_func_pointer.c,522,522,code will never be executed
+zero_division.c,23,23,Division by zero
+zero_division.c,34,34,Division by zero
+zero_division.c,47,47,Division by zero
+zero_division.c,78,78,Division by zero
+zero_division.c,118,118,Division by zero
+zero_division.c,141,141,Division by zero
+zero_division.c,166,166,Division by zero
+zero_division.c,178,178,Division by zero
+zero_division.c,195,195,Division by zero
+zero_division.c,206,206,Division by zero
+zero_division.c,225,225,Division by zero
+zero_division.c,252,252,Division by zero
+bit_shift.c,22,22,"The result of the left shift is undefined due to shifting by '32', which is greater or equal to the width of type 'int'"
+bit_shift.c,46,46,"The result of the left shift is undefined due to shifting by '32', which is greater or equal to the width of type 'unsigned int'"
+bit_shift.c,70,70,The result of the left shift is undefined because the right operand is negative
+bit_shift.c,82,82,"The result of the right shift is undefined due to shifting by '32', which is greater or equal to the width of type 'int'"
+bit_shift.c,94,94,The result of the right shift is undefined because the right operand is negative
+bit_shift.c,107,107,"The result of the left shift is undefined due to shifting by '32', which is greater or equal to the width of type 'int'"
+bit_shift.c,134,134,"The result of the left shift is undefined due to shifting by '32', which is greater or equal to the width of type 'int'"
+bit_shift.c,147,147,"The result of the left shift is undefined due to shifting by '32', which is greater or equal to the width of type 'int'"
+bit_shift.c,164,164,"The result of the left shift is undefined due to shifting by '32', which is greater or equal to the width of type 'int'"
+bit_shift.c,176,176,"The result of the left shift is undefined due to shifting by '32', which is greater or equal to the width of type 'int'"
+bit_shift.c,194,194,"The result of the left shift is undefined due to shifting by '32', which is greater or equal to the width of type 'int'"
+bit_shift.c,209,209,"The result of the left shift is undefined due to shifting by '32', which is greater or equal to the width of type 'int'"
+bit_shift.c,226,226,"The result of the left shift is undefined due to shifting by '32', which is greater or equal to the width of type 'int'"
+bit_shift.c,237,237,"The result of the left shift is undefined due to shifting by '32', which is greater or equal to the width of type 'int'"
+buffer_overrun_dynamic.c,42,42,Out of bound memory access (access exceeds upper limit of memory block)
+buffer_overrun_dynamic.c,77,77,Out of bound memory access (access exceeds upper limit of memory block)
+buffer_overrun_dynamic.c,174,174,Out of bound memory access (access exceeds upper limit of memory block)
+buffer_overrun_dynamic.c,233,233,Out of bound memory access (access exceeds upper limit of memory block)
+buffer_overrun_dynamic.c,248,248,Out of bound memory access (access exceeds upper limit of memory block)
+buffer_overrun_dynamic.c,263,263,Out of bound memory access (access exceeds upper limit of memory block)
+buffer_overrun_dynamic.c,278,278,Out of bound memory access (access exceeds upper limit of memory block)
+buffer_overrun_dynamic.c,298,298,Out of bound memory access (access exceeds upper limit of memory block)
+buffer_overrun_dynamic.c,312,312,Out of bound memory access (access exceeds upper limit of memory block)
+buffer_overrun_dynamic.c,333,333,Out of bound memory access (access exceeds upper limit of memory block)
+buffer_overrun_dynamic.c,350,350,Out of bound memory access (access exceeds upper limit of memory block)
+buffer_overrun_dynamic.c,369,369,Out of bound memory access (access exceeds upper limit of memory block)
+buffer_overrun_dynamic.c,387,387,Out of bound memory access (access exceeds upper limit of memory block)
+buffer_overrun_dynamic.c,403,403,Out of bound memory access (access exceeds upper limit of memory block)
+buffer_overrun_dynamic.c,435,435,Out of bound memory access (access exceeds upper limit of memory block)
+buffer_overrun_dynamic.c,480,480,Out of bound memory access (access exceeds upper limit of memory block)
+buffer_overrun_dynamic.c,496,496,Out of bound memory access (access exceeds upper limit of memory block)
+buffer_overrun_dynamic.c,532,532,Out of bound memory access (access exceeds upper limit of memory block)
+buffer_underrun_dynamic.c,45,45,Out of bound memory access (accessed memory precedes memory block)
+buffer_underrun_dynamic.c,80,80,Out of bound memory access (accessed memory precedes memory block)
+buffer_underrun_dynamic.c,97,97,Out of bound memory access (accessed memory precedes memory block)
+buffer_underrun_dynamic.c,115,115,Out of bound memory access (accessed memory precedes memory block)
+buffer_underrun_dynamic.c,133,133,Out of bound memory access (accessed memory precedes memory block)
+buffer_underrun_dynamic.c,178,178,Out of bound memory access (accessed memory precedes memory block)
+buffer_underrun_dynamic.c,237,237,Out of bound memory access (accessed memory precedes memory block)
+buffer_underrun_dynamic.c,268,268,Out of bound memory access (accessed memory precedes memory block)
+buffer_underrun_dynamic.c,283,283,Out of bound memory access (accessed memory precedes memory block)
+buffer_underrun_dynamic.c,303,303,Out of bound memory access (accessed memory precedes memory block)
+buffer_underrun_dynamic.c,317,317,Out of bound memory access (accessed memory precedes memory block)
+buffer_underrun_dynamic.c,338,338,Out of bound memory access (accessed memory precedes memory block)
+buffer_underrun_dynamic.c,355,355,Out of bound memory access (accessed memory precedes memory block)
+buffer_underrun_dynamic.c,374,374,Out of bound memory access (accessed memory precedes memory block)
+buffer_underrun_dynamic.c,392,392,Out of bound memory access (accessed memory precedes memory block)
+buffer_underrun_dynamic.c,408,408,Out of bound memory access (accessed memory precedes memory block)
+buffer_underrun_dynamic.c,439,439,Out of bound memory access (accessed memory precedes memory block)
+buffer_underrun_dynamic.c,484,484,Out of bound memory access (accessed memory precedes memory block)
+buffer_underrun_dynamic.c,500,500,Out of bound memory access (accessed memory precedes memory block)
+buffer_underrun_dynamic.c,527,527,Change this loop body so that it can be executed more than once.
+buffer_underrun_dynamic.c,532,532,Out of bound memory access (accessed memory precedes memory block)
+buffer_underrun_dynamic.c,606,606,Out of bound memory access (accessed memory precedes memory block)
+buffer_underrun_dynamic.c,621,621,Out of bound memory access (accessed memory precedes memory block)
+buffer_underrun_dynamic.c,648,648,Out of bound memory access (accessed memory precedes memory block)
+buffer_underrun_dynamic.c,701,701,Out of bound memory access (accessed memory precedes memory block)
+buffer_underrun_dynamic.c,721,721,Out of bound memory access (accessed memory precedes memory block)
+cmp_funcadr.c,28,28,code will never be executed
+cmp_funcadr.c,50,50,code will never be executed
+conflicting_cond.c,26,26,code will never be executed
+conflicting_cond.c,45,45,code will never be executed
+conflicting_cond.c,103,103,code will never be executed
+conflicting_cond.c,120,120,code will never be executed
+conflicting_cond.c,139,139,code will never be executed
+conflicting_cond.c,159,159,code will never be executed
+conflicting_cond.c,195,195,Change this loop body so that it can be executed more than once.
+memory_allocation_failure.c,40,40,"Variable ""i"" modified in the initializer is not referenced in the condition."
+memory_allocation_failure.c,40,40,"Variable ""i"" modified in the update is not referenced in the condition."
+memory_allocation_failure.c,82,82,Dereference of null pointer
+memory_allocation_failure.c,256,256,loop will run at most once (loop increment never executed)
+memory_allocation_failure.c,256,256,Change this loop body so that it can be executed more than once.
+memory_allocation_failure.c,269,269,Potential memory leak
+memory_allocation_failure.c,495,495,"Remove the use of this insecure ""strcpy"" function."
+memory_allocation_failure.c,514,514,2nd function call argument is an uninitialized value
+memory_allocation_failure.c,577,577,"Remove the use of this insecure ""strcpy"" function."
+memory_leak.c,23,23,"Variable ""i"" modified in the initializer is not referenced in the condition."
+memory_leak.c,23,23,"Variable ""i"" modified in the update is not referenced in the condition."
+memory_leak.c,73,73,"Remove the use of this insecure ""strcpy"" function."
+memory_leak.c,74,74,Potential leak of memory pointed to by 'str1'
+memory_leak.c,96,96,Access to field 'buf' results in a dereference of a null pointer
+memory_leak.c,96,96,"Remove the use of this insecure ""strcpy"" function."
+memory_leak.c,120,120,Potential leak of memory pointed to by 'ptr'
+memory_leak.c,151,151,Potential leak of memory pointed to by 'dptr'
+memory_leak.c,219,219,Potential leak of memory pointed to by 'p'
+memory_leak.c,236,236,Potential leak of memory pointed to by 'p'
+memory_leak.c,248,248,Potential leak of memory pointed to by 'p1'
+memory_leak.c,270,270,"Remove the use of this insecure ""strcpy"" function."
+memory_leak.c,276,276,Assigned value is garbage or undefined
+memory_leak.c,276,276,Potential leak of memory pointed to by 'un.u1'
+memory_leak.c,311,311,Potential leak of memory pointed to by 'p'
+memory_leak.c,359,359,Potential leak of memory pointed to by 'p'
+memory_leak.c,384,384,Potential leak of memory pointed to by 'fptr1'
+memory_leak.c,402,402,"Remove the use of this insecure ""strcpy"" function."
+memory_leak.c,404,404,Potential leak of memory pointed to by 'str1'
+memory_leak.c,424,424,"Remove the use of this insecure ""strcpy"" function."
+memory_leak.c,424,424,Null pointer passed as an argument to a 'nonnull' parameter
+memory_leak.c,467,467,code will never be executed
+memory_leak.c,499,499,Change this loop body so that it can be executed more than once.
+memory_leak.c,517,517,"Remove the use of this insecure ""strcpy"" function."
+memory_leak.c,519,519,Change this loop body so that it can be executed more than once.
+null_pointer.c,238,238,"Remove the use of this insecure ""strcpy"" function."
+null_pointer.c,316,316,Change this loop body so that it can be executed more than once.
+null_pointer.c,334,334,"Remove the use of this insecure ""strcpy"" function."
+null_pointer.c,336,336,Change this loop body so that it can be executed more than once.

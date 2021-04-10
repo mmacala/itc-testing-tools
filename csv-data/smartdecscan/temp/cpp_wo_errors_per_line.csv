@@ -1,0 +1,6 @@
+File,LineStart,LineEnd,Error
+improper_error_handling.cpp,23,23,Dead store
+improper_error_handling.cpp,44,44,Dead store
+improper_error_handling.cpp,66,66,Dead store
+improper_error_handling.cpp,91,91,Dead store
+main.cpp,23,23,Using an insecure method

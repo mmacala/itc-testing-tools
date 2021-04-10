@@ -1,0 +1,51 @@
+Filename, Defect, Subdefect, TP, FP, Variations, Detection rate, False pos rate, Productivity, Robust detection count, Robust detection rate,Warning count, Noise rate , Unique
+bit_shift.c , Numerical defects , Bit shift bigger than integral type or negative , 0 , 0 , 17 , 0.0 , 0.0 , 0.0 , 0 , 0.0 , 0 , 0 , 0
+buffer_overrun_dynamic.c , Dynamic memory defects , Dynamic buffer overrun , 0 , 0 , 32 , 0.0 , 0.0 , 0.0 , 0 , 0.0 , 0 , 0 , 0
+buffer_underrun_dynamic.c , Dynamic memory defects , Dynamic buffer underrun , 0 , 0 , 39 , 0.0 , 0.0 , 0.0 , 0 , 0.0 , 4 , 100.0 , 0
+cmp_funcadr.c , Pointer related defects , Comparison NULL with function pointer , 0 , 0 , 2 , 0.0 , 0.0 , 0.0 , 0 , 0.0 , 0 , 0 , 0
+conflicting_cond.c , Inappropriate code , Contradict conditions , 0 , 0 , 10 , 0.0 , 0.0 , 0.0 , 0 , 0.0 , 0 , 0 , 0
+data_lost.c , Numerical defects , Integer precision lost because of cast , 0 , 0 , 19 , 0.0 , 0.0 , 0.0 , 0 , 0.0 , 0 , 0 , 0
+data_overflow.c , Numerical defects , Data overflow , 0 , 0 , 25 , 0.0 , 0.0 , 0.0 , 0 , 0.0 , 0 , 0 , 0
+data_underflow.c , Numerical defects , Data underflow , 0 , 0 , 12 , 0.0 , 0.0 , 0.0 , 0 , 0.0 , 0 , 0 , 0
+dead_code.c , Inappropriate code , Dead code , 0 , 0 , 13 , 0.0 , 0.0 , 0.0 , 0 , 0.0 , 3 , 100.0 , 0
+dead_lock.c , Concurrency defects , Dead lock , 0 , 0 , 5 , 0.0 , 0.0 , 0.0 , 0 , 0.0 , 0 , 0 , 0
+deletion_of_data_structure_sentinel.c , Dynamic memory defects , Deletion of data structure sentinel , 0 , 0 , 3 , 0.0 , 0.0 , 0.0 , 0 , 0.0 , 0 , 0 , 0
+double_free.c , Resource management defects , Double free , 12 , 7 , 12 , 100.0 , 58.33 , 64.55 , 5 , 41.67 , 29 , 58.62 , 0
+double_lock.c , Concurrency defects , Double lock , 4 , 0 , 4 , 100.0 , 0.0 , 100.0 , 4 , 100.0 , 11 , 63.64 , 0
+double_release.c , Concurrency defects , Double release , 0 , 0 , 6 , 0.0 , 0.0 , 0.0 , 0 , 0.0 , 0 , 0 , 0
+endless_loop.c , Misc defects , Unintentional end less loop , 0 , 0 , 9 , 0.0 , 0.0 , 0.0 , 0 , 0.0 , 0 , 0 , 0
+free_nondynamically_allocated_memory.c , Resource management defects , Free non dynamically allocated memory , 5 , 6 , 16 , 31.25 , 37.5 , 44.19 , 0 , 0.0 , 14 , 64.29 , 0
+free_null_pointer.c , Pointer related defects , Free NULL pointer , 2 , 2 , 14 , 14.29 , 14.29 , 34.99 , 0 , 0.0 , 55 , 96.36 , 0
+func_pointer.c , Pointer related defects , Bad cast of a function pointer , 0 , 0 , 15 , 0.0 , 0.0 , 0.0 , 0 , 0.0 , 12 , 100.0 , 0
+function_return_value_unchecked.c , Inappropriate code , Return value of function never checked , 0 , 0 , 16 , 0.0 , 0.0 , 0.0 , 0 , 0.0 , 4 , 100.0 , 0
+improper_termination_of_block.c , Inappropriate code , Improper termination of block , 2 , 2 , 4 , 50.0 , 50.0 , 50.0 , 0 , 0.0 , 4 , 50.0 , 0
+insign_code.c , Misc defects , Useless assignment , 0 , 0 , 1 , 0.0 , 0.0 , 0.0 , 0 , 0.0 , 0 , 0 , 0
+invalid_extern.c , Misc defects , Bad extern type for global variable , 0 , 0 , 6 , 0.0 , 0.0 , 0.0 , 0 , 0.0 , 1 , 100.0 , 0
+invalid_memory_access.c , Resource management defects , Invalid memory access to already freed area , 6 , 2 , 17 , 35.29 , 11.76 , 55.8 , 4 , 23.53 , 12 , 50.0 , 0
+littlemem_st.c , Dynamic memory defects , Assign small buffer for structure , 0 , 0 , 11 , 0.0 , 0.0 , 0.0 , 0 , 0.0 , 0 , 0 , 0
+livelock.c , Concurrency defects , Live lock , 0 , 0 , 1 , 0.0 , 0.0 , 0.0 , 0 , 0.0 , 0 , 0 , 0
+lock_never_unlock.c , Concurrency defects , Locked but never unlock , 0 , 0 , 9 , 0.0 , 0.0 , 0.0 , 0 , 0.0 , 38 , 100.0 , 0
+memory_allocation_failure.c , Resource management defects , Memory allocation failure , 2 , 2 , 16 , 12.5 , 12.5 , 33.07 , 0 , 0.0 , 27 , 92.59 , 0
+memory_leak.c , Resource management defects , Memory leakage , 6 , 1 , 18 , 33.33 , 5.56 , 56.11 , 6 , 33.33 , 18 , 66.67 , 0
+not_return.c , Misc defects , Non void function does not return value , 0 , 0 , 4 , 0.0 , 0.0 , 0.0 , 0 , 0.0 , 0 , 0 , 0
+null_pointer.c , Pointer related defects , Dereferencing a NULL pointer , 2 , 2 , 17 , 11.76 , 11.76 , 32.22 , 0 , 0.0 , 4 , 50.0 , 0
+overrun_st.c , Static memory defects , Static buffer overrun , 0 , 0 , 54 , 0.0 , 0.0 , 0.0 , 0 , 0.0 , 0 , 0 , 0
+ow_memcpy.c , Dynamic memory defects , Memory copy at overlapping areas , 0 , 0 , 2 , 0.0 , 0.0 , 0.0 , 0 , 0.0 , 0 , 0 , 0
+pow_related_errors.c , Numerical defects , Power related errors , 1 , 1 , 29 , 3.45 , 3.45 , 18.25 , 0 , 0.0 , 9 , 88.89 , 0
+ptr_subtraction.c , Pointer related defects , Incorrect pointer arithmetic , 0 , 0 , 2 , 0.0 , 0.0 , 0.0 , 0 , 0.0 , 0 , 0 , 0
+race_condition.c , Concurrency defects , Race condition , 0 , 0 , 9 , 0.0 , 0.0 , 0.0 , 0 , 0.0 , 10 , 100.0 , 0
+redundant_cond.c , Inappropriate code , Redundant conditions , 0 , 0 , 14 , 0.0 , 0.0 , 0.0 , 0 , 0.0 , 0 , 0 , 0
+return_local.c , Resource management defects , Return of a pointer to a local variable , 0 , 0 , 2 , 0.0 , 0.0 , 0.0 , 0 , 0.0 , 0 , 0 , 0
+sign_conv.c , Numerical defects , Integer sign lost because of unsigned cast , 0 , 0 , 19 , 0.0 , 0.0 , 0.0 , 0 , 0.0 , 0 , 0 , 0
+sleep_lock.c , Concurrency defects , Long lock , 0 , 0 , 3 , 0.0 , 0.0 , 0.0 , 0 , 0.0 , 20 , 100.0 , 0
+st_cross_thread_access.c , Stack related defects , Cross thread stack access , 0 , 0 , 6 , 0.0 , 0.0 , 0.0 , 0 , 0.0 , 16 , 100.0 , 0
+st_overflow.c , Stack related defects , Stack overflow , 0 , 0 , 7 , 0.0 , 0.0 , 0.0 , 0 , 0.0 , 0 , 0 , 0
+st_underrun.c , Stack related defects , Stack underrun , 0 , 0 , 7 , 0.0 , 0.0 , 0.0 , 0 , 0.0 , 0 , 0 , 0
+underrun_st.c , Static memory defects , Static buffer underrun , 0 , 0 , 13 , 0.0 , 0.0 , 0.0 , 0 , 0.0 , 0 , 0 , 0
+uninit_memory_access.c , Resource management defects , Uninitialized memory access , 2 , 1 , 15 , 13.33 , 6.67 , 35.28 , 1 , 6.67 , 25 , 92.0 , 0
+uninit_pointer.c , Pointer related defects , Uninitialized pointer , 1 , 1 , 16 , 6.25 , 6.25 , 24.21 , 0 , 0.0 , 2 , 50.0 , 0
+uninit_var.c , Misc defects , Uninitialized variable , 0 , 1 , 15 , 0.0 , 6.67 , 0.0 , 0 , 0.0 , 1 , 100.0 , 0
+unlock_without_lock.c , Concurrency defects , Unlock without lock , 6 , 1 , 8 , 75.0 , 12.5 , 81.01 , 5 , 62.5 , 40 , 85.0 , 3
+unused_var.c , Inappropriate code , Unused variable , 0 , 0 , 7 , 0.0 , 0.0 , 0.0 , 0 , 0.0 , 2 , 100.0 , 0
+wrong_arguments_func_pointer.c , Pointer related defects , Wrong arguments passed to a function pointer , 0 , 0 , 18 , 0.0 , 0.0 , 0.0 , 0 , 0.0 , 13 , 100.0 , 0
+zero_division.c , Numerical defects , Division by zero , 7 , 0 , 16 , 43.75 , 0.0 , 66.14 , 7 , 43.75 , 7 , 0.0 , 0

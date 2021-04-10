@@ -1,0 +1,10 @@
+Defect, TP, FP, Variations, Detection rate, False pos rate, Productivity, Robust detection count, Robust detection rate, Warning count, Noise rate, Unique
+Numerical defects , 74 , 17 , 137 , 54.01 , 12.41 , 68.78 , 57 , 41.61 , 161 , 54.04 , 18
+Dynamic memory defects , 26 , 14 , 87 , 29.89 , 16.09 , 50.08 , 12 , 13.79 , 173 , 84.97 , 0
+Pointer related defects , 14 , 8 , 84 , 16.67 , 9.52 , 38.83 , 8 , 9.52 , 229 , 93.89 , 0
+Inappropriate code , 4 , 4 , 64 , 6.25 , 6.25 , 24.21 , 0 , 0.0 , 59 , 93.22 , 0
+Concurrency defects , 3 , 0 , 45 , 6.67 , 0.0 , 25.82 , 3 , 6.67 , 47 , 93.62 , 0
+Resource management defects , 49 , 29 , 96 , 51.04 , 30.21 , 59.68 , 21 , 21.88 , 328 , 85.06 , 0
+Misc defects , 2 , 1 , 35 , 5.71 , 2.86 , 23.56 , 1 , 2.86 , 18 , 88.89 , 0
+Static memory defects , 12 , 6 , 67 , 17.91 , 8.96 , 40.38 , 6 , 8.96 , 24 , 50.0 , 0
+Stack related defects , 1 , 0 , 20 , 5.0 , 0.0 , 22.36 , 1 , 5.0 , 27 , 96.3 , 0

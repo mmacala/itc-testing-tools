@@ -1,0 +1,2 @@
+Defect, TP, FP, Variations, Detection rate, False pos rate, Productivity, Robust detection count, Robust detection rate, Warning count, Noise rate, Unique
+Inappropriate code , 4 , 4 , 4 , 100.0 , 100.0 , 0.0 , 0 , 0.0 , 12 , 66.67 , 0
